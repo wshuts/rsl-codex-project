@@ -25,9 +25,9 @@ Rules:
 | Golden Elixir | Artak, Firrol the Barkhorn, Frozen Banshee, Geomancer |
 | Hand of Uncreation | Roshcard the Tower |
 | Hallowed Hilt | Arbiter, Lyssandra |
-| Irethi Coronet | Astralon, Coldheart, Fenax, Kael, Ninja, Leminisi the Gold-Wing |
+| Irethi Coronet | Astralon, Coldheart, Fenax, Kael, Maneater, Ninja, Leminisi the Gold-Wing |
 | Journal of Necrotos | Arbiter, Bad-el-Kazar, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Lyssandra, Wythir the Crowned |
-| Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Ninja, Vestele Riverthorn, Leminisi the Gold-Wing |
+| Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Maneater, Ninja, Vestele Riverthorn, Leminisi the Gold-Wing |
 | Molten Deathbell | Goffred Brassclad, Lydia the Deathsiren, Scyl of the Drakes |
 | Murderfang | Lydia the Deathsiren |
 | Orb of Transfixion | Artak, Basher, Firrol the Barkhorn |
@@ -77,6 +77,7 @@ Rules:
 | Leminisi the Gold-Wing | Irethi Coronet, Malefic Talon, The Cat's Gaze |
 | Lydia the Deathsiren | Molten Deathbell, Murderfang, Perched Shadow |
 | Lyssandra | Wand of Submission, Hallowed Hilt, Journal of Necrotos |
+| Maneater | Irethi Coronet, Malefic Talon |
 | Ninja | Irethi Coronet, Malefic Talon, The Cat's Gaze |
 | Roshcard the Tower | Wand of Submission, Hand of Uncreation, Perched Shadow |
 | Scyl of the Drakes | Molten Deathbell, Chrysalid of Rebirth, Perched Shadow |
@@ -91,9 +92,9 @@ Rules:
 |---|---:|
 | Wand of Submission | 13 |
 | Perched Shadow | 13 |
-| Malefic Talon | 11 |
+| Malefic Talon | 12 |
 | Journal of Necrotos | 8 |
-| Irethi Coronet | 6 |
+| Irethi Coronet | 7 |
 | The Cat's Gaze | 7 |
 | Arachnelixir | 3 |
 | Orb of Transfixion | 3 |
@@ -121,6 +122,6 @@ Rules:
 | Metric | Count |
 |---|---:|
 | Unique relics observed | 23 |
-| Champion screens processed | 35 |
-| Champions with recommendations | 34 |
+| Champion screens processed | 36 |
+| Champions with recommendations | 35 |
 | Champions with no HH relic recommendations | 1 |
