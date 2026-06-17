@@ -19,8 +19,8 @@ It means that modifications should be intentional and reviewed before implementa
 
 | Metric | Count |
 |----------|----------:|
-| Active Champions | 216 |
-| Build-Locked Champions | 55 |
+| Active Champions | 217 |
+| Build-Locked Champions | 56 |
 | Champions with Equipped Relics | 20 |
 
 ---
@@ -47,43 +47,44 @@ It means that modifications should be intentional and reviewed before implementa
 | 16 | Fenax |
 | 17 | Firrol the Barkhorn |
 | 18 | Freyja |
-| 19 | Gala Longbraids |
-| 20 | Galleus Bloodcrest |
-| 21 | Genbo the Dishonored |
-| 22 | Geomancer |
-| 23 | Goffred Brassclad |
-| 24 | Heiress |
-| 25 | Kael |
-| 26 | Lady Mikage |
-| 27 | Leminisi the Gold-Wing |
-| 28 | Lydia the Deathsiren |
-| 29 | Lyssandra |
-| 30 | Maneater |
-| 31 | Marius the Gallant |
-| 32 | Martyr |
-| 33 | Maulie Tankard |
-| 34 | Melga Steelgirdle |
-| 35 | Mikey |
-| 36 | Mithrala Lifebane |
-| 37 | Morag Bronzelock |
-| 38 | Ninja |
-| 39 | Ghrukkus |
-| 40 | Pheidi |
-| 41 | Rector Drath |
-| 42 | Roshcard the Tower |
-| 43 | Scyl of the Drakes |
-| 44 | Seeker |
-| 45 | Seer |
-| 46 | Sulfuryion |
-| 47 | Sun Wukong |
-| 48 | Tomb Lord |
-| 49 | Herakletes |
-| 50 | Urogrim |
-| 51 | Vestele |
-| 52 | Visix the Unbowed |
-| 53 | Vogoth |
-| 54 | Warlord |
-| 55 | Wythir the Crowned |
+| 19 | Frozen Banshee |
+| 20 | Gala Longbraids |
+| 21 | Galleus Bloodcrest |
+| 22 | Genbo the Dishonored |
+| 23 | Geomancer |
+| 24 | Goffred Brassclad |
+| 25 | Heiress |
+| 26 | Kael |
+| 27 | Lady Mikage |
+| 28 | Leminisi the Gold-Wing |
+| 29 | Lydia the Deathsiren |
+| 30 | Lyssandra |
+| 31 | Maneater |
+| 32 | Marius the Gallant |
+| 33 | Martyr |
+| 34 | Maulie Tankard |
+| 35 | Melga Steelgirdle |
+| 36 | Mikey |
+| 37 | Mithrala Lifebane |
+| 38 | Morag Bronzelock |
+| 39 | Ninja |
+| 40 | Ghrukkus |
+| 41 | Pheidi |
+| 42 | Rector Drath |
+| 43 | Roshcard the Tower |
+| 44 | Scyl of the Drakes |
+| 45 | Seeker |
+| 46 | Seer |
+| 47 | Sulfuryion |
+| 48 | Sun Wukong |
+| 49 | Tomb Lord |
+| 50 | Herakletes |
+| 51 | Urogrim |
+| 52 | Vestele |
+| 53 | Visix the Unbowed |
+| 54 | Vogoth |
+| 55 | Warlord |
+| 56 | Wythir the Crowned |
 
 ---
 
