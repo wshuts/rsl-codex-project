@@ -17,7 +17,7 @@ Rules:
 
 | Relic | HH Recommended Champions |
 |---|---|
-| Arachnelixir | Bad-el-Kazar, Frozen Banshee |
+| Arachnelixir | Bad-el-Kazar, Frozen Banshee, Kael |
 | Aspect of Siroth | Freyja Fateweaver, Galleus Bloodcrest |
 | Chrysalid of Rebirth | Elva Autumnborn, Scyl of the Drakes |
 | Demonic Effigy | Duchess Lilitu |
@@ -25,9 +25,9 @@ Rules:
 | Golden Elixir | Artak, Firrol the Barkhorn, Frozen Banshee, Geomancer |
 | Hand of Uncreation | Roshcard the Tower |
 | Hallowed Hilt | Arbiter |
-| Irethi Coronet | Astralon, Coldheart, Fenax, Ninja, Leminisi the Gold-Wing |
+| Irethi Coronet | Astralon, Coldheart, Fenax, Kael, Ninja, Leminisi the Gold-Wing |
 | Journal of Necrotos | Arbiter, Bad-el-Kazar, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Wythir the Crowned |
-| Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Ninja, Vestele Riverthorn, Leminisi the Gold-Wing |
+| Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Ninja, Vestele Riverthorn, Leminisi the Gold-Wing |
 | Molten Deathbell | Goffred Brassclad, Scyl of the Drakes |
 | Orb of Transfixion | Artak, Basher, Firrol the Barkhorn |
 | Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Roshcard the Tower, Scyl of the Drakes, Lady Mikage, Wythir the Crowned |
@@ -71,6 +71,7 @@ Rules:
 | Geomancer | Golden Elixir, Perched Shadow |
 | Goffred Brassclad | Wand of Submission, Volcardiac Heart, Molten Deathbell |
 | Heiress | Malefic Talon |
+| Kael | Irethi Coronet, Malefic Talon, Arachnelixir |
 | Lady Mikage | Wand of Submission, Torch of Thralldom, Perched Shadow |
 | Leminisi the Gold-Wing | Irethi Coronet, Malefic Talon, The Cat's Gaze |
 | Ninja | Irethi Coronet, Malefic Talon, The Cat's Gaze |
@@ -87,11 +88,11 @@ Rules:
 |---|---:|
 | Wand of Submission | 12 |
 | Perched Shadow | 12 |
-| Malefic Talon | 10 |
+| Malefic Talon | 11 |
 | Journal of Necrotos | 7 |
-| Irethi Coronet | 5 |
+| Irethi Coronet | 6 |
 | The Cat's Gaze | 7 |
-| Arachnelixir | 2 |
+| Arachnelixir | 3 |
 | Orb of Transfixion | 3 |
 | Volcardiac Heart | 3 |
 | Aspect of Siroth | 2 |
@@ -116,6 +117,6 @@ Rules:
 | Metric | Count |
 |---|---:|
 | Unique relics observed | 22 |
-| Champion screens processed | 32 |
-| Champions with recommendations | 31 |
+| Champion screens processed | 33 |
+| Champions with recommendations | 32 |
 | Champions with no HH relic recommendations | 1 |
