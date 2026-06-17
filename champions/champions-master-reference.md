@@ -1,0 +1,386 @@
+# Raid: Shadow Legends – Roster Extraction Master Reference
+
+## Purpose
+
+Canonical reference artifact for the manually verified roster extraction project.
+
+Workflow:
+1. Screenshot capture from HellHades roster view
+2. OCR-style visual extraction
+3. User verification and correction loop
+4. Refinement toward ground-truth roster data
+
+---
+
+# Rank 6 Champions
+
+- Achak the Wendarin
+- Aina
+- Akemtum
+- Akoth
+- Alice the Wanderer
+- Alure
+- Amoch
+- Aox the Rememberer
+- Apothecary
+- Arbiter
+- Archmage Hellmut
+- Arix
+- Armiger
+- Artak
+- Astralon
+- Athel
+- Lamasu
+- Bad-el-Kazar
+- Basher
+- Bellower
+- Blizaar
+- Boragar
+- Bovos
+- Bowf
+- Burangiri
+- Chaguur
+- Chancellor Yasmin
+- Adelyn
+- Cillian the Lucky
+- Cleopterix
+- Coffin Smasher
+- Coldheart
+- Conellia
+- Criodan the Blue
+- Dark Elhain
+- Dark Kael
+- Sabitha
+- Deacon Armstrong
+- Delaaja
+- Demytha
+- Dhukk the Pierced
+- Diabolist
+- Doompriest
+- Doomscreech
+- Dracomorph
+- Drexthar Bloodtwin
+- Duchess Lilitu
+- Duhr the Hungerer
+- Greggor
+- Edward the Exile
+- Elenaril
+- Elva Autumnborn
+- Embrys the Anomaly
+- Ethlen the Golden
+- Ezio Auditore da Firenze
+- Fahrakin the Fat
+- Fellhound
+- Fenax
+- Firrol the Barkhorn
+- Freyja
+- Frozen Banshee
+- Fu-Shan
+- Fylja
+- Gala Longbraids
+- Galleus Bloodcrest
+- Genbo the Dishonored
+- Genzin
+- Geomancer
+- Ghomm the Conqueror
+- Ghostborn
+- Ghrush the Mangler
+- Giath the Truthshield
+- Glaciad
+- Gnarlhorn
+- Gnarox Blackhorn
+- Goffred Brassclad
+- Gomlok Skyhide
+- Gorgorab
+- Gracchos Turndrake
+- Grizzled Jarl
+- Guurda Bogbrew
+- Hansel Witchhunter
+- Heiress
+- Prysma
+- High Khatun
+- Hotatsu
+- Hurndig
+- Husk
+- Inquisitor Shamael
+- Iron Brago
+- Artor
+- Jareg
+- Kael
+- Kaiden
+- Kaja the Wry
+- Karilon the Ringer
+- Keeyra the Watcher
+- King Gallcobar
+- Korugar Death-Bell
+- Kurzad Deepheart
+- Lady Eresh
+- Lady Mikage
+- Leminisi the Gold-Wing
+- Loki
+- Lorn the Cutter
+- Luria
+- Lydia the Deathsiren
+- Lyssandra
+- Madame Serris
+- Magnarr
+- Maneater
+- Marius the Gallant
+- Marquess
+- Martyr
+- Maulie Tankard
+- Mausoleum Mage
+- Melga Steelgirdle
+- Mikey
+- Michinaki
+- Miscreated Monster
+- Daithi
+- Mithrala Lifebane
+- Morag Bronzelock
+- Mordecai
+- Orn
+- Nari the Lucky
+- Ninja
+- Oboro
+- Occult Brawler
+- Ghrukkus the Shifter
+- Ostrox Boneglaive
+- Pain Keeper
+- Peydma
+- Pheidi
+- Prince Kymar
+- Psylar
+- Pyxniel
+- Quintus the Triumphant
+- Raf-Matab
+- R. Blademaster
+- Rector Drath
+- Reliquary Tender
+- Renegade
+- Rhazin Scarhide
+- Rian the Conjurer
+- Richtoff the Bold
+- Roshcard the Tower
+- Royal Guard
+- Ruel the Huntmaster
+- Ruella
+- Survivor
+- Sanguinia
+- Scabrius
+- Scyl of the Drakes
+- Seeker
+- Seer
+- Sepulcher Sentinel
+- Sethallia
+- Tirlac
+- Shatterbones
+- Skeletor
+- Skinfos the Consumed
+- Skraank
+- Skullcrown
+- Skullcrusher
+- Slixus
+- Soulbond Bowyer
+- Stag Knight
+- Steelskull
+- Thisbe
+- Sulfuryion
+- Sun Wukong
+- Tagoar
+- Tarshon
+- Tayrel
+- Teela Goremane
+- Teryx
+- Thea the Tomb Angel
+- Thenasil
+- Tomb Lord
+- Toragi the Frog
+- Herakletes
+- Truath
+- Trumborr
+- Tuhak the Wanderer
+- Tyrant Ixlimor
+- Ultan of the Shell
+- Ultimate Galek
+- Umbral Enchantress
+- Urogrim
+- Urost the Soulcage
+- Uugo
+- Venomage
+- Vergis
+- Vergumkaar
+- Vestele Da'Er
+- Visix the Unbowed
+- Vlad the Nightborn
+- Vogoth
+- Warlord
+- Warmaiden
+- Weregren Suncursed
+- Whisper
+- Nia
+- Wuzgar
+- Wythir the Crowned
+- Xenomorph
+- Yakarl the Scourge
+- Yannica
+- Zargala
+
+---
+
+# Rank 5 Champions
+
+- Slither
+- Anax
+- Astralith
+- Lasair
+- Bulwark
+- Cardinal
+- Ceez
+- Dirandil
+- Dyana Gloompiercer
+- Fayne
+- Fenshi
+- Fodbor the Bard
+- Isbeil
+- Galapo
+- Galek
+- Gamuran
+- Gorlos Hellmaw
+- Loriaca
+- Gwyneth
+- Hilda
+- Hoskarul
+- Kellan the Shrike
+- Khafru
+- Klodd Beastfeeder
+- Lodric Falconheart
+- Lua
+- Malkith
+- Master Butcher
+- Oathbound
+- Odachi
+- Pann
+- Roric Wyrmbane
+- Sachi
+- Samar Gemcursed
+- Samson
+- Sinesha
+- Skathix
+- Skeuramis
+- Skytouched Shaman
+- Suzerain Katonn
+- Taya
+- Thylessia
+- Dexikos
+- Ursine Ironhide
+- Visionary
+- Yuzan
+
+---
+
+# Rank 4 Champions
+
+- Aeshma
+- Alika
+- Ambassador Lethelin
+- Anchorite
+- Andryssia
+- Aothar
+- Avir
+- Battlesage
+- Bladerider
+- Flannan
+- Broadmaw
+- Carlinia
+- Castigator
+- Cormac
+- Corpse Collector
+- Crimson Helm
+- Dagger
+- Dilgol
+- Draconis
+- Duedan
+- Elhain
+- Endalia
+- Eolfrig
+- Faceless
+- Fren'zi
+- Frostbringer
+- Geargrinder
+- Gerhard
+- Giscard
+- Gladewulf
+- Gory
+- Gravechill
+- Graybeard
+- Boorn
+- Hoforees
+- Ilysinya
+- Ironclad
+- Juliana
+- Kinagashi
+- Lady Annabelle
+- Liburga
+- Locwain
+- Masamoto
+- Merouka
+- Necrohunter
+- Jailer
+- Painsmith
+- Paragon
+- Cait
+- Perforator
+- Pharsalas
+- Prundar
+- Quargan
+- Rearguard Sergeant
+- Rock Breaker
+- Rugnor
+- Seducer
+- Selinia
+- Signy
+- Sir Artimage
+- Spider
+- Spirithost
+- Suiren
+- Tallia
+- Taurus
+- Thorn
+- Tomoe
+- Torturehelm
+- Knott
+- Valerie
+- Valla
+- Vrask
+- Warcaster
+- Wyrennon
+- Wysteri
+- Yelagirna
+- Zelotah
+
+---
+
+# Notes and Observations
+
+## Account Characteristics
+
+The roster strongly reflects:
+- Control-oriented gameplay
+- Sustain and recovery mechanics
+- Anti-loss architecture
+- Hydra / Cursed City / Amius utility depth
+- Broad faction coverage
+- Long-term progression planning
+- Preservation of niche utility champions
+
+## Workflow Lessons Learned
+
+The screenshot + verification workflow proved robust even during external tool outages.
+
+Common extraction error sources:
+- Compact HH font rendering
+- Similar portrait silhouettes
+- OCR ambiguity
+- Scroll-overlap artifacts
+- Recently released champions with unfamiliar naming patterns
+
