@@ -24,9 +24,9 @@ Rules:
 | Gorecrescent | Alice the Wanderer, Gala Longbraids, Genbo the Dishonored, Vestele Riverthorn |
 | Golden Elixir | Artak, Firrol the Barkhorn, Frozen Banshee, Geomancer |
 | Hand of Uncreation | Roshcard the Tower |
-| Hallowed Hilt | Arbiter |
+| Hallowed Hilt | Arbiter, Lyssandra |
 | Irethi Coronet | Astralon, Coldheart, Fenax, Kael, Ninja, Leminisi the Gold-Wing |
-| Journal of Necrotos | Arbiter, Bad-el-Kazar, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Wythir the Crowned |
+| Journal of Necrotos | Arbiter, Bad-el-Kazar, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Lyssandra, Wythir the Crowned |
 | Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Ninja, Vestele Riverthorn, Leminisi the Gold-Wing |
 | Molten Deathbell | Goffred Brassclad, Lydia the Deathsiren, Scyl of the Drakes |
 | Murderfang | Lydia the Deathsiren |
@@ -39,7 +39,7 @@ Rules:
 | The Deathdealer | Embrys the Anomaly |
 | Torch of Thralldom | Lady Mikage |
 | Volcardiac Heart | Goffred Brassclad, Freyja Fateweaver, Duchess Lilitu |
-| Wand of Submission | Arbiter, Basher, Deacon Armstrong, Duchess Lilitu, Goffred Brassclad, Roshcard the Tower, Vestele Riverthorn, Embrys the Anomaly, Freyja Fateweaver, Galleus Bloodcrest, Lady Mikage, Wythir the Crowned |
+| Wand of Submission | Arbiter, Basher, Deacon Armstrong, Duchess Lilitu, Goffred Brassclad, Roshcard the Tower, Vestele Riverthorn, Embrys the Anomaly, Freyja Fateweaver, Galleus Bloodcrest, Lady Mikage, Lyssandra, Wythir the Crowned |
 
 ---
 
@@ -76,6 +76,7 @@ Rules:
 | Lady Mikage | Wand of Submission, Torch of Thralldom, Perched Shadow |
 | Leminisi the Gold-Wing | Irethi Coronet, Malefic Talon, The Cat's Gaze |
 | Lydia the Deathsiren | Molten Deathbell, Murderfang, Perched Shadow |
+| Lyssandra | Wand of Submission, Hallowed Hilt, Journal of Necrotos |
 | Ninja | Irethi Coronet, Malefic Talon, The Cat's Gaze |
 | Roshcard the Tower | Wand of Submission, Hand of Uncreation, Perched Shadow |
 | Scyl of the Drakes | Molten Deathbell, Chrysalid of Rebirth, Perched Shadow |
@@ -88,10 +89,10 @@ Rules:
 
 | Relic | Count |
 |---|---:|
-| Wand of Submission | 12 |
+| Wand of Submission | 13 |
 | Perched Shadow | 13 |
 | Malefic Talon | 11 |
-| Journal of Necrotos | 7 |
+| Journal of Necrotos | 8 |
 | Irethi Coronet | 6 |
 | The Cat's Gaze | 7 |
 | Arachnelixir | 3 |
@@ -99,6 +100,7 @@ Rules:
 | Volcardiac Heart | 3 |
 | Aspect of Siroth | 2 |
 | Chrysalid of Rebirth | 2 |
+| Hallowed Hilt | 2 |
 | Golden Elixir | 4 |
 | Gorecrescent | 4 |
 | Molten Deathbell | 3 |
@@ -119,6 +121,6 @@ Rules:
 | Metric | Count |
 |---|---:|
 | Unique relics observed | 23 |
-| Champion screens processed | 34 |
-| Champions with recommendations | 33 |
+| Champion screens processed | 35 |
+| Champions with recommendations | 34 |
 | Champions with no HH relic recommendations | 1 |
