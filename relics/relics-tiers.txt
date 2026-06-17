@@ -1,0 +1,105 @@
+SS Tier:
+
+Wand of Submission
+
+Best Use: The best option for most arena champions (due to countering OP enemies such as Armanz), especially debuffers.
+Good On: Nais the Shadowthief, Armanz the Magnificent, Odin Faefather.
+Rating: SS Tier: Arguably the best arena relic in the game, reflecting crowd control has the double whammy of both protecting your champions from control while also controlling the enemy.
+
+S Tier:
+
+Golden Elixir
+
+Best Use: Best used on tanky champions who can get maximum benefit from the healing.
+Good On: Geomancer, Urost the Soulcage, Niamhe, Spear of Nyresa.
+Rating: S Tier: Has become a cornerstone for keeping solo champions alive in tough boss fights.
+
+A Tier:
+
+Aspect of Siroth
+
+Best Use: Champions with strong passives who don’t need to take an active turn to gain value in your team. Also protects champions in Stoneskin from champions like Georgid who can ignore it.
+Good On: Ultimate Deathknight, Freyja Fateweaver, Rotos the Lost Groom.
+Rating: A Tier: Can save you in the arena against champion such as Georgid who are relying on landing that first initial kill. The turn meter loss is quite punishing, however.
+
+Scroll of the Unseen
+
+Best Use: Slow, high-damage champions in Clan Boss teams. You must have Veil on them 100% of the time for value.
+Good On: Ninja, Trunda Giltmallet.
+Rating: A Tier: Can be a very strong damage boost in properly speed-tuned teams—but most players should opt for higher tier damage relics which are often stronger, easier to use, or both.
+
+Journal of Necrotos
+
+Best Use: Champions with strong Turn Meter boosts, such as Arbiter, or strong heals, such as Tagoar.
+Good On: Senna Amberheart, Arbiter, Tagoar, Apothecary.
+Rating: A Tier: Significant boost to two effects which are ubiquitously useful.
+
+Molten Deathbell
+
+Best Use: Any champion with the relevant debuffs until you get top quality relics.
+Good On: Armanz the Magnificent.
+Rating: A Tier: Control champions thrive off additional turn meter and the ACC stat is perfectly matched as well.
+
+B Tier:
+
+Howling Guardians
+
+Best Use: Use on a tanky champion on Clan Boss or Faction Wars teams to keep squishy damage alive.
+Good On: Krisk
+Rating: B Tier: Decent for keeping a squishy champion alive in PvE. Make sure your champion is tanky enough to survive the extra redirected damage.
+
+Compass of Anaxia
+
+Best Use: A high RES reviver or support.
+Good On: Ankora
+Rating: B Tier: The effect is mediocre, but the stats and gem sockets are good for high-RES support builds.
+
+Preserved Aberration
+
+Best Use: Poisoners who do good direct damage as well. Note: Currently drastically overshadowed by the Arachnelixir relic.
+Good On: Nell Blackteeth, Supreme Kael, Balar the Lost.
+Rating: B Tier: Currently overshadowed by the Arachnelixir, but it’s a good damage boost on it’s own for the niche champions who can use it.
+
+Malefic Talon
+
+Best Use: Filler for any damage dealer that uses C.DMG.
+Good On: Starter champions.
+Rating: B Tier: This is  the generic damage dealer stat stick. Great filler option, but nothing special.
+
+Tempus Sanguinis
+
+Best Use: Champions with powerful Turn Meter reduction.
+Good On: Alure.
+Rating: B Tier: Strong increase for TM reduction. Very nice against early bosses (Spider, Fire Knight, etc.) and for Faction Wars.
+
+C Tier:
+
+Revolting Seedling
+
+Best Use: Any champion you are trying to keep alive (on a budget).
+Good On: Vogoth
+Rating: C Tier: A filler relic for tanky champions.
+
+Demonic Effigy
+
+Best Use: Use on tanky reviver champions.
+Good On: Rector Drath, Dawncaller Sabitha.
+Rating: C Tier: Much weaker than we first thought. Revivers are nearly always very strong, so you nearly always want a stronger relic on them.
+
+Steel-Eyed Cutter
+
+Best Use: Budget relic for any ATK-based damage dealer.
+Good On: Any ATK/Crit DPS.
+Rating: C Tier: The new best budget damage dealer relic for ATK nukers. Save Malefic Talon for HP nukers and use this instead for ATK ones if possible.
+
+Hoarder’s Cauldron
+
+Best Use: Budget ACC boost for any debuffer.
+Good On: Any debuffer.
+Rating: C Tier: Budget relic for any debuffer, or even anyone who needs ACC. Great filler option until you have stronger ones.
+
+Vigor Mortis
+
+Best Use: Great budget relic for PvE ATK-based damage dealers.
+Good On: Any PvE ATK-based damage dealer.
+Rating: C Tier: Great budget relic for PvE ATK-based damage dealers.

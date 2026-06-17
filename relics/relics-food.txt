@@ -1,0 +1,36 @@
+Rare:
+
+Standard:
+Mask of Rage
+Unholy Grail
+Rod of Blasphemy
+
+Chimera:
+Diadem of Undeath
+
+Event:
+Tempus Morbidia
+Jaws of Hatred
+
+Clan:
+The Fleshrender
+Blackshroud Fan
+
+Live Arena:
+Royal Digit
+Draught of Ire
+
+Food Lowest Levels:
+Rank 5 = +12
+Rank 4 = +09
+Rank 3 = +06
+Rank 2 = +03
+Rank 1 = +00
+
+Max Levels [For Reference Only]:
+Rank 6 = +18
+Rank 5 = +15
+Rank 4 = +12
+Rank 3 = +09
+Rank 2 = +06
+Rank 1 = +03
