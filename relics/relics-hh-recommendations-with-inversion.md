@@ -17,12 +17,12 @@ Rules:
 
 | Relic | HH Recommended Champions |
 |---|---|
-| Arachnelixir | Bad-el-Kazar |
+| Arachnelixir | Bad-el-Kazar, Frozen Banshee |
 | Aspect of Siroth | Freyja Fateweaver, Galleus Bloodcrest |
 | Chrysalid of Rebirth | Elva Autumnborn, Scyl of the Drakes |
 | Demonic Effigy | Duchess Lilitu |
 | Gorecrescent | Alice the Wanderer, Gala Longbraids, Genbo the Dishonored, Vestele Riverthorn |
-| Golden Elixir | Artak, Firrol the Barkhorn, Geomancer |
+| Golden Elixir | Artak, Firrol the Barkhorn, Frozen Banshee, Geomancer |
 | Hand of Uncreation | Roshcard the Tower |
 | Hallowed Hilt | Arbiter |
 | Irethi Coronet | Astralon, Coldheart, Fenax, Ninja, Leminisi the Gold-Wing |
@@ -63,6 +63,7 @@ Rules:
 | Embrys the Anomaly | Wand of Submission, Stars of the Jiinang, The Deathdealer |
 | Fenax | Irethi Coronet, Malefic Talon, The Cat's Gaze |
 | Firrol the Barkhorn | Golden Elixir, Orb of Transfixion, Perched Shadow |
+| Frozen Banshee | Golden Elixir, Arachnelixir |
 | Freyja Fateweaver | Wand of Submission, Volcardiac Heart, Aspect of Siroth |
 | Gala Longbraids | Gorecrescent, Malefic Talon, The Cat's Gaze |
 | Galleus Bloodcrest | Wand of Submission, Aspect of Siroth, Stormcaller |
@@ -89,11 +90,12 @@ Rules:
 | Journal of Necrotos | 7 |
 | Irethi Coronet | 5 |
 | The Cat's Gaze | 7 |
+| Arachnelixir | 2 |
 | Orb of Transfixion | 3 |
 | Volcardiac Heart | 3 |
 | Aspect of Siroth | 2 |
 | Chrysalid of Rebirth | 2 |
-| Golden Elixir | 3 |
+| Golden Elixir | 4 |
 | Gorecrescent | 4 |
 | Molten Deathbell | 2 |
 | All others | 1 |
@@ -113,6 +115,6 @@ Rules:
 | Metric | Count |
 |---|---:|
 | Unique relics observed | 22 |
-| Champion screens processed | 30 |
-| Champions with recommendations | 29 |
+| Champion screens processed | 31 |
+| Champions with recommendations | 30 |
 | Champions with no HH relic recommendations | 1 |
