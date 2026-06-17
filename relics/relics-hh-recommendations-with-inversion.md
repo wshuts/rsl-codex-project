@@ -27,7 +27,7 @@ Rules:
 | Hallowed Hilt | Arbiter |
 | Irethi Coronet | Astralon, Coldheart, Fenax, Ninja, Leminisi the Gold-Wing |
 | Journal of Necrotos | Arbiter, Bad-el-Kazar, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Wythir the Crowned |
-| Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Ninja, Vestele Riverthorn, Leminisi the Gold-Wing |
+| Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Ninja, Vestele Riverthorn, Leminisi the Gold-Wing |
 | Molten Deathbell | Goffred Brassclad, Scyl of the Drakes |
 | Orb of Transfixion | Artak, Basher, Firrol the Barkhorn |
 | Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Roshcard the Tower, Scyl of the Drakes, Lady Mikage, Wythir the Crowned |
@@ -70,6 +70,7 @@ Rules:
 | Genbo the Dishonored | Gorecrescent, Malefic Talon, The Cat's Gaze |
 | Geomancer | Golden Elixir, Perched Shadow |
 | Goffred Brassclad | Wand of Submission, Volcardiac Heart, Molten Deathbell |
+| Heiress | Malefic Talon |
 | Lady Mikage | Wand of Submission, Torch of Thralldom, Perched Shadow |
 | Leminisi the Gold-Wing | Irethi Coronet, Malefic Talon, The Cat's Gaze |
 | Ninja | Irethi Coronet, Malefic Talon, The Cat's Gaze |
@@ -86,7 +87,7 @@ Rules:
 |---|---:|
 | Wand of Submission | 12 |
 | Perched Shadow | 12 |
-| Malefic Talon | 9 |
+| Malefic Talon | 10 |
 | Journal of Necrotos | 7 |
 | Irethi Coronet | 5 |
 | The Cat's Gaze | 7 |
@@ -115,6 +116,6 @@ Rules:
 | Metric | Count |
 |---|---:|
 | Unique relics observed | 22 |
-| Champion screens processed | 31 |
-| Champions with recommendations | 30 |
+| Champion screens processed | 32 |
+| Champions with recommendations | 31 |
 | Champions with no HH relic recommendations | 1 |
