@@ -28,9 +28,10 @@ Rules:
 | Irethi Coronet | Astralon, Coldheart, Fenax, Kael, Ninja, Leminisi the Gold-Wing |
 | Journal of Necrotos | Arbiter, Bad-el-Kazar, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Wythir the Crowned |
 | Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Ninja, Vestele Riverthorn, Leminisi the Gold-Wing |
-| Molten Deathbell | Goffred Brassclad, Scyl of the Drakes |
+| Molten Deathbell | Goffred Brassclad, Lydia the Deathsiren, Scyl of the Drakes |
+| Murderfang | Lydia the Deathsiren |
 | Orb of Transfixion | Artak, Basher, Firrol the Barkhorn |
-| Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Roshcard the Tower, Scyl of the Drakes, Lady Mikage, Wythir the Crowned |
+| Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Lydia the Deathsiren, Roshcard the Tower, Scyl of the Drakes, Lady Mikage, Wythir the Crowned |
 | Skull of Treason | Artak |
 | Stars of the Jiinang | Embrys the Anomaly |
 | Stormcaller | Galleus Bloodcrest |
@@ -74,6 +75,7 @@ Rules:
 | Kael | Irethi Coronet, Malefic Talon, Arachnelixir |
 | Lady Mikage | Wand of Submission, Torch of Thralldom, Perched Shadow |
 | Leminisi the Gold-Wing | Irethi Coronet, Malefic Talon, The Cat's Gaze |
+| Lydia the Deathsiren | Molten Deathbell, Murderfang, Perched Shadow |
 | Ninja | Irethi Coronet, Malefic Talon, The Cat's Gaze |
 | Roshcard the Tower | Wand of Submission, Hand of Uncreation, Perched Shadow |
 | Scyl of the Drakes | Molten Deathbell, Chrysalid of Rebirth, Perched Shadow |
@@ -87,7 +89,7 @@ Rules:
 | Relic | Count |
 |---|---:|
 | Wand of Submission | 12 |
-| Perched Shadow | 12 |
+| Perched Shadow | 13 |
 | Malefic Talon | 11 |
 | Journal of Necrotos | 7 |
 | Irethi Coronet | 6 |
@@ -99,7 +101,7 @@ Rules:
 | Chrysalid of Rebirth | 2 |
 | Golden Elixir | 4 |
 | Gorecrescent | 4 |
-| Molten Deathbell | 2 |
+| Molten Deathbell | 3 |
 | All others | 1 |
 
 ---
@@ -116,7 +118,7 @@ Rules:
 
 | Metric | Count |
 |---|---:|
-| Unique relics observed | 22 |
-| Champion screens processed | 33 |
-| Champions with recommendations | 32 |
+| Unique relics observed | 23 |
+| Champion screens processed | 34 |
+| Champions with recommendations | 33 |
 | Champions with no HH relic recommendations | 1 |
