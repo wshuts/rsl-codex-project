@@ -31,8 +31,8 @@ Rules:
 | Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Maneater, Martyr, Mikey, Morag Bronzelock, Ninja, Vestele Riverthorn, Leminisi the Gold-Wing |
 | Molten Deathbell | Goffred Brassclad, Lydia the Deathsiren, Mithrala Lifebane, Scyl of the Drakes |
 | Murderfang | Lydia the Deathsiren |
-| Orb of Transfixion | Artak, Basher, Firrol the Barkhorn |
-| Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Lydia the Deathsiren, Melga Steelgirdle, Mithrala Lifebane, Roshcard the Tower, Scyl of the Drakes, Lady Mikage, Wythir the Crowned |
+| Orb of Transfixion | Artak, Basher, Firrol the Barkhorn, Old Ghrukkus |
+| Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Old Ghrukkus, Lydia the Deathsiren, Melga Steelgirdle, Mithrala Lifebane, Roshcard the Tower, Scyl of the Drakes, Lady Mikage, Wythir the Crowned |
 | Skull of Treason | Artak |
 | Stars of the Jiinang | Embrys the Anomaly |
 | Stormcaller | Galleus Bloodcrest, Marius the Gallant |
@@ -72,6 +72,7 @@ Rules:
 | Galleus Bloodcrest | Wand of Submission, Aspect of Siroth, Stormcaller |
 | Genbo the Dishonored | Gorecrescent, Malefic Talon, The Cat's Gaze |
 | Geomancer | Golden Elixir, Perched Shadow |
+| Old Ghrukkus | Orb of Transfixion, Perched Shadow |
 | Goffred Brassclad | Wand of Submission, Volcardiac Heart, Molten Deathbell |
 | Heiress | Malefic Talon |
 | Kael | Irethi Coronet, Malefic Talon, Arachnelixir |
@@ -100,13 +101,13 @@ Rules:
 | Relic | Count |
 |---|---:|
 | Wand of Submission | 15 |
-| Perched Shadow | 16 |
+| Perched Shadow | 17 |
 | Malefic Talon | 15 |
 | Journal of Necrotos | 8 |
 | Irethi Coronet | 9 |
 | The Cat's Gaze | 11 |
 | Arachnelixir | 3 |
-| Orb of Transfixion | 3 |
+| Orb of Transfixion | 4 |
 | Volcardiac Heart | 4 |
 | Aspect of Siroth | 2 |
 | Chrysalid of Rebirth | 2 |
@@ -133,6 +134,6 @@ Rules:
 | Metric | Count |
 |---|---:|
 | Unique relics observed | 25 |
-| Champion screens processed | 43 |
-| Champions with recommendations | 42 |
+| Champion screens processed | 44 |
+| Champions with recommendations | 43 |
 | Champions with no HH relic recommendations | 1 |
