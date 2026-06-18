@@ -18,7 +18,7 @@ Rules:
 | Relic | HH Recommended Champions |
 |---|---|
 | Arachnelixir | Bad-el-Kazar, Frozen Banshee, Kael, Tomb Lord, Urogrim |
-| Aspect of Siroth | Freyja Fateweaver, Galleus Bloodcrest |
+| Aspect of Siroth | Freyja Fateweaver, Galleus Bloodcrest, Warlord |
 | Chrysalid of Rebirth | Elva Autumnborn, Scyl of the Drakes |
 | Demonic Effigy | Duchess Lilitu, Maulie Tankard, Melga Steelgirdle |
 | Essence Quencher | Seer |
@@ -32,7 +32,7 @@ Rules:
 | Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Herakletes, Kael, Maneater, Martyr, Mikey, Morag Bronzelock, Ninja, Seeker, Seer, Sun Wukong, Tomb Lord, Vestele Riverthorn, Leminisi the Gold-Wing |
 | Molten Deathbell | Goffred Brassclad, Lydia the Deathsiren, Mithrala Lifebane, Scyl of the Drakes, Vogoth |
 | Murderfang | Lydia the Deathsiren |
-| Orb of Transfixion | Artak, Basher, Firrol the Barkhorn, Old Ghrukkus, Seeker |
+| Orb of Transfixion | Artak, Basher, Firrol the Barkhorn, Old Ghrukkus, Seeker, Warlord |
 | Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Old Ghrukkus, Lydia the Deathsiren, Melga Steelgirdle, Mithrala Lifebane, Pheidi, Rector Drath, Roshcard the Tower, Scyl of the Drakes, Seeker, Urogrim, Visix the Unbowed, Lady Mikage, Wythir the Crowned |
 | Skull of Treason | Artak, Sulfuryion |
 | Stars of the Jiinang | Embrys the Anomaly |
@@ -42,7 +42,7 @@ Rules:
 | The Deathdealer | Embrys the Anomaly |
 | Torch of Thralldom | Herakletes, Lady Mikage |
 | Volcardiac Heart | Goffred Brassclad, Freyja Fateweaver, Duchess Lilitu, Mithrala Lifebane |
-| Wand of Submission | Arbiter, Basher, Deacon Armstrong, Duchess Lilitu, Goffred Brassclad, Roshcard the Tower, Vestele Riverthorn, Embrys the Anomaly, Freyja Fateweaver, Galleus Bloodcrest, Herakletes, Lady Mikage, Lyssandra, Marius the Gallant, Maulie Tankard, Pheidi, Rector Drath, Sulfuryion, Sun Wukong, Wythir the Crowned |
+| Wand of Submission | Arbiter, Basher, Deacon Armstrong, Duchess Lilitu, Goffred Brassclad, Roshcard the Tower, Vestele Riverthorn, Embrys the Anomaly, Freyja Fateweaver, Galleus Bloodcrest, Herakletes, Lady Mikage, Lyssandra, Marius the Gallant, Maulie Tankard, Pheidi, Rector Drath, Sulfuryion, Sun Wukong, Warlord, Wythir the Crowned |
 | Xibia’s Servitude | Maulie Tankard |
 
 ---
@@ -105,6 +105,7 @@ Rules:
 | Vestele Riverthorn | Gorecrescent, Malefic Talon, Wand of Submission |
 | Visix the Unbowed | Gilded Dragonstone, Tempus Sanguinis, Perched Shadow |
 | Vogoth | Golden Elixir, Molten Deathbell |
+| Warlord | Wand of Submission, Aspect of Siroth, Orb of Transfixion |
 | Wythir the Crowned | Wand of Submission, Journal of Necrotos, Perched Shadow |
 
 ---
@@ -113,16 +114,16 @@ Rules:
 
 | Relic | Count |
 |---|---:|
-| Wand of Submission | 20 |
+| Wand of Submission | 21 |
 | Perched Shadow | 22 |
 | Malefic Talon | 20 |
 | Journal of Necrotos | 11 |
 | Irethi Coronet | 10 |
 | The Cat's Gaze | 13 |
 | Arachnelixir | 5 |
-| Orb of Transfixion | 5 |
+| Orb of Transfixion | 6 |
 | Volcardiac Heart | 4 |
-| Aspect of Siroth | 2 |
+| Aspect of Siroth | 3 |
 | Chrysalid of Rebirth | 2 |
 | Hallowed Hilt | 2 |
 | Stormcaller | 2 |
@@ -150,6 +151,6 @@ Rules:
 | Metric | Count |
 |---|---:|
 | Unique relics observed | 27 |
-| Champion screens processed | 55 |
-| Champions with recommendations | 54 |
+| Champion screens processed | 56 |
+| Champions with recommendations | 55 |
 | Champions with no HH relic recommendations | 1 |
