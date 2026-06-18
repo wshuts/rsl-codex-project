@@ -24,13 +24,13 @@ Rules:
 | Essence Quencher | Seer |
 | Gilded Dragonstone | Morag Bronzelock, Visix the Unbowed |
 | Gorecrescent | Alice the Wanderer, Gala Longbraids, Genbo the Dishonored, Vestele Riverthorn |
-| Golden Elixir | Artak, Firrol the Barkhorn, Frozen Banshee, Geomancer, Urogrim |
+| Golden Elixir | Artak, Firrol the Barkhorn, Frozen Banshee, Geomancer, Urogrim, Vogoth |
 | Hand of Uncreation | Roshcard the Tower |
 | Hallowed Hilt | Arbiter, Lyssandra |
 | Irethi Coronet | Astralon, Coldheart, Fenax, Kael, Maneater, Martyr, Mikey, Ninja, Tomb Lord, Leminisi the Gold-Wing |
 | Journal of Necrotos | Arbiter, Bad-el-Kazar, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Lyssandra, Pheidi, Rector Drath, Sulfuryion, Wythir the Crowned |
 | Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Herakletes, Kael, Maneater, Martyr, Mikey, Morag Bronzelock, Ninja, Seeker, Seer, Sun Wukong, Tomb Lord, Vestele Riverthorn, Leminisi the Gold-Wing |
-| Molten Deathbell | Goffred Brassclad, Lydia the Deathsiren, Mithrala Lifebane, Scyl of the Drakes |
+| Molten Deathbell | Goffred Brassclad, Lydia the Deathsiren, Mithrala Lifebane, Scyl of the Drakes, Vogoth |
 | Murderfang | Lydia the Deathsiren |
 | Orb of Transfixion | Artak, Basher, Firrol the Barkhorn, Old Ghrukkus, Seeker |
 | Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Old Ghrukkus, Lydia the Deathsiren, Melga Steelgirdle, Mithrala Lifebane, Pheidi, Rector Drath, Roshcard the Tower, Scyl of the Drakes, Seeker, Urogrim, Visix the Unbowed, Lady Mikage, Wythir the Crowned |
@@ -104,6 +104,7 @@ Rules:
 | Urogrim | Golden Elixir, Perched Shadow, Arachnelixir |
 | Vestele Riverthorn | Gorecrescent, Malefic Talon, Wand of Submission |
 | Visix the Unbowed | Gilded Dragonstone, Tempus Sanguinis, Perched Shadow |
+| Vogoth | Golden Elixir, Molten Deathbell |
 | Wythir the Crowned | Wand of Submission, Journal of Necrotos, Perched Shadow |
 
 ---
@@ -129,9 +130,9 @@ Rules:
 | Torch of Thralldom | 2 |
 | Gilded Dragonstone | 2 |
 | Demonic Effigy | 3 |
-| Golden Elixir | 5 |
+| Golden Elixir | 6 |
 | Gorecrescent | 4 |
-| Molten Deathbell | 4 |
+| Molten Deathbell | 5 |
 | All others | 1 |
 
 ---
@@ -149,6 +150,6 @@ Rules:
 | Metric | Count |
 |---|---:|
 | Unique relics observed | 27 |
-| Champion screens processed | 54 |
-| Champions with recommendations | 53 |
+| Champion screens processed | 55 |
+| Champions with recommendations | 54 |
 | Champions with no HH relic recommendations | 1 |
