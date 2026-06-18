@@ -68,7 +68,7 @@ It means that modifications should be intentional and reviewed before implementa
 | 37 | Mithrala Lifebane |
 | 38 | Morag Bronzelock |
 | 39 | Ninja |
-| 40 | Ghrukkus |
+| 40 | Old Ghrukkus |
 | 41 | Pheidi |
 | 42 | Rector Drath |
 | 43 | Roshcard the Tower |

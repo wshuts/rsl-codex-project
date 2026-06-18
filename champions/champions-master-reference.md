@@ -143,7 +143,7 @@ Workflow:
 - Ninja
 - Oboro
 - Occult Brawler
-- Ghrukkus the Shifter
+- Old Ghrukkus
 - Ostrox Boneglaive
 - Pain Keeper
 - Peydma
@@ -383,4 +383,3 @@ Common extraction error sources:
 - OCR ambiguity
 - Scroll-overlap artifacts
 - Recently released champions with unfamiliar naming patterns
-
