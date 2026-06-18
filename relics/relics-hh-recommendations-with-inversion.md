@@ -29,7 +29,7 @@ Rules:
 | Hallowed Hilt | Arbiter, Lyssandra |
 | Irethi Coronet | Astralon, Coldheart, Fenax, Kael, Maneater, Martyr, Mikey, Ninja, Leminisi the Gold-Wing |
 | Journal of Necrotos | Arbiter, Bad-el-Kazar, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Lyssandra, Pheidi, Rector Drath, Sulfuryion, Wythir the Crowned |
-| Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Maneater, Martyr, Mikey, Morag Bronzelock, Ninja, Seeker, Seer, Vestele Riverthorn, Leminisi the Gold-Wing |
+| Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Maneater, Martyr, Mikey, Morag Bronzelock, Ninja, Seeker, Seer, Sun Wukong, Vestele Riverthorn, Leminisi the Gold-Wing |
 | Molten Deathbell | Goffred Brassclad, Lydia the Deathsiren, Mithrala Lifebane, Scyl of the Drakes |
 | Murderfang | Lydia the Deathsiren |
 | Orb of Transfixion | Artak, Basher, Firrol the Barkhorn, Old Ghrukkus, Seeker |
@@ -37,11 +37,11 @@ Rules:
 | Skull of Treason | Artak, Sulfuryion |
 | Stars of the Jiinang | Embrys the Anomaly |
 | Stormcaller | Galleus Bloodcrest, Marius the Gallant |
-| The Cat's Gaze | Alice the Wanderer, Astralon, Fenax, Gala Longbraids, Genbo the Dishonored, Marius the Gallant, Martyr, Mikey, Morag Bronzelock, Ninja, Seer, Leminisi the Gold-Wing |
+| The Cat's Gaze | Alice the Wanderer, Astralon, Fenax, Gala Longbraids, Genbo the Dishonored, Marius the Gallant, Martyr, Mikey, Morag Bronzelock, Ninja, Seer, Sun Wukong, Leminisi the Gold-Wing |
 | The Deathdealer | Embrys the Anomaly |
 | Torch of Thralldom | Lady Mikage |
 | Volcardiac Heart | Goffred Brassclad, Freyja Fateweaver, Duchess Lilitu, Mithrala Lifebane |
-| Wand of Submission | Arbiter, Basher, Deacon Armstrong, Duchess Lilitu, Goffred Brassclad, Roshcard the Tower, Vestele Riverthorn, Embrys the Anomaly, Freyja Fateweaver, Galleus Bloodcrest, Lady Mikage, Lyssandra, Marius the Gallant, Maulie Tankard, Pheidi, Rector Drath, Sulfuryion, Wythir the Crowned |
+| Wand of Submission | Arbiter, Basher, Deacon Armstrong, Duchess Lilitu, Goffred Brassclad, Roshcard the Tower, Vestele Riverthorn, Embrys the Anomaly, Freyja Fateweaver, Galleus Bloodcrest, Lady Mikage, Lyssandra, Marius the Gallant, Maulie Tankard, Pheidi, Rector Drath, Sulfuryion, Sun Wukong, Wythir the Crowned |
 | Xibia’s Servitude | Maulie Tankard |
 
 ---
@@ -97,6 +97,7 @@ Rules:
 | Seeker | Orb of Transfixion, Malefic Talon, Perched Shadow |
 | Seer | Malefic Talon, The Cat's Gaze, Essence Quencher |
 | Sulfuryion | Wand of Submission, Journal of Necrotos, Skull of Treason |
+| Sun Wukong | Wand of Submission, Malefic Talon, The Cat's Gaze |
 | Vestele Riverthorn | Gorecrescent, Malefic Talon, Wand of Submission |
 | Wythir the Crowned | Wand of Submission, Journal of Necrotos, Perched Shadow |
 
@@ -106,12 +107,12 @@ Rules:
 
 | Relic | Count |
 |---|---:|
-| Wand of Submission | 18 |
+| Wand of Submission | 19 |
 | Perched Shadow | 20 |
-| Malefic Talon | 17 |
+| Malefic Talon | 18 |
 | Journal of Necrotos | 11 |
 | Irethi Coronet | 9 |
-| The Cat's Gaze | 12 |
+| The Cat's Gaze | 13 |
 | Arachnelixir | 3 |
 | Orb of Transfixion | 5 |
 | Volcardiac Heart | 4 |
@@ -141,6 +142,6 @@ Rules:
 | Metric | Count |
 |---|---:|
 | Unique relics observed | 26 |
-| Champion screens processed | 49 |
-| Champions with recommendations | 48 |
+| Champion screens processed | 50 |
+| Champions with recommendations | 49 |
 | Champions with no HH relic recommendations | 1 |
