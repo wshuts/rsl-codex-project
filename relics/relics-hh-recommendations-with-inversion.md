@@ -17,7 +17,7 @@ Rules:
 
 | Relic | HH Recommended Champions |
 |---|---|
-| Arachnelixir | Bad-el-Kazar, Frozen Banshee, Kael |
+| Arachnelixir | Bad-el-Kazar, Frozen Banshee, Kael, Tomb Lord |
 | Aspect of Siroth | Freyja Fateweaver, Galleus Bloodcrest |
 | Chrysalid of Rebirth | Elva Autumnborn, Scyl of the Drakes |
 | Demonic Effigy | Duchess Lilitu, Maulie Tankard, Melga Steelgirdle |
@@ -27,9 +27,9 @@ Rules:
 | Golden Elixir | Artak, Firrol the Barkhorn, Frozen Banshee, Geomancer |
 | Hand of Uncreation | Roshcard the Tower |
 | Hallowed Hilt | Arbiter, Lyssandra |
-| Irethi Coronet | Astralon, Coldheart, Fenax, Kael, Maneater, Martyr, Mikey, Ninja, Leminisi the Gold-Wing |
+| Irethi Coronet | Astralon, Coldheart, Fenax, Kael, Maneater, Martyr, Mikey, Ninja, Tomb Lord, Leminisi the Gold-Wing |
 | Journal of Necrotos | Arbiter, Bad-el-Kazar, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Lyssandra, Pheidi, Rector Drath, Sulfuryion, Wythir the Crowned |
-| Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Maneater, Martyr, Mikey, Morag Bronzelock, Ninja, Seeker, Seer, Sun Wukong, Vestele Riverthorn, Leminisi the Gold-Wing |
+| Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Maneater, Martyr, Mikey, Morag Bronzelock, Ninja, Seeker, Seer, Sun Wukong, Tomb Lord, Vestele Riverthorn, Leminisi the Gold-Wing |
 | Molten Deathbell | Goffred Brassclad, Lydia the Deathsiren, Mithrala Lifebane, Scyl of the Drakes |
 | Murderfang | Lydia the Deathsiren |
 | Orb of Transfixion | Artak, Basher, Firrol the Barkhorn, Old Ghrukkus, Seeker |
@@ -98,6 +98,7 @@ Rules:
 | Seer | Malefic Talon, The Cat's Gaze, Essence Quencher |
 | Sulfuryion | Wand of Submission, Journal of Necrotos, Skull of Treason |
 | Sun Wukong | Wand of Submission, Malefic Talon, The Cat's Gaze |
+| Tomb Lord | Irethi Coronet, Malefic Talon, Arachnelixir |
 | Vestele Riverthorn | Gorecrescent, Malefic Talon, Wand of Submission |
 | Wythir the Crowned | Wand of Submission, Journal of Necrotos, Perched Shadow |
 
@@ -109,11 +110,11 @@ Rules:
 |---|---:|
 | Wand of Submission | 19 |
 | Perched Shadow | 20 |
-| Malefic Talon | 18 |
+| Malefic Talon | 19 |
 | Journal of Necrotos | 11 |
-| Irethi Coronet | 9 |
+| Irethi Coronet | 10 |
 | The Cat's Gaze | 13 |
-| Arachnelixir | 3 |
+| Arachnelixir | 4 |
 | Orb of Transfixion | 5 |
 | Volcardiac Heart | 4 |
 | Aspect of Siroth | 2 |
@@ -142,6 +143,6 @@ Rules:
 | Metric | Count |
 |---|---:|
 | Unique relics observed | 26 |
-| Champion screens processed | 50 |
-| Champions with recommendations | 49 |
+| Champion screens processed | 51 |
+| Champions with recommendations | 50 |
 | Champions with no HH relic recommendations | 1 |
