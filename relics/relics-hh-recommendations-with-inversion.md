@@ -29,7 +29,7 @@ Rules:
 | Hallowed Hilt | Arbiter, Lyssandra |
 | Irethi Coronet | Astralon, Coldheart, Fenax, Kael, Maneater, Martyr, Mikey, Ninja, Tomb Lord, Leminisi the Gold-Wing |
 | Journal of Necrotos | Arbiter, Bad-el-Kazar, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Lyssandra, Pheidi, Rector Drath, Sulfuryion, Wythir the Crowned |
-| Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Maneater, Martyr, Mikey, Morag Bronzelock, Ninja, Seeker, Seer, Sun Wukong, Tomb Lord, Vestele Riverthorn, Leminisi the Gold-Wing |
+| Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Herakletes, Kael, Maneater, Martyr, Mikey, Morag Bronzelock, Ninja, Seeker, Seer, Sun Wukong, Tomb Lord, Vestele Riverthorn, Leminisi the Gold-Wing |
 | Molten Deathbell | Goffred Brassclad, Lydia the Deathsiren, Mithrala Lifebane, Scyl of the Drakes |
 | Murderfang | Lydia the Deathsiren |
 | Orb of Transfixion | Artak, Basher, Firrol the Barkhorn, Old Ghrukkus, Seeker |
@@ -39,9 +39,9 @@ Rules:
 | Stormcaller | Galleus Bloodcrest, Marius the Gallant |
 | The Cat's Gaze | Alice the Wanderer, Astralon, Fenax, Gala Longbraids, Genbo the Dishonored, Marius the Gallant, Martyr, Mikey, Morag Bronzelock, Ninja, Seer, Sun Wukong, Leminisi the Gold-Wing |
 | The Deathdealer | Embrys the Anomaly |
-| Torch of Thralldom | Lady Mikage |
+| Torch of Thralldom | Herakletes, Lady Mikage |
 | Volcardiac Heart | Goffred Brassclad, Freyja Fateweaver, Duchess Lilitu, Mithrala Lifebane |
-| Wand of Submission | Arbiter, Basher, Deacon Armstrong, Duchess Lilitu, Goffred Brassclad, Roshcard the Tower, Vestele Riverthorn, Embrys the Anomaly, Freyja Fateweaver, Galleus Bloodcrest, Lady Mikage, Lyssandra, Marius the Gallant, Maulie Tankard, Pheidi, Rector Drath, Sulfuryion, Sun Wukong, Wythir the Crowned |
+| Wand of Submission | Arbiter, Basher, Deacon Armstrong, Duchess Lilitu, Goffred Brassclad, Roshcard the Tower, Vestele Riverthorn, Embrys the Anomaly, Freyja Fateweaver, Galleus Bloodcrest, Herakletes, Lady Mikage, Lyssandra, Marius the Gallant, Maulie Tankard, Pheidi, Rector Drath, Sulfuryion, Sun Wukong, Wythir the Crowned |
 | Xibia’s Servitude | Maulie Tankard |
 
 ---
@@ -76,6 +76,7 @@ Rules:
 | Old Ghrukkus | Orb of Transfixion, Perched Shadow |
 | Goffred Brassclad | Wand of Submission, Volcardiac Heart, Molten Deathbell |
 | Heiress | Malefic Talon |
+| Herakletes | Wand of Submission, Malefic Talon, Torch of Thralldom |
 | Kael | Irethi Coronet, Malefic Talon, Arachnelixir |
 | Lady Mikage | Wand of Submission, Torch of Thralldom, Perched Shadow |
 | Leminisi the Gold-Wing | Irethi Coronet, Malefic Talon, The Cat's Gaze |
@@ -108,9 +109,9 @@ Rules:
 
 | Relic | Count |
 |---|---:|
-| Wand of Submission | 19 |
+| Wand of Submission | 20 |
 | Perched Shadow | 20 |
-| Malefic Talon | 19 |
+| Malefic Talon | 20 |
 | Journal of Necrotos | 11 |
 | Irethi Coronet | 10 |
 | The Cat's Gaze | 13 |
@@ -122,6 +123,7 @@ Rules:
 | Hallowed Hilt | 2 |
 | Stormcaller | 2 |
 | Skull of Treason | 2 |
+| Torch of Thralldom | 2 |
 | Demonic Effigy | 3 |
 | Golden Elixir | 4 |
 | Gorecrescent | 4 |
@@ -143,6 +145,6 @@ Rules:
 | Metric | Count |
 |---|---:|
 | Unique relics observed | 26 |
-| Champion screens processed | 51 |
-| Champions with recommendations | 50 |
+| Champion screens processed | 52 |
+| Champions with recommendations | 51 |
 | Champions with no HH relic recommendations | 1 |
