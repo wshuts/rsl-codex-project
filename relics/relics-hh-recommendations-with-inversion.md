@@ -34,12 +34,12 @@ Rules:
 | Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Lydia the Deathsiren, Roshcard the Tower, Scyl of the Drakes, Lady Mikage, Wythir the Crowned |
 | Skull of Treason | Artak |
 | Stars of the Jiinang | Embrys the Anomaly |
-| Stormcaller | Galleus Bloodcrest |
-| The Cat's Gaze | Alice the Wanderer, Astralon, Fenax, Gala Longbraids, Genbo the Dishonored, Ninja, Leminisi the Gold-Wing |
+| Stormcaller | Galleus Bloodcrest, Marius the Gallant |
+| The Cat's Gaze | Alice the Wanderer, Astralon, Fenax, Gala Longbraids, Genbo the Dishonored, Marius the Gallant, Ninja, Leminisi the Gold-Wing |
 | The Deathdealer | Embrys the Anomaly |
 | Torch of Thralldom | Lady Mikage |
 | Volcardiac Heart | Goffred Brassclad, Freyja Fateweaver, Duchess Lilitu |
-| Wand of Submission | Arbiter, Basher, Deacon Armstrong, Duchess Lilitu, Goffred Brassclad, Roshcard the Tower, Vestele Riverthorn, Embrys the Anomaly, Freyja Fateweaver, Galleus Bloodcrest, Lady Mikage, Lyssandra, Wythir the Crowned |
+| Wand of Submission | Arbiter, Basher, Deacon Armstrong, Duchess Lilitu, Goffred Brassclad, Roshcard the Tower, Vestele Riverthorn, Embrys the Anomaly, Freyja Fateweaver, Galleus Bloodcrest, Lady Mikage, Lyssandra, Marius the Gallant, Wythir the Crowned |
 
 ---
 
@@ -78,6 +78,7 @@ Rules:
 | Lydia the Deathsiren | Molten Deathbell, Murderfang, Perched Shadow |
 | Lyssandra | Wand of Submission, Hallowed Hilt, Journal of Necrotos |
 | Maneater | Irethi Coronet, Malefic Talon |
+| Marius the Gallant | Wand of Submission, Stormcaller, The Cat's Gaze |
 | Ninja | Irethi Coronet, Malefic Talon, The Cat's Gaze |
 | Roshcard the Tower | Wand of Submission, Hand of Uncreation, Perched Shadow |
 | Scyl of the Drakes | Molten Deathbell, Chrysalid of Rebirth, Perched Shadow |
@@ -90,18 +91,19 @@ Rules:
 
 | Relic | Count |
 |---|---:|
-| Wand of Submission | 13 |
+| Wand of Submission | 14 |
 | Perched Shadow | 13 |
 | Malefic Talon | 12 |
 | Journal of Necrotos | 8 |
 | Irethi Coronet | 7 |
-| The Cat's Gaze | 7 |
+| The Cat's Gaze | 8 |
 | Arachnelixir | 3 |
 | Orb of Transfixion | 3 |
 | Volcardiac Heart | 3 |
 | Aspect of Siroth | 2 |
 | Chrysalid of Rebirth | 2 |
 | Hallowed Hilt | 2 |
+| Stormcaller | 2 |
 | Golden Elixir | 4 |
 | Gorecrescent | 4 |
 | Molten Deathbell | 3 |
@@ -122,6 +124,6 @@ Rules:
 | Metric | Count |
 |---|---:|
 | Unique relics observed | 23 |
-| Champion screens processed | 36 |
-| Champions with recommendations | 35 |
+| Champion screens processed | 37 |
+| Champions with recommendations | 36 |
 | Champions with no HH relic recommendations | 1 |
