@@ -27,12 +27,12 @@ Rules:
 | Hand of Uncreation | Roshcard the Tower |
 | Hallowed Hilt | Arbiter, Lyssandra |
 | Irethi Coronet | Astralon, Coldheart, Fenax, Kael, Maneater, Martyr, Mikey, Ninja, Leminisi the Gold-Wing |
-| Journal of Necrotos | Arbiter, Bad-el-Kazar, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Lyssandra, Pheidi, Wythir the Crowned |
+| Journal of Necrotos | Arbiter, Bad-el-Kazar, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Lyssandra, Pheidi, Rector Drath, Wythir the Crowned |
 | Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Maneater, Martyr, Mikey, Morag Bronzelock, Ninja, Vestele Riverthorn, Leminisi the Gold-Wing |
 | Molten Deathbell | Goffred Brassclad, Lydia the Deathsiren, Mithrala Lifebane, Scyl of the Drakes |
 | Murderfang | Lydia the Deathsiren |
 | Orb of Transfixion | Artak, Basher, Firrol the Barkhorn, Old Ghrukkus |
-| Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Old Ghrukkus, Lydia the Deathsiren, Melga Steelgirdle, Mithrala Lifebane, Pheidi, Roshcard the Tower, Scyl of the Drakes, Lady Mikage, Wythir the Crowned |
+| Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Old Ghrukkus, Lydia the Deathsiren, Melga Steelgirdle, Mithrala Lifebane, Pheidi, Rector Drath, Roshcard the Tower, Scyl of the Drakes, Lady Mikage, Wythir the Crowned |
 | Skull of Treason | Artak |
 | Stars of the Jiinang | Embrys the Anomaly |
 | Stormcaller | Galleus Bloodcrest, Marius the Gallant |
@@ -40,7 +40,7 @@ Rules:
 | The Deathdealer | Embrys the Anomaly |
 | Torch of Thralldom | Lady Mikage |
 | Volcardiac Heart | Goffred Brassclad, Freyja Fateweaver, Duchess Lilitu, Mithrala Lifebane |
-| Wand of Submission | Arbiter, Basher, Deacon Armstrong, Duchess Lilitu, Goffred Brassclad, Roshcard the Tower, Vestele Riverthorn, Embrys the Anomaly, Freyja Fateweaver, Galleus Bloodcrest, Lady Mikage, Lyssandra, Marius the Gallant, Maulie Tankard, Pheidi, Wythir the Crowned |
+| Wand of Submission | Arbiter, Basher, Deacon Armstrong, Duchess Lilitu, Goffred Brassclad, Roshcard the Tower, Vestele Riverthorn, Embrys the Anomaly, Freyja Fateweaver, Galleus Bloodcrest, Lady Mikage, Lyssandra, Marius the Gallant, Maulie Tankard, Pheidi, Rector Drath, Wythir the Crowned |
 | Xibia’s Servitude | Maulie Tankard |
 
 ---
@@ -90,6 +90,7 @@ Rules:
 | Morag Bronzelock | Gilded Dragonstone, Malefic Talon, The Cat's Gaze |
 | Ninja | Irethi Coronet, Malefic Talon, The Cat's Gaze |
 | Pheidi | Wand of Submission, Journal of Necrotos, Perched Shadow |
+| Rector Drath | Wand of Submission, Journal of Necrotos, Perched Shadow |
 | Roshcard the Tower | Wand of Submission, Hand of Uncreation, Perched Shadow |
 | Scyl of the Drakes | Molten Deathbell, Chrysalid of Rebirth, Perched Shadow |
 | Vestele Riverthorn | Gorecrescent, Malefic Talon, Wand of Submission |
@@ -101,10 +102,10 @@ Rules:
 
 | Relic | Count |
 |---|---:|
-| Wand of Submission | 16 |
-| Perched Shadow | 18 |
+| Wand of Submission | 17 |
+| Perched Shadow | 19 |
 | Malefic Talon | 15 |
-| Journal of Necrotos | 9 |
+| Journal of Necrotos | 10 |
 | Irethi Coronet | 9 |
 | The Cat's Gaze | 11 |
 | Arachnelixir | 3 |
@@ -135,6 +136,6 @@ Rules:
 | Metric | Count |
 |---|---:|
 | Unique relics observed | 25 |
-| Champion screens processed | 45 |
-| Champions with recommendations | 44 |
+| Champion screens processed | 46 |
+| Champions with recommendations | 45 |
 | Champions with no HH relic recommendations | 1 |
