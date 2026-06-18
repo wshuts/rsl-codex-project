@@ -22,7 +22,7 @@ Rules:
 | Chrysalid of Rebirth | Elva Autumnborn, Scyl of the Drakes |
 | Demonic Effigy | Duchess Lilitu, Maulie Tankard, Melga Steelgirdle |
 | Essence Quencher | Seer |
-| Gilded Dragonstone | Morag Bronzelock |
+| Gilded Dragonstone | Morag Bronzelock, Visix the Unbowed |
 | Gorecrescent | Alice the Wanderer, Gala Longbraids, Genbo the Dishonored, Vestele Riverthorn |
 | Golden Elixir | Artak, Firrol the Barkhorn, Frozen Banshee, Geomancer, Urogrim |
 | Hand of Uncreation | Roshcard the Tower |
@@ -33,10 +33,11 @@ Rules:
 | Molten Deathbell | Goffred Brassclad, Lydia the Deathsiren, Mithrala Lifebane, Scyl of the Drakes |
 | Murderfang | Lydia the Deathsiren |
 | Orb of Transfixion | Artak, Basher, Firrol the Barkhorn, Old Ghrukkus, Seeker |
-| Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Old Ghrukkus, Lydia the Deathsiren, Melga Steelgirdle, Mithrala Lifebane, Pheidi, Rector Drath, Roshcard the Tower, Scyl of the Drakes, Seeker, Urogrim, Lady Mikage, Wythir the Crowned |
+| Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Old Ghrukkus, Lydia the Deathsiren, Melga Steelgirdle, Mithrala Lifebane, Pheidi, Rector Drath, Roshcard the Tower, Scyl of the Drakes, Seeker, Urogrim, Visix the Unbowed, Lady Mikage, Wythir the Crowned |
 | Skull of Treason | Artak, Sulfuryion |
 | Stars of the Jiinang | Embrys the Anomaly |
 | Stormcaller | Galleus Bloodcrest, Marius the Gallant |
+| Tempus Sanguinis | Visix the Unbowed |
 | The Cat's Gaze | Alice the Wanderer, Astralon, Fenax, Gala Longbraids, Genbo the Dishonored, Marius the Gallant, Martyr, Mikey, Morag Bronzelock, Ninja, Seer, Sun Wukong, Leminisi the Gold-Wing |
 | The Deathdealer | Embrys the Anomaly |
 | Torch of Thralldom | Herakletes, Lady Mikage |
@@ -102,6 +103,7 @@ Rules:
 | Tomb Lord | Irethi Coronet, Malefic Talon, Arachnelixir |
 | Urogrim | Golden Elixir, Perched Shadow, Arachnelixir |
 | Vestele Riverthorn | Gorecrescent, Malefic Talon, Wand of Submission |
+| Visix the Unbowed | Gilded Dragonstone, Tempus Sanguinis, Perched Shadow |
 | Wythir the Crowned | Wand of Submission, Journal of Necrotos, Perched Shadow |
 
 ---
@@ -111,7 +113,7 @@ Rules:
 | Relic | Count |
 |---|---:|
 | Wand of Submission | 20 |
-| Perched Shadow | 21 |
+| Perched Shadow | 22 |
 | Malefic Talon | 20 |
 | Journal of Necrotos | 11 |
 | Irethi Coronet | 10 |
@@ -125,6 +127,7 @@ Rules:
 | Stormcaller | 2 |
 | Skull of Treason | 2 |
 | Torch of Thralldom | 2 |
+| Gilded Dragonstone | 2 |
 | Demonic Effigy | 3 |
 | Golden Elixir | 5 |
 | Gorecrescent | 4 |
@@ -145,7 +148,7 @@ Rules:
 
 | Metric | Count |
 |---|---:|
-| Unique relics observed | 26 |
-| Champion screens processed | 53 |
-| Champions with recommendations | 52 |
+| Unique relics observed | 27 |
+| Champion screens processed | 54 |
+| Champions with recommendations | 53 |
 | Champions with no HH relic recommendations | 1 |
