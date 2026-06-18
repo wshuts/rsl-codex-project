@@ -25,9 +25,9 @@ Rules:
 | Golden Elixir | Artak, Firrol the Barkhorn, Frozen Banshee, Geomancer |
 | Hand of Uncreation | Roshcard the Tower |
 | Hallowed Hilt | Arbiter, Lyssandra |
-| Irethi Coronet | Astralon, Coldheart, Fenax, Kael, Maneater, Ninja, Leminisi the Gold-Wing |
+| Irethi Coronet | Astralon, Coldheart, Fenax, Kael, Maneater, Martyr, Ninja, Leminisi the Gold-Wing |
 | Journal of Necrotos | Arbiter, Bad-el-Kazar, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Lyssandra, Wythir the Crowned |
-| Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Maneater, Ninja, Vestele Riverthorn, Leminisi the Gold-Wing |
+| Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Maneater, Martyr, Ninja, Vestele Riverthorn, Leminisi the Gold-Wing |
 | Molten Deathbell | Goffred Brassclad, Lydia the Deathsiren, Scyl of the Drakes |
 | Murderfang | Lydia the Deathsiren |
 | Orb of Transfixion | Artak, Basher, Firrol the Barkhorn |
@@ -35,7 +35,7 @@ Rules:
 | Skull of Treason | Artak |
 | Stars of the Jiinang | Embrys the Anomaly |
 | Stormcaller | Galleus Bloodcrest, Marius the Gallant |
-| The Cat's Gaze | Alice the Wanderer, Astralon, Fenax, Gala Longbraids, Genbo the Dishonored, Marius the Gallant, Ninja, Leminisi the Gold-Wing |
+| The Cat's Gaze | Alice the Wanderer, Astralon, Fenax, Gala Longbraids, Genbo the Dishonored, Marius the Gallant, Martyr, Ninja, Leminisi the Gold-Wing |
 | The Deathdealer | Embrys the Anomaly |
 | Torch of Thralldom | Lady Mikage |
 | Volcardiac Heart | Goffred Brassclad, Freyja Fateweaver, Duchess Lilitu |
@@ -79,6 +79,7 @@ Rules:
 | Lyssandra | Wand of Submission, Hallowed Hilt, Journal of Necrotos |
 | Maneater | Irethi Coronet, Malefic Talon |
 | Marius the Gallant | Wand of Submission, Stormcaller, The Cat's Gaze |
+| Martyr | Irethi Coronet, Malefic Talon, The Cat's Gaze |
 | Ninja | Irethi Coronet, Malefic Talon, The Cat's Gaze |
 | Roshcard the Tower | Wand of Submission, Hand of Uncreation, Perched Shadow |
 | Scyl of the Drakes | Molten Deathbell, Chrysalid of Rebirth, Perched Shadow |
@@ -93,10 +94,10 @@ Rules:
 |---|---:|
 | Wand of Submission | 14 |
 | Perched Shadow | 13 |
-| Malefic Talon | 12 |
+| Malefic Talon | 13 |
 | Journal of Necrotos | 8 |
-| Irethi Coronet | 7 |
-| The Cat's Gaze | 8 |
+| Irethi Coronet | 8 |
+| The Cat's Gaze | 9 |
 | Arachnelixir | 3 |
 | Orb of Transfixion | 3 |
 | Volcardiac Heart | 3 |
@@ -124,6 +125,6 @@ Rules:
 | Metric | Count |
 |---|---:|
 | Unique relics observed | 23 |
-| Champion screens processed | 37 |
-| Champions with recommendations | 36 |
+| Champion screens processed | 38 |
+| Champions with recommendations | 37 |
 | Champions with no HH relic recommendations | 1 |
