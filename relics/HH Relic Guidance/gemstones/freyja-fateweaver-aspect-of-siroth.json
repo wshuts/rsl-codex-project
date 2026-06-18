@@ -1,0 +1,29 @@
+{
+  "champion": "Freyja Fateweaver",
+  "relic": "Aspect of Siroth",
+  "page": "https://hellhades.com/raid/champions/freyja-fateweaver/",
+  "extractedAt": "2026-06-18T05:50:28.266Z",
+  "gemstones": [
+    {
+      "slot": 1,
+      "id": "52",
+      "name": "Steadfast Preparation",
+      "description": "If the wearer loses 20% or more of their MAX HP from a single attack, the next hit received will deal 20% less damage.",
+      "image": "https://hellhades.com/wp-content/plugins/rsl-assets/assets/relics/gemstones/52.png"
+    },
+    {
+      "slot": 2,
+      "id": "59",
+      "name": "Uncontrollable",
+      "description": "The wearer gains an additional 30 RES against enemies attempting to place <color=#1ee600>[Stun]</color>, <color=#1ee600>[Freeze]</color>, <color=#1ee600>[Sleep]</color>, <color=#1ee600>[Provoke]</color>, <color=#1ee600>[Fear]</color>, <color=#1ee600>[True Fear]</color>, <color=#1ee600>[Petrification]</color>, or <color=#1ee600>[Sheep]</color> debuffs.",
+      "image": "https://hellhades.com/wp-content/plugins/rsl-assets/assets/relics/gemstones/59.png"
+    },
+    {
+      "slot": 3,
+      "id": "59",
+      "name": "Uncontrollable",
+      "description": "The wearer gains an additional 30 RES against enemies attempting to place <color=#1ee600>[Stun]</color>, <color=#1ee600>[Freeze]</color>, <color=#1ee600>[Sleep]</color>, <color=#1ee600>[Provoke]</color>, <color=#1ee600>[Fear]</color>, <color=#1ee600>[True Fear]</color>, <color=#1ee600>[Petrification]</color>, or <color=#1ee600>[Sheep]</color> debuffs.",
+      "image": "https://hellhades.com/wp-content/plugins/rsl-assets/assets/relics/gemstones/59.png"
+    }
+  ]
+}
