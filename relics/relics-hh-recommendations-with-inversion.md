@@ -20,7 +20,7 @@ Rules:
 | Arachnelixir | Bad-el-Kazar, Frozen Banshee, Kael |
 | Aspect of Siroth | Freyja Fateweaver, Galleus Bloodcrest |
 | Chrysalid of Rebirth | Elva Autumnborn, Scyl of the Drakes |
-| Demonic Effigy | Duchess Lilitu |
+| Demonic Effigy | Duchess Lilitu, Maulie Tankard |
 | Gorecrescent | Alice the Wanderer, Gala Longbraids, Genbo the Dishonored, Vestele Riverthorn |
 | Golden Elixir | Artak, Firrol the Barkhorn, Frozen Banshee, Geomancer |
 | Hand of Uncreation | Roshcard the Tower |
@@ -39,7 +39,8 @@ Rules:
 | The Deathdealer | Embrys the Anomaly |
 | Torch of Thralldom | Lady Mikage |
 | Volcardiac Heart | Goffred Brassclad, Freyja Fateweaver, Duchess Lilitu |
-| Wand of Submission | Arbiter, Basher, Deacon Armstrong, Duchess Lilitu, Goffred Brassclad, Roshcard the Tower, Vestele Riverthorn, Embrys the Anomaly, Freyja Fateweaver, Galleus Bloodcrest, Lady Mikage, Lyssandra, Marius the Gallant, Wythir the Crowned |
+| Wand of Submission | Arbiter, Basher, Deacon Armstrong, Duchess Lilitu, Goffred Brassclad, Roshcard the Tower, Vestele Riverthorn, Embrys the Anomaly, Freyja Fateweaver, Galleus Bloodcrest, Lady Mikage, Lyssandra, Marius the Gallant, Maulie Tankard, Wythir the Crowned |
+| Xibia’s Servitude | Maulie Tankard |
 
 ---
 
@@ -80,6 +81,7 @@ Rules:
 | Maneater | Irethi Coronet, Malefic Talon |
 | Marius the Gallant | Wand of Submission, Stormcaller, The Cat's Gaze |
 | Martyr | Irethi Coronet, Malefic Talon, The Cat's Gaze |
+| Maulie Tankard | Wand of Submission, Demonic Effigy, Xibia’s Servitude |
 | Ninja | Irethi Coronet, Malefic Talon, The Cat's Gaze |
 | Roshcard the Tower | Wand of Submission, Hand of Uncreation, Perched Shadow |
 | Scyl of the Drakes | Molten Deathbell, Chrysalid of Rebirth, Perched Shadow |
@@ -92,7 +94,7 @@ Rules:
 
 | Relic | Count |
 |---|---:|
-| Wand of Submission | 14 |
+| Wand of Submission | 15 |
 | Perched Shadow | 13 |
 | Malefic Talon | 13 |
 | Journal of Necrotos | 8 |
@@ -105,6 +107,7 @@ Rules:
 | Chrysalid of Rebirth | 2 |
 | Hallowed Hilt | 2 |
 | Stormcaller | 2 |
+| Demonic Effigy | 2 |
 | Golden Elixir | 4 |
 | Gorecrescent | 4 |
 | Molten Deathbell | 3 |
@@ -124,7 +127,7 @@ Rules:
 
 | Metric | Count |
 |---|---:|
-| Unique relics observed | 23 |
-| Champion screens processed | 38 |
-| Champions with recommendations | 37 |
+| Unique relics observed | 24 |
+| Champion screens processed | 39 |
+| Champions with recommendations | 38 |
 | Champions with no HH relic recommendations | 1 |
