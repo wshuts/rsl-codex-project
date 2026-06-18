@@ -20,7 +20,7 @@ Rules:
 | Arachnelixir | Bad-el-Kazar, Frozen Banshee, Kael |
 | Aspect of Siroth | Freyja Fateweaver, Galleus Bloodcrest |
 | Chrysalid of Rebirth | Elva Autumnborn, Scyl of the Drakes |
-| Demonic Effigy | Duchess Lilitu, Maulie Tankard |
+| Demonic Effigy | Duchess Lilitu, Maulie Tankard, Melga Steelgirdle |
 | Gorecrescent | Alice the Wanderer, Gala Longbraids, Genbo the Dishonored, Vestele Riverthorn |
 | Golden Elixir | Artak, Firrol the Barkhorn, Frozen Banshee, Geomancer |
 | Hand of Uncreation | Roshcard the Tower |
@@ -31,7 +31,7 @@ Rules:
 | Molten Deathbell | Goffred Brassclad, Lydia the Deathsiren, Scyl of the Drakes |
 | Murderfang | Lydia the Deathsiren |
 | Orb of Transfixion | Artak, Basher, Firrol the Barkhorn |
-| Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Lydia the Deathsiren, Roshcard the Tower, Scyl of the Drakes, Lady Mikage, Wythir the Crowned |
+| Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Lydia the Deathsiren, Melga Steelgirdle, Roshcard the Tower, Scyl of the Drakes, Lady Mikage, Wythir the Crowned |
 | Skull of Treason | Artak |
 | Stars of the Jiinang | Embrys the Anomaly |
 | Stormcaller | Galleus Bloodcrest, Marius the Gallant |
@@ -82,6 +82,7 @@ Rules:
 | Marius the Gallant | Wand of Submission, Stormcaller, The Cat's Gaze |
 | Martyr | Irethi Coronet, Malefic Talon, The Cat's Gaze |
 | Maulie Tankard | Wand of Submission, Demonic Effigy, Xibia’s Servitude |
+| Melga Steelgirdle | Demonic Effigy, Perched Shadow |
 | Ninja | Irethi Coronet, Malefic Talon, The Cat's Gaze |
 | Roshcard the Tower | Wand of Submission, Hand of Uncreation, Perched Shadow |
 | Scyl of the Drakes | Molten Deathbell, Chrysalid of Rebirth, Perched Shadow |
@@ -95,7 +96,7 @@ Rules:
 | Relic | Count |
 |---|---:|
 | Wand of Submission | 15 |
-| Perched Shadow | 13 |
+| Perched Shadow | 15 |
 | Malefic Talon | 13 |
 | Journal of Necrotos | 8 |
 | Irethi Coronet | 8 |
@@ -107,7 +108,7 @@ Rules:
 | Chrysalid of Rebirth | 2 |
 | Hallowed Hilt | 2 |
 | Stormcaller | 2 |
-| Demonic Effigy | 2 |
+| Demonic Effigy | 3 |
 | Golden Elixir | 4 |
 | Gorecrescent | 4 |
 | Molten Deathbell | 3 |
@@ -128,6 +129,6 @@ Rules:
 | Metric | Count |
 |---|---:|
 | Unique relics observed | 24 |
-| Champion screens processed | 39 |
-| Champions with recommendations | 38 |
+| Champion screens processed | 40 |
+| Champions with recommendations | 39 |
 | Champions with no HH relic recommendations | 1 |
