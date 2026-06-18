@@ -21,13 +21,14 @@ Rules:
 | Aspect of Siroth | Freyja Fateweaver, Galleus Bloodcrest |
 | Chrysalid of Rebirth | Elva Autumnborn, Scyl of the Drakes |
 | Demonic Effigy | Duchess Lilitu, Maulie Tankard, Melga Steelgirdle |
+| Gilded Dragonstone | Morag Bronzelock |
 | Gorecrescent | Alice the Wanderer, Gala Longbraids, Genbo the Dishonored, Vestele Riverthorn |
 | Golden Elixir | Artak, Firrol the Barkhorn, Frozen Banshee, Geomancer |
 | Hand of Uncreation | Roshcard the Tower |
 | Hallowed Hilt | Arbiter, Lyssandra |
 | Irethi Coronet | Astralon, Coldheart, Fenax, Kael, Maneater, Martyr, Mikey, Ninja, Leminisi the Gold-Wing |
 | Journal of Necrotos | Arbiter, Bad-el-Kazar, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Lyssandra, Wythir the Crowned |
-| Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Maneater, Martyr, Mikey, Ninja, Vestele Riverthorn, Leminisi the Gold-Wing |
+| Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Maneater, Martyr, Mikey, Morag Bronzelock, Ninja, Vestele Riverthorn, Leminisi the Gold-Wing |
 | Molten Deathbell | Goffred Brassclad, Lydia the Deathsiren, Mithrala Lifebane, Scyl of the Drakes |
 | Murderfang | Lydia the Deathsiren |
 | Orb of Transfixion | Artak, Basher, Firrol the Barkhorn |
@@ -35,7 +36,7 @@ Rules:
 | Skull of Treason | Artak |
 | Stars of the Jiinang | Embrys the Anomaly |
 | Stormcaller | Galleus Bloodcrest, Marius the Gallant |
-| The Cat's Gaze | Alice the Wanderer, Astralon, Fenax, Gala Longbraids, Genbo the Dishonored, Marius the Gallant, Martyr, Mikey, Ninja, Leminisi the Gold-Wing |
+| The Cat's Gaze | Alice the Wanderer, Astralon, Fenax, Gala Longbraids, Genbo the Dishonored, Marius the Gallant, Martyr, Mikey, Morag Bronzelock, Ninja, Leminisi the Gold-Wing |
 | The Deathdealer | Embrys the Anomaly |
 | Torch of Thralldom | Lady Mikage |
 | Volcardiac Heart | Goffred Brassclad, Freyja Fateweaver, Duchess Lilitu, Mithrala Lifebane |
@@ -85,6 +86,7 @@ Rules:
 | Melga Steelgirdle | Demonic Effigy, Perched Shadow |
 | Mikey | Irethi Coronet, Malefic Talon, The Cat's Gaze |
 | Mithrala Lifebane | Volcardiac Heart, Molten Deathbell, Perched Shadow |
+| Morag Bronzelock | Gilded Dragonstone, Malefic Talon, The Cat's Gaze |
 | Ninja | Irethi Coronet, Malefic Talon, The Cat's Gaze |
 | Roshcard the Tower | Wand of Submission, Hand of Uncreation, Perched Shadow |
 | Scyl of the Drakes | Molten Deathbell, Chrysalid of Rebirth, Perched Shadow |
@@ -99,10 +101,10 @@ Rules:
 |---|---:|
 | Wand of Submission | 15 |
 | Perched Shadow | 16 |
-| Malefic Talon | 14 |
+| Malefic Talon | 15 |
 | Journal of Necrotos | 8 |
 | Irethi Coronet | 9 |
-| The Cat's Gaze | 10 |
+| The Cat's Gaze | 11 |
 | Arachnelixir | 3 |
 | Orb of Transfixion | 3 |
 | Volcardiac Heart | 4 |
@@ -130,7 +132,7 @@ Rules:
 
 | Metric | Count |
 |---|---:|
-| Unique relics observed | 24 |
-| Champion screens processed | 42 |
-| Champions with recommendations | 41 |
+| Unique relics observed | 25 |
+| Champion screens processed | 43 |
+| Champions with recommendations | 42 |
 | Champions with no HH relic recommendations | 1 |
