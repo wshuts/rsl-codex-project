@@ -17,14 +17,14 @@ Rules:
 
 | Relic | HH Recommended Champions |
 |---|---|
-| Arachnelixir | Bad-el-Kazar, Frozen Banshee, Kael, Tomb Lord |
+| Arachnelixir | Bad-el-Kazar, Frozen Banshee, Kael, Tomb Lord, Urogrim |
 | Aspect of Siroth | Freyja Fateweaver, Galleus Bloodcrest |
 | Chrysalid of Rebirth | Elva Autumnborn, Scyl of the Drakes |
 | Demonic Effigy | Duchess Lilitu, Maulie Tankard, Melga Steelgirdle |
 | Essence Quencher | Seer |
 | Gilded Dragonstone | Morag Bronzelock |
 | Gorecrescent | Alice the Wanderer, Gala Longbraids, Genbo the Dishonored, Vestele Riverthorn |
-| Golden Elixir | Artak, Firrol the Barkhorn, Frozen Banshee, Geomancer |
+| Golden Elixir | Artak, Firrol the Barkhorn, Frozen Banshee, Geomancer, Urogrim |
 | Hand of Uncreation | Roshcard the Tower |
 | Hallowed Hilt | Arbiter, Lyssandra |
 | Irethi Coronet | Astralon, Coldheart, Fenax, Kael, Maneater, Martyr, Mikey, Ninja, Tomb Lord, Leminisi the Gold-Wing |
@@ -33,7 +33,7 @@ Rules:
 | Molten Deathbell | Goffred Brassclad, Lydia the Deathsiren, Mithrala Lifebane, Scyl of the Drakes |
 | Murderfang | Lydia the Deathsiren |
 | Orb of Transfixion | Artak, Basher, Firrol the Barkhorn, Old Ghrukkus, Seeker |
-| Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Old Ghrukkus, Lydia the Deathsiren, Melga Steelgirdle, Mithrala Lifebane, Pheidi, Rector Drath, Roshcard the Tower, Scyl of the Drakes, Seeker, Lady Mikage, Wythir the Crowned |
+| Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Old Ghrukkus, Lydia the Deathsiren, Melga Steelgirdle, Mithrala Lifebane, Pheidi, Rector Drath, Roshcard the Tower, Scyl of the Drakes, Seeker, Urogrim, Lady Mikage, Wythir the Crowned |
 | Skull of Treason | Artak, Sulfuryion |
 | Stars of the Jiinang | Embrys the Anomaly |
 | Stormcaller | Galleus Bloodcrest, Marius the Gallant |
@@ -100,6 +100,7 @@ Rules:
 | Sulfuryion | Wand of Submission, Journal of Necrotos, Skull of Treason |
 | Sun Wukong | Wand of Submission, Malefic Talon, The Cat's Gaze |
 | Tomb Lord | Irethi Coronet, Malefic Talon, Arachnelixir |
+| Urogrim | Golden Elixir, Perched Shadow, Arachnelixir |
 | Vestele Riverthorn | Gorecrescent, Malefic Talon, Wand of Submission |
 | Wythir the Crowned | Wand of Submission, Journal of Necrotos, Perched Shadow |
 
@@ -110,12 +111,12 @@ Rules:
 | Relic | Count |
 |---|---:|
 | Wand of Submission | 20 |
-| Perched Shadow | 20 |
+| Perched Shadow | 21 |
 | Malefic Talon | 20 |
 | Journal of Necrotos | 11 |
 | Irethi Coronet | 10 |
 | The Cat's Gaze | 13 |
-| Arachnelixir | 4 |
+| Arachnelixir | 5 |
 | Orb of Transfixion | 5 |
 | Volcardiac Heart | 4 |
 | Aspect of Siroth | 2 |
@@ -125,7 +126,7 @@ Rules:
 | Skull of Treason | 2 |
 | Torch of Thralldom | 2 |
 | Demonic Effigy | 3 |
-| Golden Elixir | 4 |
+| Golden Elixir | 5 |
 | Gorecrescent | 4 |
 | Molten Deathbell | 4 |
 | All others | 1 |
@@ -145,6 +146,6 @@ Rules:
 | Metric | Count |
 |---|---:|
 | Unique relics observed | 26 |
-| Champion screens processed | 52 |
-| Champions with recommendations | 51 |
+| Champion screens processed | 53 |
+| Champions with recommendations | 52 |
 | Champions with no HH relic recommendations | 1 |
