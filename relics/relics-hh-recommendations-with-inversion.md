@@ -28,17 +28,17 @@ Rules:
 | Irethi Coronet | Astralon, Coldheart, Fenax, Kael, Maneater, Martyr, Mikey, Ninja, Leminisi the Gold-Wing |
 | Journal of Necrotos | Arbiter, Bad-el-Kazar, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Lyssandra, Wythir the Crowned |
 | Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Maneater, Martyr, Mikey, Ninja, Vestele Riverthorn, Leminisi the Gold-Wing |
-| Molten Deathbell | Goffred Brassclad, Lydia the Deathsiren, Scyl of the Drakes |
+| Molten Deathbell | Goffred Brassclad, Lydia the Deathsiren, Mithrala Lifebane, Scyl of the Drakes |
 | Murderfang | Lydia the Deathsiren |
 | Orb of Transfixion | Artak, Basher, Firrol the Barkhorn |
-| Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Lydia the Deathsiren, Melga Steelgirdle, Roshcard the Tower, Scyl of the Drakes, Lady Mikage, Wythir the Crowned |
+| Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Lydia the Deathsiren, Melga Steelgirdle, Mithrala Lifebane, Roshcard the Tower, Scyl of the Drakes, Lady Mikage, Wythir the Crowned |
 | Skull of Treason | Artak |
 | Stars of the Jiinang | Embrys the Anomaly |
 | Stormcaller | Galleus Bloodcrest, Marius the Gallant |
 | The Cat's Gaze | Alice the Wanderer, Astralon, Fenax, Gala Longbraids, Genbo the Dishonored, Marius the Gallant, Martyr, Mikey, Ninja, Leminisi the Gold-Wing |
 | The Deathdealer | Embrys the Anomaly |
 | Torch of Thralldom | Lady Mikage |
-| Volcardiac Heart | Goffred Brassclad, Freyja Fateweaver, Duchess Lilitu |
+| Volcardiac Heart | Goffred Brassclad, Freyja Fateweaver, Duchess Lilitu, Mithrala Lifebane |
 | Wand of Submission | Arbiter, Basher, Deacon Armstrong, Duchess Lilitu, Goffred Brassclad, Roshcard the Tower, Vestele Riverthorn, Embrys the Anomaly, Freyja Fateweaver, Galleus Bloodcrest, Lady Mikage, Lyssandra, Marius the Gallant, Maulie Tankard, Wythir the Crowned |
 | Xibia’s Servitude | Maulie Tankard |
 
@@ -84,6 +84,7 @@ Rules:
 | Maulie Tankard | Wand of Submission, Demonic Effigy, Xibia’s Servitude |
 | Melga Steelgirdle | Demonic Effigy, Perched Shadow |
 | Mikey | Irethi Coronet, Malefic Talon, The Cat's Gaze |
+| Mithrala Lifebane | Volcardiac Heart, Molten Deathbell, Perched Shadow |
 | Ninja | Irethi Coronet, Malefic Talon, The Cat's Gaze |
 | Roshcard the Tower | Wand of Submission, Hand of Uncreation, Perched Shadow |
 | Scyl of the Drakes | Molten Deathbell, Chrysalid of Rebirth, Perched Shadow |
@@ -97,14 +98,14 @@ Rules:
 | Relic | Count |
 |---|---:|
 | Wand of Submission | 15 |
-| Perched Shadow | 15 |
+| Perched Shadow | 16 |
 | Malefic Talon | 14 |
 | Journal of Necrotos | 8 |
 | Irethi Coronet | 9 |
 | The Cat's Gaze | 10 |
 | Arachnelixir | 3 |
 | Orb of Transfixion | 3 |
-| Volcardiac Heart | 3 |
+| Volcardiac Heart | 4 |
 | Aspect of Siroth | 2 |
 | Chrysalid of Rebirth | 2 |
 | Hallowed Hilt | 2 |
@@ -112,7 +113,7 @@ Rules:
 | Demonic Effigy | 3 |
 | Golden Elixir | 4 |
 | Gorecrescent | 4 |
-| Molten Deathbell | 3 |
+| Molten Deathbell | 4 |
 | All others | 1 |
 
 ---
@@ -130,6 +131,6 @@ Rules:
 | Metric | Count |
 |---|---:|
 | Unique relics observed | 24 |
-| Champion screens processed | 41 |
-| Champions with recommendations | 40 |
+| Champion screens processed | 42 |
+| Champions with recommendations | 41 |
 | Champions with no HH relic recommendations | 1 |
