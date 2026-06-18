@@ -1,5 +1,9 @@
 # Relic Allocation Action Plan
 
+> **Status: research draft — do not execute yet.**
+>
+> No relic in this document should be equipped on a build-locked champion until the gemstone system is understood and the champion's current speed, resulting speed, team role, and tune tolerance have been recorded. The recommendations below identify pairings worth investigating; they are not equip instructions.
+
 ## Basis and Guardrails
 
 This plan cross-references:
@@ -11,6 +15,27 @@ This plan cross-references:
 - the local relic tier notes.
 
 It is intentionally conservative. An HH recommendation establishes that a pairing is reasonable, but does not prove that it is best for a particular build or game mode. All named champions below are build-locked, so these are relic-only review actions; do not alter gear, masteries, speed tunes, or blessings.
+
+## Prerequisite: Gemstones and Speed Safety
+
+Before allocating any of the 46 relics:
+
+1. Learn and document what gemstones can modify, whether they can add or modify SPD, when their bonuses activate, and whether socketing or replacing one is reversible.
+2. Verify when a relic's locked attributes become active as it is leveled. The inventory notation such as `SPD (Lvl. 9)` must not be treated as harmless until confirmed in-game.
+3. Record the current total SPD of every proposed recipient before touching the relic.
+4. Record the champion's team(s), turn order, required SPD range, and permitted variance. If the safe range is unknown, the champion is not eligible for allocation.
+5. Preview or calculate the exact post-equip and post-upgrade SPD before confirming any change.
+6. Re-run the relevant team manually after any approved change before using instant, auto-repeat, or scarce keys/resources.
+
+Until those questions are answered, use unlocked or non-speed-sensitive champions as the learning environment. Build-locked champions should remain observational candidates only.
+
+### Required Safety Record
+
+| Champion | Current SPD | Team / mode | Required turn order | Safe SPD range | Relic SPD now | SPD unlocked later | Gemstone SPD | Projected final SPD | Verified safe? |
+|---|---:|---|---|---|---:|---:|---:|---:|---|
+| Arbiter | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | No |
+
+An `Unknown` anywhere in the speed path means **do not equip**.
 
 ## Recommended First Pass
 
@@ -63,15 +88,11 @@ The Golden Elixirs on Yakarl and Whisper are also unsupported by the current HH 
 - Do not classify Scroll of the Unseen, Howling Guardians, Compass of Anaxia, Preserved Aberration, Revolting Seedling, Valkanen's Grasp, Exuzar's Totem, or Hatter's Reserve as food from this dataset alone. Most lack champion-specific HH observations, and several have situational uses in the tier notes.
 - After the selected assignments, lower-rank duplicate Golden Elixirs, Demonic Effigies, and Gilded Dragonstones can remain on reserve-mule champions so the unequipped inventory continues functioning as the food locker.
 
-## Suggested Execution Order
+## Future Execution Order (Blocked by Prerequisites)
 
-1. Equip Wand of Submission on Arbiter.
-2. Equip Aspect of Siroth on Freyja.
-3. Decide whether the second Aspect belongs on Galleus or Warlord based on Arena use.
-4. Equip the 3-star Golden Elixir on Geomancer.
-5. Check Seeker's speed tune; if safe, equip the 3-star Orb, otherwise use Basher.
-6. Equip Irethi Coronet on Tomb Lord after confirming that damage, rather than pure survivability, is the goal.
-7. Move two 3-star Gilded Dragonstones to Visix and Morag.
-8. Use the 3-star Demonic Effigy on Duchess only if she lacks a better relic.
-9. Re-snapshot equipped relics before making any food decisions.
-
+1. Complete the gemstone and relic-stat activation research.
+2. Build a speed-safety record for one low-risk learning champion.
+3. Test the full equip, level, gemstone, removal, and restoration workflow on that champion.
+4. Re-snapshot the account and confirm that observed stat changes match the documented model.
+5. Only then evaluate the candidate pairings above one champion at a time.
+6. Re-snapshot equipped relics before making any food decisions.
