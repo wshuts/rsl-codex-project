@@ -21,6 +21,7 @@ Rules:
 | Aspect of Siroth | Freyja Fateweaver, Galleus Bloodcrest |
 | Chrysalid of Rebirth | Elva Autumnborn, Scyl of the Drakes |
 | Demonic Effigy | Duchess Lilitu, Maulie Tankard, Melga Steelgirdle |
+| Essence Quencher | Seer |
 | Gilded Dragonstone | Morag Bronzelock |
 | Gorecrescent | Alice the Wanderer, Gala Longbraids, Genbo the Dishonored, Vestele Riverthorn |
 | Golden Elixir | Artak, Firrol the Barkhorn, Frozen Banshee, Geomancer |
@@ -28,7 +29,7 @@ Rules:
 | Hallowed Hilt | Arbiter, Lyssandra |
 | Irethi Coronet | Astralon, Coldheart, Fenax, Kael, Maneater, Martyr, Mikey, Ninja, Leminisi the Gold-Wing |
 | Journal of Necrotos | Arbiter, Bad-el-Kazar, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Lyssandra, Pheidi, Rector Drath, Wythir the Crowned |
-| Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Maneater, Martyr, Mikey, Morag Bronzelock, Ninja, Seeker, Vestele Riverthorn, Leminisi the Gold-Wing |
+| Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Maneater, Martyr, Mikey, Morag Bronzelock, Ninja, Seeker, Seer, Vestele Riverthorn, Leminisi the Gold-Wing |
 | Molten Deathbell | Goffred Brassclad, Lydia the Deathsiren, Mithrala Lifebane, Scyl of the Drakes |
 | Murderfang | Lydia the Deathsiren |
 | Orb of Transfixion | Artak, Basher, Firrol the Barkhorn, Old Ghrukkus, Seeker |
@@ -36,7 +37,7 @@ Rules:
 | Skull of Treason | Artak |
 | Stars of the Jiinang | Embrys the Anomaly |
 | Stormcaller | Galleus Bloodcrest, Marius the Gallant |
-| The Cat's Gaze | Alice the Wanderer, Astralon, Fenax, Gala Longbraids, Genbo the Dishonored, Marius the Gallant, Martyr, Mikey, Morag Bronzelock, Ninja, Leminisi the Gold-Wing |
+| The Cat's Gaze | Alice the Wanderer, Astralon, Fenax, Gala Longbraids, Genbo the Dishonored, Marius the Gallant, Martyr, Mikey, Morag Bronzelock, Ninja, Seer, Leminisi the Gold-Wing |
 | The Deathdealer | Embrys the Anomaly |
 | Torch of Thralldom | Lady Mikage |
 | Volcardiac Heart | Goffred Brassclad, Freyja Fateweaver, Duchess Lilitu, Mithrala Lifebane |
@@ -94,6 +95,7 @@ Rules:
 | Roshcard the Tower | Wand of Submission, Hand of Uncreation, Perched Shadow |
 | Scyl of the Drakes | Molten Deathbell, Chrysalid of Rebirth, Perched Shadow |
 | Seeker | Orb of Transfixion, Malefic Talon, Perched Shadow |
+| Seer | Malefic Talon, The Cat's Gaze, Essence Quencher |
 | Vestele Riverthorn | Gorecrescent, Malefic Talon, Wand of Submission |
 | Wythir the Crowned | Wand of Submission, Journal of Necrotos, Perched Shadow |
 
@@ -105,10 +107,10 @@ Rules:
 |---|---:|
 | Wand of Submission | 17 |
 | Perched Shadow | 20 |
-| Malefic Talon | 16 |
+| Malefic Talon | 17 |
 | Journal of Necrotos | 10 |
 | Irethi Coronet | 9 |
-| The Cat's Gaze | 11 |
+| The Cat's Gaze | 12 |
 | Arachnelixir | 3 |
 | Orb of Transfixion | 5 |
 | Volcardiac Heart | 4 |
@@ -136,7 +138,7 @@ Rules:
 
 | Metric | Count |
 |---|---:|
-| Unique relics observed | 25 |
-| Champion screens processed | 47 |
-| Champions with recommendations | 46 |
+| Unique relics observed | 26 |
+| Champion screens processed | 48 |
+| Champions with recommendations | 47 |
 | Champions with no HH relic recommendations | 1 |
