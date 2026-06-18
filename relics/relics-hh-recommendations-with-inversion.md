@@ -28,11 +28,11 @@ Rules:
 | Hallowed Hilt | Arbiter, Lyssandra |
 | Irethi Coronet | Astralon, Coldheart, Fenax, Kael, Maneater, Martyr, Mikey, Ninja, Leminisi the Gold-Wing |
 | Journal of Necrotos | Arbiter, Bad-el-Kazar, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Lyssandra, Pheidi, Rector Drath, Wythir the Crowned |
-| Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Maneater, Martyr, Mikey, Morag Bronzelock, Ninja, Vestele Riverthorn, Leminisi the Gold-Wing |
+| Malefic Talon | Alice the Wanderer, Astralon, Coldheart, Fenax, Gala Longbraids, Genbo the Dishonored, Heiress, Kael, Maneater, Martyr, Mikey, Morag Bronzelock, Ninja, Seeker, Vestele Riverthorn, Leminisi the Gold-Wing |
 | Molten Deathbell | Goffred Brassclad, Lydia the Deathsiren, Mithrala Lifebane, Scyl of the Drakes |
 | Murderfang | Lydia the Deathsiren |
-| Orb of Transfixion | Artak, Basher, Firrol the Barkhorn, Old Ghrukkus |
-| Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Old Ghrukkus, Lydia the Deathsiren, Melga Steelgirdle, Mithrala Lifebane, Pheidi, Rector Drath, Roshcard the Tower, Scyl of the Drakes, Lady Mikage, Wythir the Crowned |
+| Orb of Transfixion | Artak, Basher, Firrol the Barkhorn, Old Ghrukkus, Seeker |
+| Perched Shadow | Bad-el-Kazar, Chronicler Adelyn, Coldheart, Criodan the Blue, Deacon Armstrong, Demytha, Elva Autumnborn, Firrol the Barkhorn, Geomancer, Old Ghrukkus, Lydia the Deathsiren, Melga Steelgirdle, Mithrala Lifebane, Pheidi, Rector Drath, Roshcard the Tower, Scyl of the Drakes, Seeker, Lady Mikage, Wythir the Crowned |
 | Skull of Treason | Artak |
 | Stars of the Jiinang | Embrys the Anomaly |
 | Stormcaller | Galleus Bloodcrest, Marius the Gallant |
@@ -93,6 +93,7 @@ Rules:
 | Rector Drath | Wand of Submission, Journal of Necrotos, Perched Shadow |
 | Roshcard the Tower | Wand of Submission, Hand of Uncreation, Perched Shadow |
 | Scyl of the Drakes | Molten Deathbell, Chrysalid of Rebirth, Perched Shadow |
+| Seeker | Orb of Transfixion, Malefic Talon, Perched Shadow |
 | Vestele Riverthorn | Gorecrescent, Malefic Talon, Wand of Submission |
 | Wythir the Crowned | Wand of Submission, Journal of Necrotos, Perched Shadow |
 
@@ -103,13 +104,13 @@ Rules:
 | Relic | Count |
 |---|---:|
 | Wand of Submission | 17 |
-| Perched Shadow | 19 |
-| Malefic Talon | 15 |
+| Perched Shadow | 20 |
+| Malefic Talon | 16 |
 | Journal of Necrotos | 10 |
 | Irethi Coronet | 9 |
 | The Cat's Gaze | 11 |
 | Arachnelixir | 3 |
-| Orb of Transfixion | 4 |
+| Orb of Transfixion | 5 |
 | Volcardiac Heart | 4 |
 | Aspect of Siroth | 2 |
 | Chrysalid of Rebirth | 2 |
@@ -136,6 +137,6 @@ Rules:
 | Metric | Count |
 |---|---:|
 | Unique relics observed | 25 |
-| Champion screens processed | 46 |
-| Champions with recommendations | 45 |
+| Champion screens processed | 47 |
+| Champions with recommendations | 46 |
 | Champions with no HH relic recommendations | 1 |
