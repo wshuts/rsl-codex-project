@@ -1,0 +1,18 @@
+<div class="raid-relic">
+  <div class="raid-relic-title">Aspect of Siroth</div>
+  <div class="raid-relic-bg">
+    <img class="raid-relic-img" src="/wp-content/plugins/rsl-assets/assets/relics/16.png" onerror="this.onerror=null;this.src='/wp-content/plugins/rsl-assets/assets/artwork/raid-relics/temporary.png';"/>
+    <div class="raid-relic-gemstone-container">
+      <div class="raid-relic-gemstone" data-gem-id="52" data-gem-name="Steadfast Preparation" data-gem-description="If the wearer loses 20% or more of their MAX HP from a single attack, the next hit received will deal 20% less damage." title="Steadfast Preparation">
+        <img class="raid-relic-gemstone-img" src="/wp-content/plugins/rsl-assets/assets/relics/gemstones/52.png" onerror="this.onerror=null;this.src='/wp-content/plugins/rsl-assets/assets/artwork/raid-relics/temporary.png';"/>
+        <div class="raid-relic-gemstone" data-gem-id="59" data-gem-name="Uncontrollable" data-gem-description="The wearer gains an additional 30 RES against enemies attempting to place &lt;color=#1ee600&gt;[Stun]&lt;/color&gt;, &lt;color=#1ee600&gt;[Freeze]&lt;/color&gt;, &lt;color=#1ee600&gt;[Sleep]&lt;/color&gt;, &lt;color=#1ee600&gt;[Provoke]&lt;/color&gt;, &lt;color=#1ee600&gt;[Fear]&lt;/color&gt;, &lt;color=#1ee600&gt;[True Fear]&lt;/color&gt;, &lt;color=#1ee600&gt;[Petrification]&lt;/color&gt;, or &lt;color=#1ee600&gt;[Sheep]&lt;/color&gt; debuffs." title="Uncontrollable">
+          <img class="raid-relic-gemstone-img" src="/wp-content/plugins/rsl-assets/assets/relics/gemstones/59.png" onerror="this.onerror=null;this.src='/wp-content/plugins/rsl-assets/assets/artwork/raid-relics/temporary.png';"/>
+          <div class="raid-relic-gemstone" data-gem-id="59" data-gem-name="Uncontrollable" data-gem-description="The wearer gains an additional 30 RES against enemies attempting to place &lt;color=#1ee600&gt;[Stun]&lt;/color&gt;, &lt;color=#1ee600&gt;[Freeze]&lt;/color&gt;, &lt;color=#1ee600&gt;[Sleep]&lt;/color&gt;, &lt;color=#1ee600&gt;[Provoke]&lt;/color&gt;, &lt;color=#1ee600&gt;[Fear]&lt;/color&gt;, &lt;color=#1ee600&gt;[True Fear]&lt;/color&gt;, &lt;color=#1ee600&gt;[Petrification]&lt;/color&gt;, or &lt;color=#1ee600&gt;[Sheep]&lt;/color&gt; debuffs." title="Uncontrollable">
+            <img class="raid-relic-gemstone-img" src="/wp-content/plugins/rsl-assets/assets/relics/gemstones/59.png" onerror="this.onerror=null;this.src='/wp-content/plugins/rsl-assets/assets/artwork/raid-relics/temporary.png';"/>
+          </div>
+          <div class="raid-relic-source">
+            <h3 data-fontsize="22.4" style="--fontSize: 22.4; line-height: 1.3; --minFontSize: 22.4;" data-lineheight="29.12px" class="fusion-responsive-typography-calculated">Crafted From:</h3>
+            <div class="raid-relic-source-list">
+              <img class="relic-source-img" title="Any" src="/wp-content/plugins/rsl-assets/assets/relics/icons/1.png" onerror="this.onerror=null;this.src='/wp-content/plugins/rsl-assets/assets/artwork/raid-relics/temporary.png';"/>
+            </div>
+          </div>
