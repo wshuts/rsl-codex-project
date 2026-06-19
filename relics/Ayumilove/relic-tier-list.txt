@@ -1,0 +1,124 @@
+Relic Abbreviations (Group-Rarity-Gemstone)
+Example: ST-E-CP refers to Standard relics, Epic rarity, and Circle Pentagon gemstone slot
+Group
+CH – Chimera Relics
+CL – Clan Relics
+EV – Event Relics
+FW – Faction Wars Relics
+LA – Live Arena Relics
+GF – Grim Forest Relics
+ST – Standard Relics
+
+Rarity
+M – Mythical
+L – Legendary
+E – Epic
+R – Rare
+
+Shape
+C – Circle
+D – Diamond
+P – Pentagon
+S – Square
+T – Triangle
+
+Relic Tier List
+SS Tier Relics
+Arachnelixir (FW-R-T)
+Chrysalid of Rebirth (CL-M-CDPS)
+Coronet of Gloom (GF-M-CPT)
+Covetous Passion (EV-M-CST)
+Crown of Corruption (EV-M-DPT)
+Diabolical Dice (EV-M-CDT)
+Dreadbomb (FP-M-CT)
+Hallowed Hilt (ST-M-CD)
+Immortal Visage (FP-M-CDPT)
+Lens of Intangibility (GF-M-CT)
+Stars of the Jiinang (EV-M-PST)
+Stormcaller (CH-M-CT)
+The Cat’s Gaze (EV-L-CT)
+The Deathdealer (LA-M-PT)
+The Towerhelm (EV-M-CDS)
+Torch of Thralldom (FW-M-DST)
+Volcardiac Heart (ST-M-CS)
+Wand of Submission (ST-M-CD)
+Xibia’s Servitude (EV-M-CPS)
+
+S Tier Relics
+Blades of Akumori (FP-L-DS)
+Chronocube (CH-M-CP)
+Essence Quencher (CL-L-CT)
+Golden Elixir (ST-E-CP)
+Gorecrescent (CH-L-CT)
+Infernal Polytope (LA-M-CDPS)
+Irethi Coronet (CH-E-CT)
+Mind of Marquat (FW-M-CPS)
+Perched Shadow (FW-E-D)
+Skull of Treason (EV-L-CPS)
+
+A Tier Relics
+Aspect of Siroth (ST-L-CS)
+Bane of Sintranos (FP-L-CDP)
+Eternal Soulgaol (FW-L-DPT)
+Gilded Pinion (EV-L-CDP)
+Harp of Kasbiel (LA-L-DP)
+Infernosphere (CL-E-PS)
+Journal of Necrotos (ST-R-C)
+Last Laugh Amulet (EV-L-CDT)
+Mask of Disquiet (EV-L-CPS)
+Molten Deathbell (CH-R-P)
+Murderfang (CL-M-CST)
+Okulos Kustodion (EV-L-PS)
+Soulmar Crystal (GF-L-CD)
+Sporeburst Rod (GF-L-CST)
+Scroll of the Unseen (CH-E-C)
+Temporal Stagnator (CL-L-PT)
+Thunderbolt Spear (EV-L-CT)
+
+B Tier Relics
+Andromeda’s Diadem (FP-E-CD)
+Compass of Anaxia (GF-E-CP)
+Draught of Ire (LA-R-C)
+Darksmile’s Toast (EV-E-DP)
+Exuzar’s Totem (EV-E-PS)
+Gaze of Damnation (EV-E-PT)
+Gilded Dragonstone (ST-E-CS)
+Hammer of Ending (FW-E-PT)
+Hand of Uncreation (CH-L-CP)
+Howling Guardians (EV-E-CS)
+Malefic Talon (CH-R-T)
+Orb of Transfixion (CH-E-C)
+Preserved Aberration (LA-E-DT)
+Saint Zavier’s Tribute (EV-E-CT)
+Tempus Sanguinis (CH-R-D)
+The Collective (FW-E-CDT)
+The Exile’s Crown (FP-E-PS)
+
+C Tier Relics
+Ax Serpentis (LA-L-CST)
+Codex Luminis (FW-R-S)
+Demonic Effigy (ST-R-X)
+Frostspawn Cocoon (FP-R-S)
+Grail of Agony (EV-E-CP)
+Hatter’s Reserve (EV-E-ST)
+Hoarder’s Cauldron (GF-R-D)
+Moondeath Orchid (LA-E-DS)
+Pyros Malleos (FP-R-T)
+Revolting Seedling (GF-E-CS)
+Sigil of the Akar (EV-R-C)
+Sinner’s Cloak (EV-R-S)
+Steel-Eyed Cutter (GF-R-C)
+Thunderous Circlet (EV-R-D)
+Valkanen’s Grasp (CL-E-DS)
+Vigor Mortis (EV-R-T)
+
+F Tier Relics
+Blackshroud Fan (CL-R-S)
+Diadem of Undeath (CH-R-S)
+Jaws of Hatred (EV-R-C)
+Mask of Rage (ST-R-C)
+Rod of Blasphemy (ST-R-C)
+Royal Digit (LA-R-T)
+Tempus Morbidia (EV-R-C)
+The Fleshrender (CL-R-T)
+Unholy Grail (ST-R-C)
