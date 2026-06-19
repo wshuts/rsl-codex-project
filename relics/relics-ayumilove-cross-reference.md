@@ -55,7 +55,7 @@ The account owner has declared the following ten Rare relic types to be **Food f
 | Royal Digit | F | 0 | Food for future copies |
 | Draught of Ire | B | 1 | Food |
 
-Current snapshot: 9 copies across 7 listed types. All 9 are unequipped, have no socketed gemstones, and meet the food-level minimum recorded in `relics-food.txt`.
+Current snapshot: 9 copies across 7 listed types. All 9 are unequipped, have no socketed gemstones, and meet the food-level minimum recorded in `relics-food.md`.
 
 The rule reflects the account's transition from mid-game toward late-game, the relative availability of Rare relics through crafting, and the lower cost of correcting Rare-relic experimentation errors.
 

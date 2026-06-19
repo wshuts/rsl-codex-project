@@ -87,7 +87,7 @@ Gemstone quality, tier, color, shape, and inventory management are out of scope 
 ## Food Workflow
 
 - `Relic Inventory/relic-food-policy.json` is the machine-readable authoritative source for Food classification.
-- `relics-food.txt` is the human-readable authoritative source for the Food list and minimum food levels.
+- `relics-food.md` is the human-readable authoritative source for the Food list and minimum food levels.
 - Account-owner Food decisions override external tier lists, relic-specific guidance, and generic preserve/evaluate/fodder recommendations.
 - The ten declared Rare relic types are Food for all current and future copies.
 - Known Food relics do not require relic-value or synergy reevaluation.
