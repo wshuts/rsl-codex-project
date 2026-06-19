@@ -1,17 +1,17 @@
 ﻿{
     "schemaVersion":  1,
-    "generatedAt":  "2026-06-19T03:45:37.8030173Z",
+    "generatedAt":  "2026-06-19T22:36:05.4601759Z",
     "sources":  {
-                    "account":  "account-response-01-private.json",
+                    "account":  "account-response-05-private.json",
                     "staticData":  "relic-static-data.json"
                 },
     "summary":  {
-                    "relics":  127,
+                    "relics":  120,
                     "equippedRelics":  20,
-                    "unequippedRelics":  107,
-                    "gemstones":  254,
+                    "unequippedRelics":  100,
+                    "gemstones":  258,
                     "socketedGemstones":  61,
-                    "unsocketedGemstones":  193
+                    "unsocketedGemstones":  197
                 },
     "relics":  [
                    {
@@ -5410,9 +5410,9 @@
                        "groupId":  4,
                        "rarityId":  3,
                        "rarity":  "Rare",
-                       "rank":  4,
-                       "level":  9,
-                       "maxLevel":  12,
+                       "rank":  5,
+                       "level":  12,
+                       "maxLevel":  15,
                        "baseRankForRarity":  1,
                        "seen":  true,
                        "activationState":  null,
@@ -5425,7 +5425,7 @@
                                          "name":  "Defense",
                                          "openingLevel":  0,
                                          "unlocked":  true,
-                                         "value":  204,
+                                         "value":  255,
                                          "isAbsolute":  true
                                      },
                                      {
@@ -5434,7 +5434,7 @@
                                          "name":  "Health",
                                          "openingLevel":  9,
                                          "unlocked":  true,
-                                         "value":  3185,
+                                         "value":  3947,
                                          "isAbsolute":  true
                                      },
                                      {
@@ -6631,7 +6631,7 @@
                        "rarityId":  3,
                        "rarity":  "Rare",
                        "rank":  4,
-                       "level":  9,
+                       "level":  12,
                        "maxLevel":  12,
                        "baseRankForRarity":  1,
                        "seen":  true,
@@ -6645,7 +6645,7 @@
                                          "name":  "Health",
                                          "openingLevel":  0,
                                          "unlocked":  true,
-                                         "value":  3185,
+                                         "value":  3947,
                                          "isAbsolute":  true
                                      },
                                      {
@@ -6654,7 +6654,7 @@
                                          "name":  "Attack",
                                          "openingLevel":  9,
                                          "unlocked":  true,
-                                         "value":  204,
+                                         "value":  255,
                                          "isAbsolute":  true
                                      },
                                      {
@@ -6870,7 +6870,7 @@
                        "rarityId":  3,
                        "rarity":  "Rare",
                        "rank":  4,
-                       "level":  9,
+                       "level":  12,
                        "maxLevel":  12,
                        "baseRankForRarity":  1,
                        "seen":  true,
@@ -6884,7 +6884,7 @@
                                          "name":  "Health",
                                          "openingLevel":  0,
                                          "unlocked":  true,
-                                         "value":  3185,
+                                         "value":  3947,
                                          "isAbsolute":  true
                                      },
                                      {
@@ -6893,7 +6893,7 @@
                                          "name":  "Defense",
                                          "openingLevel":  9,
                                          "unlocked":  true,
-                                         "value":  204,
+                                         "value":  255,
                                          "isAbsolute":  true
                                      },
                                      {
@@ -7257,84 +7257,6 @@
                                                   ]
                    },
                    {
-                       "id":  250,
-                       "typeId":  6,
-                       "name":  "Diadem of Undeath",
-                       "description":  "Wearer\u0027s DEF increases by \u003ccolor=#1ee600\u003e1%\u003c/color\u003e for each ally under an \u003ccolor=#1ee600\u003e[Ally Protection]\u003c/color\u003e buff placed by them.",
-                       "groupId":  2,
-                       "rarityId":  3,
-                       "rarity":  "Rare",
-                       "rank":  4,
-                       "level":  9,
-                       "maxLevel":  12,
-                       "baseRankForRarity":  1,
-                       "seen":  true,
-                       "activationState":  null,
-                       "equipped":  false,
-                       "wearer":  null,
-                       "stats":  [
-                                     {
-                                         "slot":  1,
-                                         "statId":  3,
-                                         "name":  "Defense",
-                                         "openingLevel":  0,
-                                         "unlocked":  true,
-                                         "value":  204,
-                                         "isAbsolute":  true
-                                     },
-                                     {
-                                         "slot":  2,
-                                         "statId":  1,
-                                         "name":  "Health",
-                                         "openingLevel":  9,
-                                         "unlocked":  true,
-                                         "value":  3185,
-                                         "isAbsolute":  true
-                                     },
-                                     {
-                                         "slot":  3,
-                                         "statId":  5,
-                                         "name":  "Resistance",
-                                         "openingLevel":  15,
-                                         "unlocked":  false,
-                                         "value":  0,
-                                         "isAbsolute":  true
-                                     }
-                                 ],
-                       "sockets":  [
-                                       {
-                                           "slot":  1,
-                                           "shapeId":  3,
-                                           "stone":  null
-                                       }
-                                   ],
-                       "skillIds":  [
-                                        3000005
-                                    ],
-                       "skillLevelDescriptions":  [
-                                                      {
-                                                          "combinedId":  "6_2",
-                                                          "description":  "DEF +1%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "6_3",
-                                                          "description":  "DEF +1%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "6_4",
-                                                          "description":  "DEF +1%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "6_5",
-                                                          "description":  "DEF +1%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "6_6",
-                                                          "description":  "DEF +1%"
-                                                      }
-                                                  ]
-                   },
-                   {
                        "id":  252,
                        "typeId":  13,
                        "name":  "Scroll of the Unseen",
@@ -7418,84 +7340,6 @@
                                                   ]
                    },
                    {
-                       "id":  253,
-                       "typeId":  2,
-                       "name":  "Mask of Rage",
-                       "description":  "Wearer receives \u003ccolor=#1ee600\u003e5%\u003c/color\u003e less damage from enemies under a \u003ccolor=#1ee600\u003e[Provoke]\u003c/color\u003e debuff.",
-                       "groupId":  1,
-                       "rarityId":  3,
-                       "rarity":  "Rare",
-                       "rank":  3,
-                       "level":  6,
-                       "maxLevel":  9,
-                       "baseRankForRarity":  1,
-                       "seen":  true,
-                       "activationState":  null,
-                       "equipped":  false,
-                       "wearer":  null,
-                       "stats":  [
-                                     {
-                                         "slot":  1,
-                                         "statId":  1,
-                                         "name":  "Health",
-                                         "openingLevel":  0,
-                                         "unlocked":  true,
-                                         "value":  2424,
-                                         "isAbsolute":  true
-                                     },
-                                     {
-                                         "slot":  2,
-                                         "statId":  3,
-                                         "name":  "Defense",
-                                         "openingLevel":  9,
-                                         "unlocked":  false,
-                                         "value":  0,
-                                         "isAbsolute":  true
-                                     },
-                                     {
-                                         "slot":  3,
-                                         "statId":  6,
-                                         "name":  "Accuracy",
-                                         "openingLevel":  15,
-                                         "unlocked":  false,
-                                         "value":  0,
-                                         "isAbsolute":  true
-                                     }
-                                 ],
-                       "sockets":  [
-                                       {
-                                           "slot":  1,
-                                           "shapeId":  1,
-                                           "stone":  null
-                                       }
-                                   ],
-                       "skillIds":  [
-                                        3000001
-                                    ],
-                       "skillLevelDescriptions":  [
-                                                      {
-                                                          "combinedId":  "2_2",
-                                                          "description":  "Damage Reduction +2%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "2_3",
-                                                          "description":  "Damage Reduction +2%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "2_4",
-                                                          "description":  "Damage Reduction +2%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "2_5",
-                                                          "description":  "Damage Reduction +2%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "2_6",
-                                                          "description":  "Damage Reduction +2%"
-                                                      }
-                                                  ]
-                   },
-                   {
                        "id":  254,
                        "typeId":  6,
                        "name":  "Diadem of Undeath",
@@ -7503,9 +7347,9 @@
                        "groupId":  2,
                        "rarityId":  3,
                        "rarity":  "Rare",
-                       "rank":  4,
-                       "level":  9,
-                       "maxLevel":  12,
+                       "rank":  5,
+                       "level":  12,
+                       "maxLevel":  15,
                        "baseRankForRarity":  1,
                        "seen":  true,
                        "activationState":  null,
@@ -7518,7 +7362,7 @@
                                          "name":  "Defense",
                                          "openingLevel":  0,
                                          "unlocked":  true,
-                                         "value":  204,
+                                         "value":  255,
                                          "isAbsolute":  true
                                      },
                                      {
@@ -7527,7 +7371,7 @@
                                          "name":  "Health",
                                          "openingLevel":  9,
                                          "unlocked":  true,
-                                         "value":  3185,
+                                         "value":  3947,
                                          "isAbsolute":  true
                                      },
                                      {
@@ -7818,84 +7662,6 @@
                                                   ]
                    },
                    {
-                       "id":  259,
-                       "typeId":  2,
-                       "name":  "Mask of Rage",
-                       "description":  "Wearer receives \u003ccolor=#1ee600\u003e5%\u003c/color\u003e less damage from enemies under a \u003ccolor=#1ee600\u003e[Provoke]\u003c/color\u003e debuff.",
-                       "groupId":  1,
-                       "rarityId":  3,
-                       "rarity":  "Rare",
-                       "rank":  4,
-                       "level":  9,
-                       "maxLevel":  12,
-                       "baseRankForRarity":  1,
-                       "seen":  true,
-                       "activationState":  null,
-                       "equipped":  false,
-                       "wearer":  null,
-                       "stats":  [
-                                     {
-                                         "slot":  1,
-                                         "statId":  1,
-                                         "name":  "Health",
-                                         "openingLevel":  0,
-                                         "unlocked":  true,
-                                         "value":  3185,
-                                         "isAbsolute":  true
-                                     },
-                                     {
-                                         "slot":  2,
-                                         "statId":  3,
-                                         "name":  "Defense",
-                                         "openingLevel":  9,
-                                         "unlocked":  true,
-                                         "value":  204,
-                                         "isAbsolute":  true
-                                     },
-                                     {
-                                         "slot":  3,
-                                         "statId":  6,
-                                         "name":  "Accuracy",
-                                         "openingLevel":  15,
-                                         "unlocked":  false,
-                                         "value":  0,
-                                         "isAbsolute":  true
-                                     }
-                                 ],
-                       "sockets":  [
-                                       {
-                                           "slot":  1,
-                                           "shapeId":  1,
-                                           "stone":  null
-                                       }
-                                   ],
-                       "skillIds":  [
-                                        3000001
-                                    ],
-                       "skillLevelDescriptions":  [
-                                                      {
-                                                          "combinedId":  "2_2",
-                                                          "description":  "Damage Reduction +2%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "2_3",
-                                                          "description":  "Damage Reduction +2%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "2_4",
-                                                          "description":  "Damage Reduction +2%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "2_5",
-                                                          "description":  "Damage Reduction +2%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "2_6",
-                                                          "description":  "Damage Reduction +2%"
-                                                      }
-                                                  ]
-                   },
-                   {
                        "id":  260,
                        "typeId":  12,
                        "name":  "Golden Elixir",
@@ -8131,84 +7897,6 @@
                                                       {
                                                           "combinedId":  "3_6",
                                                           "description":  "Heal \u0026 TM Increase Boost +3%"
-                                                      }
-                                                  ]
-                   },
-                   {
-                       "id":  269,
-                       "typeId":  2,
-                       "name":  "Mask of Rage",
-                       "description":  "Wearer receives \u003ccolor=#1ee600\u003e5%\u003c/color\u003e less damage from enemies under a \u003ccolor=#1ee600\u003e[Provoke]\u003c/color\u003e debuff.",
-                       "groupId":  1,
-                       "rarityId":  3,
-                       "rarity":  "Rare",
-                       "rank":  3,
-                       "level":  6,
-                       "maxLevel":  9,
-                       "baseRankForRarity":  1,
-                       "seen":  true,
-                       "activationState":  null,
-                       "equipped":  false,
-                       "wearer":  null,
-                       "stats":  [
-                                     {
-                                         "slot":  1,
-                                         "statId":  1,
-                                         "name":  "Health",
-                                         "openingLevel":  0,
-                                         "unlocked":  true,
-                                         "value":  2424,
-                                         "isAbsolute":  true
-                                     },
-                                     {
-                                         "slot":  2,
-                                         "statId":  3,
-                                         "name":  "Defense",
-                                         "openingLevel":  9,
-                                         "unlocked":  false,
-                                         "value":  0,
-                                         "isAbsolute":  true
-                                     },
-                                     {
-                                         "slot":  3,
-                                         "statId":  6,
-                                         "name":  "Accuracy",
-                                         "openingLevel":  15,
-                                         "unlocked":  false,
-                                         "value":  0,
-                                         "isAbsolute":  true
-                                     }
-                                 ],
-                       "sockets":  [
-                                       {
-                                           "slot":  1,
-                                           "shapeId":  1,
-                                           "stone":  null
-                                       }
-                                   ],
-                       "skillIds":  [
-                                        3000001
-                                    ],
-                       "skillLevelDescriptions":  [
-                                                      {
-                                                          "combinedId":  "2_2",
-                                                          "description":  "Damage Reduction +2%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "2_3",
-                                                          "description":  "Damage Reduction +2%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "2_4",
-                                                          "description":  "Damage Reduction +2%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "2_5",
-                                                          "description":  "Damage Reduction +2%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "2_6",
-                                                          "description":  "Damage Reduction +2%"
                                                       }
                                                   ]
                    },
@@ -9830,9 +9518,9 @@
                        "groupId":  1,
                        "rarityId":  3,
                        "rarity":  "Rare",
-                       "rank":  1,
-                       "level":  0,
-                       "maxLevel":  3,
+                       "rank":  3,
+                       "level":  6,
+                       "maxLevel":  9,
                        "baseRankForRarity":  1,
                        "seen":  true,
                        "activationState":  null,
@@ -9845,7 +9533,7 @@
                                          "name":  "Attack",
                                          "openingLevel":  0,
                                          "unlocked":  true,
-                                         "value":  53,
+                                         "value":  155,
                                          "isAbsolute":  true
                                      },
                                      {
@@ -9991,9 +9679,9 @@
                        "groupId":  4,
                        "rarityId":  3,
                        "rarity":  "Rare",
-                       "rank":  1,
-                       "level":  0,
-                       "maxLevel":  3,
+                       "rank":  4,
+                       "level":  9,
+                       "maxLevel":  12,
                        "baseRankForRarity":  1,
                        "seen":  true,
                        "activationState":  null,
@@ -10006,7 +9694,7 @@
                                          "name":  "Health",
                                          "openingLevel":  0,
                                          "unlocked":  true,
-                                         "value":  900,
+                                         "value":  3185,
                                          "isAbsolute":  true
                                      },
                                      {
@@ -10014,8 +9702,8 @@
                                          "statId":  3,
                                          "name":  "Defense",
                                          "openingLevel":  9,
-                                         "unlocked":  false,
-                                         "value":  0,
+                                         "unlocked":  true,
+                                         "value":  204,
                                          "isAbsolute":  true
                                      },
                                      {
@@ -10145,162 +9833,6 @@
                                                   ]
                    },
                    {
-                       "id":  302,
-                       "typeId":  2,
-                       "name":  "Mask of Rage",
-                       "description":  "Wearer receives \u003ccolor=#1ee600\u003e5%\u003c/color\u003e less damage from enemies under a \u003ccolor=#1ee600\u003e[Provoke]\u003c/color\u003e debuff.",
-                       "groupId":  1,
-                       "rarityId":  3,
-                       "rarity":  "Rare",
-                       "rank":  1,
-                       "level":  0,
-                       "maxLevel":  3,
-                       "baseRankForRarity":  1,
-                       "seen":  true,
-                       "activationState":  null,
-                       "equipped":  false,
-                       "wearer":  null,
-                       "stats":  [
-                                     {
-                                         "slot":  1,
-                                         "statId":  1,
-                                         "name":  "Health",
-                                         "openingLevel":  0,
-                                         "unlocked":  true,
-                                         "value":  900,
-                                         "isAbsolute":  true
-                                     },
-                                     {
-                                         "slot":  2,
-                                         "statId":  3,
-                                         "name":  "Defense",
-                                         "openingLevel":  9,
-                                         "unlocked":  false,
-                                         "value":  0,
-                                         "isAbsolute":  true
-                                     },
-                                     {
-                                         "slot":  3,
-                                         "statId":  6,
-                                         "name":  "Accuracy",
-                                         "openingLevel":  15,
-                                         "unlocked":  false,
-                                         "value":  0,
-                                         "isAbsolute":  true
-                                     }
-                                 ],
-                       "sockets":  [
-                                       {
-                                           "slot":  1,
-                                           "shapeId":  1,
-                                           "stone":  null
-                                       }
-                                   ],
-                       "skillIds":  [
-                                        3000001
-                                    ],
-                       "skillLevelDescriptions":  [
-                                                      {
-                                                          "combinedId":  "2_2",
-                                                          "description":  "Damage Reduction +2%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "2_3",
-                                                          "description":  "Damage Reduction +2%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "2_4",
-                                                          "description":  "Damage Reduction +2%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "2_5",
-                                                          "description":  "Damage Reduction +2%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "2_6",
-                                                          "description":  "Damage Reduction +2%"
-                                                      }
-                                                  ]
-                   },
-                   {
-                       "id":  303,
-                       "typeId":  1,
-                       "name":  "Unholy Grail",
-                       "description":  "Wearer deals \u003ccolor=#1ee600\u003e2%\u003c/color\u003e more damage if under any debuffs.",
-                       "groupId":  1,
-                       "rarityId":  3,
-                       "rarity":  "Rare",
-                       "rank":  1,
-                       "level":  0,
-                       "maxLevel":  3,
-                       "baseRankForRarity":  1,
-                       "seen":  true,
-                       "activationState":  null,
-                       "equipped":  false,
-                       "wearer":  null,
-                       "stats":  [
-                                     {
-                                         "slot":  1,
-                                         "statId":  2,
-                                         "name":  "Attack",
-                                         "openingLevel":  0,
-                                         "unlocked":  true,
-                                         "value":  53,
-                                         "isAbsolute":  true
-                                     },
-                                     {
-                                         "slot":  2,
-                                         "statId":  1,
-                                         "name":  "Health",
-                                         "openingLevel":  9,
-                                         "unlocked":  false,
-                                         "value":  0,
-                                         "isAbsolute":  true
-                                     },
-                                     {
-                                         "slot":  3,
-                                         "statId":  8,
-                                         "name":  "CriticalDamage",
-                                         "openingLevel":  15,
-                                         "unlocked":  false,
-                                         "value":  0,
-                                         "isAbsolute":  false
-                                     }
-                                 ],
-                       "sockets":  [
-                                       {
-                                           "slot":  1,
-                                           "shapeId":  1,
-                                           "stone":  null
-                                       }
-                                   ],
-                       "skillIds":  [
-                                        3000000
-                                    ],
-                       "skillLevelDescriptions":  [
-                                                      {
-                                                          "combinedId":  "1_2",
-                                                          "description":  "Damage +1%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "1_3",
-                                                          "description":  "Damage +1%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "1_4",
-                                                          "description":  "Damage +1%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "1_5",
-                                                          "description":  "Damage +1%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "1_6",
-                                                          "description":  "Damage +2%"
-                                                      }
-                                                  ]
-                   },
-                   {
                        "id":  304,
                        "typeId":  4,
                        "name":  "Rod of Blasphemy",
@@ -10308,9 +9840,9 @@
                        "groupId":  1,
                        "rarityId":  3,
                        "rarity":  "Rare",
-                       "rank":  1,
-                       "level":  0,
-                       "maxLevel":  3,
+                       "rank":  3,
+                       "level":  6,
+                       "maxLevel":  9,
                        "baseRankForRarity":  1,
                        "seen":  true,
                        "activationState":  null,
@@ -10323,7 +9855,7 @@
                                          "name":  "Health",
                                          "openingLevel":  0,
                                          "unlocked":  true,
-                                         "value":  900,
+                                         "value":  2424,
                                          "isAbsolute":  true
                                      },
                                      {
@@ -10547,9 +10079,9 @@
                        "groupId":  5,
                        "rarityId":  3,
                        "rarity":  "Rare",
-                       "rank":  1,
-                       "level":  0,
-                       "maxLevel":  3,
+                       "rank":  4,
+                       "level":  9,
+                       "maxLevel":  12,
                        "baseRankForRarity":  1,
                        "seen":  true,
                        "activationState":  null,
@@ -10562,7 +10094,7 @@
                                          "name":  "Health",
                                          "openingLevel":  0,
                                          "unlocked":  true,
-                                         "value":  900,
+                                         "value":  3185,
                                          "isAbsolute":  true
                                      },
                                      {
@@ -10570,8 +10102,8 @@
                                          "statId":  2,
                                          "name":  "Attack",
                                          "openingLevel":  9,
-                                         "unlocked":  false,
-                                         "value":  0,
+                                         "unlocked":  true,
+                                         "value":  204,
                                          "isAbsolute":  true
                                      },
                                      {
@@ -10614,84 +10146,6 @@
                                                       {
                                                           "combinedId":  "34_6",
                                                           "description":  "Damage +2%"
-                                                      }
-                                                  ]
-                   },
-                   {
-                       "id":  308,
-                       "typeId":  4,
-                       "name":  "Rod of Blasphemy",
-                       "description":  "Wearer receives \u003ccolor=#1ee600\u003e2%\u003c/color\u003e less damage if under any debuffs.",
-                       "groupId":  1,
-                       "rarityId":  3,
-                       "rarity":  "Rare",
-                       "rank":  1,
-                       "level":  0,
-                       "maxLevel":  3,
-                       "baseRankForRarity":  1,
-                       "seen":  true,
-                       "activationState":  null,
-                       "equipped":  false,
-                       "wearer":  null,
-                       "stats":  [
-                                     {
-                                         "slot":  1,
-                                         "statId":  1,
-                                         "name":  "Health",
-                                         "openingLevel":  0,
-                                         "unlocked":  true,
-                                         "value":  900,
-                                         "isAbsolute":  true
-                                     },
-                                     {
-                                         "slot":  2,
-                                         "statId":  2,
-                                         "name":  "Attack",
-                                         "openingLevel":  9,
-                                         "unlocked":  false,
-                                         "value":  0,
-                                         "isAbsolute":  true
-                                     },
-                                     {
-                                         "slot":  3,
-                                         "statId":  6,
-                                         "name":  "Accuracy",
-                                         "openingLevel":  15,
-                                         "unlocked":  false,
-                                         "value":  0,
-                                         "isAbsolute":  true
-                                     }
-                                 ],
-                       "sockets":  [
-                                       {
-                                           "slot":  1,
-                                           "shapeId":  1,
-                                           "stone":  null
-                                       }
-                                   ],
-                       "skillIds":  [
-                                        3000003
-                                    ],
-                       "skillLevelDescriptions":  [
-                                                      {
-                                                          "combinedId":  "4_2",
-                                                          "description":  "Damage Reduction +1%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "4_3",
-                                                          "description":  "Damage Reduction +1%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "4_4",
-                                                          "description":  "Damage Reduction +1%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "4_5",
-                                                          "description":  "Damage Reduction +1%"
-                                                      },
-                                                      {
-                                                          "combinedId":  "4_6",
-                                                          "description":  "Damage Reduction +2%"
                                                       }
                                                   ]
                    },
@@ -14729,6 +14183,62 @@
                           "socketedIn":  null,
                           "skillIds":  [
                                            4000019
+                                       ]
+                      },
+                      {
+                          "id":  421,
+                          "typeId":  20,
+                          "name":  "Critical Bolster",
+                          "description":  "The wearer\u0027s DEF increases by 1% each time they receive a critical hit (stacks up to 10%).",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000019
+                                       ]
+                      },
+                      {
+                          "id":  422,
+                          "typeId":  40,
+                          "name":  "Unflinching",
+                          "description":  "Bosses deal 5% less damage to the wearer.",
+                          "rarityId":  4,
+                          "rarity":  "Epic",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000039
+                                       ]
+                      },
+                      {
+                          "id":  423,
+                          "typeId":  20,
+                          "name":  "Critical Bolster",
+                          "description":  "The wearer\u0027s DEF increases by 1% each time they receive a critical hit (stacks up to 10%).",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000019
+                                       ]
+                      },
+                      {
+                          "id":  424,
+                          "typeId":  6,
+                          "name":  "Unburdened",
+                          "description":  "The wearer\u0027s SPD increases by 2 for each dead ally.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  4,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000005
                                        ]
                       }
                   ]
