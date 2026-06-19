@@ -86,7 +86,11 @@ Gemstone quality, tier, color, shape, and inventory management are out of scope 
 
 ## Food Workflow
 
-- Known food relics may be consumed without further evaluation.
+- `Relic Inventory/relic-food-policy.json` is the machine-readable authoritative source for Food classification.
+- `relics-food.txt` is the human-readable authoritative source for the Food list and minimum food levels.
+- Account-owner Food decisions override external tier lists, relic-specific guidance, and generic preserve/evaluate/fodder recommendations.
+- The ten declared Rare relic types are Food for all current and future copies.
+- Known Food relics do not require relic-value or synergy reevaluation.
+- Only an explicit future account-owner decision may add, remove, or create an exception to a Food rule.
 - Relic evaluation and relic food production are separate activities.
 - High-rarity unequipped relics (Epic/Legendary) are evaluated independently from established food lists.
-

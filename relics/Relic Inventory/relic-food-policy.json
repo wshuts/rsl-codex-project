@@ -1,8 +1,17 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "classification": "food",
+  "authority": "account-owner-authoritative-truth",
   "scope": "all-current-and-future-copies",
   "decidedBy": "account-owner",
+  "precedence": "overrides-external-tier-and-relic-guidance",
+  "reevaluation": "not-required",
+  "amendmentPolicy": "explicit-account-owner-change-only",
+  "rationale": [
+    "account-is-advancing-from-mid-game-to-late-game",
+    "rare-relics-are-easier-to-obtain-through-crafting",
+    "rare-relic-experimentation-errors-are-forgiving"
+  ],
   "relicTypes": [
     { "typeId": 2, "name": "Mask of Rage" },
     { "typeId": 1, "name": "Unholy Grail" },
