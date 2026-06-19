@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "classification": "food",
+  "scope": "all-current-and-future-copies",
+  "decidedBy": "account-owner",
+  "relicTypes": [
+    { "typeId": 2, "name": "Mask of Rage" },
+    { "typeId": 1, "name": "Unholy Grail" },
+    { "typeId": 4, "name": "Rod of Blasphemy" },
+    { "typeId": 6, "name": "Diadem of Undeath" },
+    { "typeId": 49, "name": "Tempus Morbidia" },
+    { "typeId": 58, "name": "Jaws of Hatred" },
+    { "typeId": 25, "name": "The Fleshrender" },
+    { "typeId": 26, "name": "Blackshroud Fan" },
+    { "typeId": 33, "name": "Royal Digit" },
+    { "typeId": 34, "name": "Draught of Ire" }
+  ]
+}
