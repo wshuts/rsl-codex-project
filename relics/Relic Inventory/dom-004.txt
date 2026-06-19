@@ -1,0 +1,15 @@
+{
+  "status": 200,
+  "ok": true,
+  "rootType": "object",
+  "length": null,
+  "rootKeys": [
+    "relicTypes",
+    "relicStoneTypes",
+    "basicRelicRankByRarity",
+    "maxRelicLevelByRank",
+    "statValueByLevel",
+    "statBonusOpeningLevels"
+  ],
+  "firstItem": null
+}

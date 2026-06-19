@@ -1,0 +1,3267 @@
+{
+    "capturedAt": "2026-06-19T01:20:40.925Z",
+    "page": "https://raidoptimiser.hellhades.com/relics",
+    "filtersWarning": "This inventory reflects the filters and sorting active during capture.",
+    "viewport": {
+        "scrollHeight": 19078,
+        "clientHeight": 872,
+        "rowPitch": 154.00001271565756,
+        "baseline": 0,
+        "positionsVisited": 34
+    },
+    "result": {
+        "relicCount": 64,
+        "firstIndex": 0,
+        "lastIndex": 90,
+        "missingIndices": [
+            19,
+            20,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72
+        ],
+        "conflicts": 8
+    },
+    "conflictDetails": [
+        {
+            "index": 22,
+            "previous": {
+                "index": 22,
+                "name": "Golden Elixir",
+                "relicTypeId": "12",
+                "rarity": "epic",
+                "rank": 3,
+                "level": 9,
+                "description": "Wearer is instantly healed by 10% when their HP drops below 50%.",
+                "stats": [
+                    {
+                        "name": "Atk",
+                        "value": "204"
+                    },
+                    {
+                        "name": "Acc",
+                        "value": "16"
+                    },
+                    {
+                        "name": "HP",
+                        "value": "0"
+                    }
+                ],
+                "gemstones": [
+                    {
+                        "slot": 1,
+                        "id": "55",
+                        "empty": false,
+                        "name": "Skill Adept",
+                        "description": "The wearer has a 10% chance to prevent their skills being placed on cooldown during an Extra Turn."
+                    },
+                    {
+                        "slot": 2,
+                        "id": "37",
+                        "empty": false,
+                        "name": "Foekiller",
+                        "description": "The wearer deals 5% more damage against enemies with full HP."
+                    }
+                ],
+                "equipped": true,
+                "wearerId": "Whisper",
+                "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/KnightsRevenant/Epic/Whisper.png"
+            },
+            "replacement": {
+                "index": 22,
+                "name": "Demonic Effigy",
+                "relicTypeId": "11",
+                "rarity": "epic",
+                "rank": 3,
+                "level": 9,
+                "description": "Wearer's Turn Meter increases by 10% whenever one of their allies dies.",
+                "stats": [
+                    {
+                        "name": "HP",
+                        "value": "3185"
+                    },
+                    {
+                        "name": "Res",
+                        "value": "16"
+                    },
+                    {
+                        "name": "Spd",
+                        "value": "0"
+                    }
+                ],
+                "gemstones": [
+                    {
+                        "slot": 1,
+                        "id": "empty_4",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    },
+                    {
+                        "slot": 2,
+                        "id": "empty_1",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    }
+                ],
+                "equipped": false,
+                "wearerId": null,
+                "wearerImage": null
+            }
+        },
+        {
+            "index": 23,
+            "previous": {
+                "index": 23,
+                "name": "Demonic Effigy",
+                "relicTypeId": "11",
+                "rarity": "epic",
+                "rank": 3,
+                "level": 9,
+                "description": "Wearer's Turn Meter increases by 10% whenever one of their allies dies.",
+                "stats": [
+                    {
+                        "name": "HP",
+                        "value": "3185"
+                    },
+                    {
+                        "name": "Res",
+                        "value": "16"
+                    },
+                    {
+                        "name": "Spd",
+                        "value": "0"
+                    }
+                ],
+                "gemstones": [
+                    {
+                        "slot": 1,
+                        "id": "empty_4",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    },
+                    {
+                        "slot": 2,
+                        "id": "empty_1",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    }
+                ],
+                "equipped": false,
+                "wearerId": null,
+                "wearerImage": null
+            },
+            "replacement": {
+                "index": 23,
+                "name": "Valkanen's Grasp",
+                "relicTypeId": "28",
+                "rarity": "epic",
+                "rank": 3,
+                "level": 9,
+                "description": "Wearer reflects 5% of damage absorbed by [Block Damage] or [Unkillable] buffs back to the attacker.",
+                "stats": [
+                    {
+                        "name": "HP",
+                        "value": "3185"
+                    },
+                    {
+                        "name": "Def",
+                        "value": "53"
+                    },
+                    {
+                        "name": "Res",
+                        "value": "0"
+                    }
+                ],
+                "gemstones": [
+                    {
+                        "slot": 1,
+                        "id": "empty_3",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    },
+                    {
+                        "slot": 2,
+                        "id": "empty_4",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    }
+                ],
+                "equipped": false,
+                "wearerId": null,
+                "wearerImage": null
+            }
+        },
+        {
+            "index": 24,
+            "previous": {
+                "index": 24,
+                "name": "Valkanen's Grasp",
+                "relicTypeId": "28",
+                "rarity": "epic",
+                "rank": 3,
+                "level": 9,
+                "description": "Wearer reflects 5% of damage absorbed by [Block Damage] or [Unkillable] buffs back to the attacker.",
+                "stats": [
+                    {
+                        "name": "HP",
+                        "value": "3185"
+                    },
+                    {
+                        "name": "Def",
+                        "value": "53"
+                    },
+                    {
+                        "name": "Res",
+                        "value": "0"
+                    }
+                ],
+                "gemstones": [
+                    {
+                        "slot": 1,
+                        "id": "empty_3",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    },
+                    {
+                        "slot": 2,
+                        "id": "empty_4",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    }
+                ],
+                "equipped": false,
+                "wearerId": null,
+                "wearerImage": null
+            },
+            "replacement": {
+                "index": 24,
+                "name": "Gilded Dragonstone",
+                "relicTypeId": "10",
+                "rarity": "epic",
+                "rank": 3,
+                "level": 9,
+                "description": "Wearer's DEF increases by 1% each time they receive damage (stacks up to 10%).",
+                "stats": [
+                    {
+                        "name": "Def",
+                        "value": "204"
+                    },
+                    {
+                        "name": "Res",
+                        "value": "16"
+                    },
+                    {
+                        "name": "HP",
+                        "value": "0"
+                    }
+                ],
+                "gemstones": [
+                    {
+                        "slot": 1,
+                        "id": "empty_3",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    },
+                    {
+                        "slot": 2,
+                        "id": "empty_1",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    }
+                ],
+                "equipped": false,
+                "wearerId": null,
+                "wearerImage": null
+            }
+        },
+        {
+            "index": 25,
+            "previous": {
+                "index": 25,
+                "name": "Gilded Dragonstone",
+                "relicTypeId": "10",
+                "rarity": "epic",
+                "rank": 3,
+                "level": 9,
+                "description": "Wearer's DEF increases by 1% each time they receive damage (stacks up to 10%).",
+                "stats": [
+                    {
+                        "name": "Def",
+                        "value": "204"
+                    },
+                    {
+                        "name": "Res",
+                        "value": "16"
+                    },
+                    {
+                        "name": "HP",
+                        "value": "0"
+                    }
+                ],
+                "gemstones": [
+                    {
+                        "slot": 1,
+                        "id": "empty_3",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    },
+                    {
+                        "slot": 2,
+                        "id": "empty_1",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    }
+                ],
+                "equipped": false,
+                "wearerId": null,
+                "wearerImage": null
+            },
+            "replacement": {
+                "index": 25,
+                "name": "Revolting Seedling",
+                "relicTypeId": "68",
+                "rarity": "epic",
+                "rank": 3,
+                "level": 9,
+                "description": "Whenever the wearer receives damage, has a 20% chance to heal themselves by 20% of the damage received.",
+                "stats": [
+                    {
+                        "name": "HP",
+                        "value": "3185"
+                    },
+                    {
+                        "name": "Def",
+                        "value": "53"
+                    },
+                    {
+                        "name": "Res",
+                        "value": "0"
+                    }
+                ],
+                "gemstones": [
+                    {
+                        "slot": 1,
+                        "id": "empty_3",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    },
+                    {
+                        "slot": 2,
+                        "id": "empty_1",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    }
+                ],
+                "equipped": false,
+                "wearerId": null,
+                "wearerImage": null
+            }
+        },
+        {
+            "index": 26,
+            "previous": {
+                "index": 26,
+                "name": "Revolting Seedling",
+                "relicTypeId": "68",
+                "rarity": "epic",
+                "rank": 3,
+                "level": 9,
+                "description": "Whenever the wearer receives damage, has a 20% chance to heal themselves by 20% of the damage received.",
+                "stats": [
+                    {
+                        "name": "HP",
+                        "value": "3185"
+                    },
+                    {
+                        "name": "Def",
+                        "value": "53"
+                    },
+                    {
+                        "name": "Res",
+                        "value": "0"
+                    }
+                ],
+                "gemstones": [
+                    {
+                        "slot": 1,
+                        "id": "empty_3",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    },
+                    {
+                        "slot": 2,
+                        "id": "empty_1",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    }
+                ],
+                "equipped": false,
+                "wearerId": null,
+                "wearerImage": null
+            },
+            "replacement": {
+                "index": 26,
+                "name": "Golden Elixir",
+                "relicTypeId": "12",
+                "rarity": "epic",
+                "rank": 3,
+                "level": 9,
+                "description": "Wearer is instantly healed by 10% when their HP drops below 50%.",
+                "stats": [
+                    {
+                        "name": "Atk",
+                        "value": "204"
+                    },
+                    {
+                        "name": "Acc",
+                        "value": "16"
+                    },
+                    {
+                        "name": "HP",
+                        "value": "0"
+                    }
+                ],
+                "gemstones": [
+                    {
+                        "slot": 1,
+                        "id": "36",
+                        "empty": false,
+                        "name": "Growing Resolve",
+                        "description": "The wearer's RES increases by 5 whenever a debuff is placed on them (stacks up to 40)."
+                    },
+                    {
+                        "slot": 2,
+                        "id": "60",
+                        "empty": false,
+                        "name": "Puppetmaster",
+                        "description": "The wearer gains an additional 30 ACC when attempting to place <color=#1ee600>[Stun]</color>, <color=#1ee600>[Freeze]</color>, <color=#1ee600>[Sleep]</color>, <color=#1ee600>[Provoke]</color>, <color=#1ee600>[Fear]</color>, <color=#1ee600>[True Fear]</color>, <color=#1ee600>[Petrification]</color>, and <color=#1ee600>[Sheep]</color> debuffs."
+                    }
+                ],
+                "equipped": true,
+                "wearerId": "YakarltheScourge",
+                "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/Barbarians/Legendary/YakarltheScourge.png"
+            }
+        },
+        {
+            "index": 24,
+            "previous": {
+                "index": 24,
+                "name": "Valkanen's Grasp",
+                "relicTypeId": "28",
+                "rarity": "epic",
+                "rank": 3,
+                "level": 9,
+                "description": "Wearer reflects 5% of damage absorbed by [Block Damage] or [Unkillable] buffs back to the attacker.",
+                "stats": [
+                    {
+                        "name": "HP",
+                        "value": "3185"
+                    },
+                    {
+                        "name": "Def",
+                        "value": "53"
+                    },
+                    {
+                        "name": "Res",
+                        "value": "0"
+                    }
+                ],
+                "gemstones": [
+                    {
+                        "slot": 1,
+                        "id": "empty_3",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    },
+                    {
+                        "slot": 2,
+                        "id": "empty_4",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    }
+                ],
+                "equipped": false,
+                "wearerId": null,
+                "wearerImage": null
+            },
+            "replacement": {
+                "index": 24,
+                "name": "Gilded Dragonstone",
+                "relicTypeId": "10",
+                "rarity": "epic",
+                "rank": 3,
+                "level": 9,
+                "description": "Wearer's DEF increases by 1% each time they receive damage (stacks up to 10%).",
+                "stats": [
+                    {
+                        "name": "Def",
+                        "value": "204"
+                    },
+                    {
+                        "name": "Res",
+                        "value": "16"
+                    },
+                    {
+                        "name": "HP",
+                        "value": "0"
+                    }
+                ],
+                "gemstones": [
+                    {
+                        "slot": 1,
+                        "id": "empty_3",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    },
+                    {
+                        "slot": 2,
+                        "id": "empty_1",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    }
+                ],
+                "equipped": false,
+                "wearerId": null,
+                "wearerImage": null
+            }
+        },
+        {
+            "index": 25,
+            "previous": {
+                "index": 25,
+                "name": "Gilded Dragonstone",
+                "relicTypeId": "10",
+                "rarity": "epic",
+                "rank": 3,
+                "level": 9,
+                "description": "Wearer's DEF increases by 1% each time they receive damage (stacks up to 10%).",
+                "stats": [
+                    {
+                        "name": "Def",
+                        "value": "204"
+                    },
+                    {
+                        "name": "Res",
+                        "value": "16"
+                    },
+                    {
+                        "name": "HP",
+                        "value": "0"
+                    }
+                ],
+                "gemstones": [
+                    {
+                        "slot": 1,
+                        "id": "empty_3",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    },
+                    {
+                        "slot": 2,
+                        "id": "empty_1",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    }
+                ],
+                "equipped": false,
+                "wearerId": null,
+                "wearerImage": null
+            },
+            "replacement": {
+                "index": 25,
+                "name": "Revolting Seedling",
+                "relicTypeId": "68",
+                "rarity": "epic",
+                "rank": 3,
+                "level": 9,
+                "description": "Whenever the wearer receives damage, has a 20% chance to heal themselves by 20% of the damage received.",
+                "stats": [
+                    {
+                        "name": "HP",
+                        "value": "3185"
+                    },
+                    {
+                        "name": "Def",
+                        "value": "53"
+                    },
+                    {
+                        "name": "Res",
+                        "value": "0"
+                    }
+                ],
+                "gemstones": [
+                    {
+                        "slot": 1,
+                        "id": "empty_3",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    },
+                    {
+                        "slot": 2,
+                        "id": "empty_1",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    }
+                ],
+                "equipped": false,
+                "wearerId": null,
+                "wearerImage": null
+            }
+        },
+        {
+            "index": 26,
+            "previous": {
+                "index": 26,
+                "name": "Revolting Seedling",
+                "relicTypeId": "68",
+                "rarity": "epic",
+                "rank": 3,
+                "level": 9,
+                "description": "Whenever the wearer receives damage, has a 20% chance to heal themselves by 20% of the damage received.",
+                "stats": [
+                    {
+                        "name": "HP",
+                        "value": "3185"
+                    },
+                    {
+                        "name": "Def",
+                        "value": "53"
+                    },
+                    {
+                        "name": "Res",
+                        "value": "0"
+                    }
+                ],
+                "gemstones": [
+                    {
+                        "slot": 1,
+                        "id": "empty_3",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    },
+                    {
+                        "slot": 2,
+                        "id": "empty_1",
+                        "empty": true,
+                        "name": "Empty Socket",
+                        "description": "Empty Socket"
+                    }
+                ],
+                "equipped": false,
+                "wearerId": null,
+                "wearerImage": null
+            },
+            "replacement": {
+                "index": 26,
+                "name": "Golden Elixir",
+                "relicTypeId": "12",
+                "rarity": "epic",
+                "rank": 3,
+                "level": 9,
+                "description": "Wearer is instantly healed by 10% when their HP drops below 50%.",
+                "stats": [
+                    {
+                        "name": "Atk",
+                        "value": "204"
+                    },
+                    {
+                        "name": "Acc",
+                        "value": "16"
+                    },
+                    {
+                        "name": "HP",
+                        "value": "0"
+                    }
+                ],
+                "gemstones": [
+                    {
+                        "slot": 1,
+                        "id": "36",
+                        "empty": false,
+                        "name": "Growing Resolve",
+                        "description": "The wearer's RES increases by 5 whenever a debuff is placed on them (stacks up to 40)."
+                    },
+                    {
+                        "slot": 2,
+                        "id": "60",
+                        "empty": false,
+                        "name": "Puppetmaster",
+                        "description": "The wearer gains an additional 30 ACC when attempting to place <color=#1ee600>[Stun]</color>, <color=#1ee600>[Freeze]</color>, <color=#1ee600>[Sleep]</color>, <color=#1ee600>[Provoke]</color>, <color=#1ee600>[Fear]</color>, <color=#1ee600>[True Fear]</color>, <color=#1ee600>[Petrification]</color>, and <color=#1ee600>[Sheep]</color> debuffs."
+                    }
+                ],
+                "equipped": true,
+                "wearerId": "YakarltheScourge",
+                "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/Barbarians/Legendary/YakarltheScourge.png"
+            }
+        }
+    ],
+    "relics": [
+        {
+            "index": 0,
+            "name": "Wand of Submission",
+            "relicTypeId": "17",
+            "rarity": "legendary",
+            "rank": 5,
+            "level": 15,
+            "description": "Wearer has a 25% chance to reflect [Stun], [Sleep], [Fear], [True Fear], [Freeze], [Provoke], [Petrification], and [Sheep] debuffs back at the producer.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "4709"
+                },
+                {
+                    "name": "Spd",
+                    "value": "9"
+                },
+                {
+                    "name": "Acc",
+                    "value": "16"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "8",
+                    "empty": false,
+                    "name": "Enhanced Shot",
+                    "description": "The wearer's ACC increases by 3 per each buff on them."
+                },
+                {
+                    "slot": 2,
+                    "id": "17",
+                    "empty": false,
+                    "name": "Invigorated",
+                    "description": "Turn Meter increase effects are 10% more effective on the wearer."
+                },
+                {
+                    "slot": 3,
+                    "id": "17",
+                    "empty": false,
+                    "name": "Invigorated",
+                    "description": "Turn Meter increase effects are 10% more effective on the wearer."
+                }
+            ],
+            "equipped": true,
+            "wearerId": "EmbrystheAnomaly",
+            "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/KnightsRevenant/Mythical/EmbrystheAnomaly.png"
+        },
+        {
+            "index": 1,
+            "name": "Unholy Grail",
+            "relicTypeId": "1",
+            "rarity": "rare",
+            "rank": 5,
+            "level": 15,
+            "description": "Wearer deals 2% more damage if under any debuffs.",
+            "stats": [
+                {
+                    "name": "Atk",
+                    "value": "306"
+                },
+                {
+                    "name": "HP",
+                    "value": "2424"
+                },
+                {
+                    "name": "C.Dmg",
+                    "value": "6%"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 2,
+            "name": "Malefic Talon",
+            "relicTypeId": "5",
+            "rarity": "rare",
+            "rank": 5,
+            "level": 15,
+            "description": "Wearer has a 20% chance to deal 10% more damage when attacking.",
+            "stats": [
+                {
+                    "name": "C.Dmg",
+                    "value": "31%"
+                },
+                {
+                    "name": "HP",
+                    "value": "2424"
+                },
+                {
+                    "name": "Atk",
+                    "value": "53"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "1",
+                    "empty": false,
+                    "name": "Lifedrain",
+                    "description": "The wearer's critical hits destroy 1% of the target's MAX HP per each buff on the wearer (stacks up to 20%)."
+                }
+            ],
+            "equipped": true,
+            "wearerId": "SunWukong",
+            "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/Skinwalkers/Legendary/SunWukong.png"
+        },
+        {
+            "index": 3,
+            "name": "Aspect of Siroth",
+            "relicTypeId": "16",
+            "rarity": "legendary",
+            "rank": 4,
+            "level": 12,
+            "description": "When wearer receives fatal damage, reduces it by 50% of their Turn Meter and then fully reduces their Turn Meter. Cooldown: 1 turn.",
+            "stats": [
+                {
+                    "name": "Def",
+                    "value": "255"
+                },
+                {
+                    "name": "Res",
+                    "value": "28"
+                },
+                {
+                    "name": "Acc",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "31",
+                    "empty": false,
+                    "name": "Weak Retort",
+                    "description": "The wearer receives 15% less damage from counterattacks."
+                },
+                {
+                    "slot": 2,
+                    "id": "20",
+                    "empty": false,
+                    "name": "Critical Bolster",
+                    "description": "The wearer's DEF increases by 1% each time they receive a critical hit (stacks up to 10%)."
+                },
+                {
+                    "slot": 3,
+                    "id": "37",
+                    "empty": false,
+                    "name": "Foekiller",
+                    "description": "The wearer deals 5% more damage against enemies with full HP."
+                }
+            ],
+            "equipped": true,
+            "wearerId": "GoffredBrassclad",
+            "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/Dwarves/Legendary/GoffredBrassclad.png"
+        },
+        {
+            "index": 4,
+            "name": "Hatter's Reserve",
+            "relicTypeId": "23",
+            "rarity": "epic",
+            "rank": 4,
+            "level": 12,
+            "description": "Wearer receives 5% less damage from enemies whose ATK is lower than the wearer's. Also inflicts 5% more damage to enemies whose MAX HP is lower than the wearer's.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "3947"
+                },
+                {
+                    "name": "Atk",
+                    "value": "104"
+                },
+                {
+                    "name": "C.Dmg",
+                    "value": "0%"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "3",
+                    "empty": false,
+                    "name": "Pierce Defenses",
+                    "description": "The wearer will ignore 3% of the target's DEF if the target is under 2 or more debuffs."
+                },
+                {
+                    "slot": 2,
+                    "id": "11",
+                    "empty": false,
+                    "name": "Embellished Shield",
+                    "description": "<color=#1ee600>[Shield]</color> buffs placed on the wearer are 10% stronger."
+                }
+            ],
+            "equipped": true,
+            "wearerId": "Arix",
+            "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/KnightsRevenant/Legendary/Arix.png"
+        },
+        {
+            "index": 5,
+            "name": "Gilded Dragonstone",
+            "relicTypeId": "10",
+            "rarity": "epic",
+            "rank": 4,
+            "level": 12,
+            "description": "Wearer's DEF increases by 1% each time they receive damage (stacks up to 10%).",
+            "stats": [
+                {
+                    "name": "Def",
+                    "value": "255"
+                },
+                {
+                    "name": "Res",
+                    "value": "28"
+                },
+                {
+                    "name": "HP",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "11",
+                    "empty": false,
+                    "name": "Embellished Shield",
+                    "description": "<color=#1ee600>[Shield]</color> buffs placed on the wearer are 10% stronger."
+                },
+                {
+                    "slot": 2,
+                    "id": "20",
+                    "empty": false,
+                    "name": "Critical Bolster",
+                    "description": "The wearer's DEF increases by 1% each time they receive a critical hit (stacks up to 10%)."
+                }
+            ],
+            "equipped": true,
+            "wearerId": "FreyjaFateweaver",
+            "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/Barbarians/Legendary/FreyjaFateweaver.png"
+        },
+        {
+            "index": 6,
+            "name": "Orb of Transfixion",
+            "relicTypeId": "14",
+            "rarity": "epic",
+            "rank": 4,
+            "level": 12,
+            "description": "Wearer has a 10% chance to steal 1 random buff when attacking a target. This effect cannot be resisted. Occurs once per skill.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "3947"
+                },
+                {
+                    "name": "Acc",
+                    "value": "28"
+                },
+                {
+                    "name": "Spd",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "38",
+                    "empty": false,
+                    "name": "Targetfinder",
+                    "description": "The wearer's ACC increases by 5 whenever an enemy resists a debuff placed by the wearer (stacks up to 40)."
+                },
+                {
+                    "slot": 2,
+                    "id": "17",
+                    "empty": false,
+                    "name": "Invigorated",
+                    "description": "Turn Meter increase effects are 10% more effective on the wearer."
+                }
+            ],
+            "equipped": true,
+            "wearerId": "Warlord",
+            "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/Orcs/Legendary/Warlord.png"
+        },
+        {
+            "index": 7,
+            "name": "Exuzar’s Totem",
+            "relicTypeId": "59",
+            "rarity": "epic",
+            "rank": 4,
+            "level": 12,
+            "description": "Wearer's Turn Meter increases by 10%, whenever an ally receives a [Stun], [Sleep], [Fear], [True Fear], [Freeze], [Provoke], or [Petrification] debuff. Occurs once per turn.",
+            "stats": [
+                {
+                    "name": "Acc",
+                    "value": "62"
+                },
+                {
+                    "name": "HP",
+                    "value": "1662"
+                },
+                {
+                    "name": "Spd",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "51",
+                    "empty": false,
+                    "name": "Weakening Resolve",
+                    "description": "When attacked with a multi-hit skill, decreases the damage the wearer receives from each subsequent hit after the first one by 10%."
+                },
+                {
+                    "slot": 2,
+                    "id": "33",
+                    "empty": false,
+                    "name": "Assured Security",
+                    "description": "The wearer's RES increases by 30 against buff removal and buff steal effects."
+                }
+            ],
+            "equipped": true,
+            "wearerId": "AuthoratrixLamasu",
+            "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/Demonspawn/Legendary/AuthoratrixLamasu.png"
+        },
+        {
+            "index": 8,
+            "name": "Darksmile's Toast",
+            "relicTypeId": "84",
+            "rarity": "epic",
+            "rank": 4,
+            "level": 12,
+            "description": "Whenever the wearer's Turn Meter is filled by a skill, also heals the wearer by 3% of their MAX HP. Occurs once per turn.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "3947"
+                },
+                {
+                    "name": "Acc",
+                    "value": "28"
+                },
+                {
+                    "name": "Spd",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "25",
+                    "empty": false,
+                    "name": "Revival Blessing",
+                    "description": "Allies revived by the wearer are additionally healed by 10% of their HP."
+                },
+                {
+                    "slot": 2,
+                    "id": "36",
+                    "empty": false,
+                    "name": "Growing Resolve",
+                    "description": "The wearer's RES increases by 5 whenever a debuff is placed on them (stacks up to 40)."
+                }
+            ],
+            "equipped": true,
+            "wearerId": "Sulfuryion",
+            "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/LizardMen/Legendary/Sulfuryion.png"
+        },
+        {
+            "index": 9,
+            "name": "The Fleshrender",
+            "relicTypeId": "25",
+            "rarity": "rare",
+            "rank": 4,
+            "level": 9,
+            "description": "Wearer increases the damage of each hit on their next attack by 3% of any surplus heal when self-healing. Damage cannot be increased by more than 20,000, and will reset after each attack.",
+            "stats": [
+                {
+                    "name": "Def",
+                    "value": "204"
+                },
+                {
+                    "name": "HP",
+                    "value": "900"
+                },
+                {
+                    "name": "C.Dmg",
+                    "value": "0%"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_2",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 10,
+            "name": "Rod of Blasphemy",
+            "relicTypeId": "4",
+            "rarity": "rare",
+            "rank": 4,
+            "level": 9,
+            "description": "Wearer receives 2% less damage if under any debuffs.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "3185"
+                },
+                {
+                    "name": "Atk",
+                    "value": "53"
+                },
+                {
+                    "name": "Acc",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 11,
+            "name": "Mask of Rage",
+            "relicTypeId": "2",
+            "rarity": "rare",
+            "rank": 4,
+            "level": 9,
+            "description": "Wearer receives 5% less damage from enemies under a [Provoke] debuff.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "3185"
+                },
+                {
+                    "name": "Def",
+                    "value": "53"
+                },
+                {
+                    "name": "Acc",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 12,
+            "name": "Diadem of Undeath",
+            "relicTypeId": "6",
+            "rarity": "rare",
+            "rank": 4,
+            "level": 9,
+            "description": "Wearer's DEF increases by 1% for each ally under an [Ally Protection] buff placed by them.",
+            "stats": [
+                {
+                    "name": "Def",
+                    "value": "204"
+                },
+                {
+                    "name": "HP",
+                    "value": "900"
+                },
+                {
+                    "name": "Res",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_3",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 13,
+            "name": "Diadem of Undeath",
+            "relicTypeId": "6",
+            "rarity": "rare",
+            "rank": 4,
+            "level": 9,
+            "description": "Wearer's DEF increases by 1% for each ally under an [Ally Protection] buff placed by them.",
+            "stats": [
+                {
+                    "name": "Def",
+                    "value": "204"
+                },
+                {
+                    "name": "HP",
+                    "value": "900"
+                },
+                {
+                    "name": "Res",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_3",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 14,
+            "name": "Mask of Rage",
+            "relicTypeId": "2",
+            "rarity": "rare",
+            "rank": 4,
+            "level": 9,
+            "description": "Wearer receives 5% less damage from enemies under a [Provoke] debuff.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "3185"
+                },
+                {
+                    "name": "Def",
+                    "value": "53"
+                },
+                {
+                    "name": "Acc",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 15,
+            "name": "Aspect of Siroth",
+            "relicTypeId": "16",
+            "rarity": "legendary",
+            "rank": 3,
+            "level": 9,
+            "description": "When wearer receives fatal damage, reduces it by 50% of their Turn Meter and then fully reduces their Turn Meter. Cooldown: 1 turn.",
+            "stats": [
+                {
+                    "name": "Def",
+                    "value": "204"
+                },
+                {
+                    "name": "Res",
+                    "value": "16"
+                },
+                {
+                    "name": "Acc",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "11",
+                    "empty": false,
+                    "name": "Embellished Shield",
+                    "description": "<color=#1ee600>[Shield]</color> buffs placed on the wearer are 10% stronger."
+                },
+                {
+                    "slot": 2,
+                    "id": "40",
+                    "empty": false,
+                    "name": "Unflinching",
+                    "description": "Bosses deal 5% less damage to the wearer."
+                },
+                {
+                    "slot": 3,
+                    "id": "20",
+                    "empty": false,
+                    "name": "Critical Bolster",
+                    "description": "The wearer's DEF increases by 1% each time they receive a critical hit (stacks up to 10%)."
+                }
+            ],
+            "equipped": true,
+            "wearerId": "FirroltheBarkhorn",
+            "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/SylvanWatchers/Legendary/FirroltheBarkhorn.png"
+        },
+        {
+            "index": 16,
+            "name": "Soulmar Crystal",
+            "relicTypeId": "69",
+            "rarity": "legendary",
+            "rank": 3,
+            "level": 9,
+            "description": "Once per Round, wearer has a 50% chance of activating an [Instant Turn] effect when one or more allies are killed.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "3185"
+                },
+                {
+                    "name": "Spd",
+                    "value": "3"
+                },
+                {
+                    "name": "Res",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "20",
+                    "empty": false,
+                    "name": "Critical Bolster",
+                    "description": "The wearer's DEF increases by 1% each time they receive a critical hit (stacks up to 10%)."
+                },
+                {
+                    "slot": 2,
+                    "id": "7",
+                    "empty": false,
+                    "name": "Blessed Heal",
+                    "description": "When the wearer heals an ally with a skill, the heal is 10% more effective."
+                },
+                {
+                    "slot": 3,
+                    "id": "18",
+                    "empty": false,
+                    "name": "Unstoppable",
+                    "description": "Turn Meter reduction effects from enemies are 10% less effective on the wearer."
+                }
+            ],
+            "equipped": true,
+            "wearerId": "ElvaAutumnborn",
+            "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/SylvanWatchers/Legendary/ElvaAutumnborn.png"
+        },
+        {
+            "index": 17,
+            "name": "Last Laugh Amulet",
+            "relicTypeId": "61",
+            "rarity": "legendary",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer has a 30% chance to activate a [Delay] effect when receiving fatal damage. 3-turn cooldown.",
+            "stats": [
+                {
+                    "name": "Atk",
+                    "value": "204"
+                },
+                {
+                    "name": "HP",
+                    "value": "900"
+                },
+                {
+                    "name": "C.Dmg",
+                    "value": "0%"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "24",
+                    "empty": false,
+                    "name": "Target Smash",
+                    "description": "The wearer's damage increases by 1% per 100 of their total ACC."
+                },
+                {
+                    "slot": 2,
+                    "id": "37",
+                    "empty": false,
+                    "name": "Foekiller",
+                    "description": "The wearer deals 5% more damage against enemies with full HP."
+                },
+                {
+                    "slot": 3,
+                    "id": "27",
+                    "empty": false,
+                    "name": "Starting Strength",
+                    "description": "The wearer's RES increases by 30 until they take a turn. Resets each Round."
+                }
+            ],
+            "equipped": true,
+            "wearerId": "Basher",
+            "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/Skinwalkers/Epic/Basher.png"
+        },
+        {
+            "index": 18,
+            "name": "Gorecrescent",
+            "relicTypeId": "15",
+            "rarity": "legendary",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer's next attack after killing an enemy deals 20% more damage.",
+            "stats": [
+                {
+                    "name": "Atk",
+                    "value": "204"
+                },
+                {
+                    "name": "C.Dmg",
+                    "value": "6%"
+                },
+                {
+                    "name": "Spd",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "44",
+                    "empty": false,
+                    "name": "Piercing Strike",
+                    "description": "After killing an enemy, the wearer's next attack will ignore 12% of the target's DEF."
+                },
+                {
+                    "slot": 2,
+                    "id": "37",
+                    "empty": false,
+                    "name": "Foekiller",
+                    "description": "The wearer deals 5% more damage against enemies with full HP."
+                },
+                {
+                    "slot": 3,
+                    "id": "17",
+                    "empty": false,
+                    "name": "Invigorated",
+                    "description": "Turn Meter increase effects are 10% more effective on the wearer."
+                }
+            ],
+            "equipped": true,
+            "wearerId": "VesteleRiverthorn",
+            "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/SylvanWatchers/Legendary/VesteleRiverthorn.png"
+        },
+        {
+            "index": 21,
+            "name": "Golden Elixir",
+            "relicTypeId": "12",
+            "rarity": "epic",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer is instantly healed by 10% when their HP drops below 50%.",
+            "stats": [
+                {
+                    "name": "Atk",
+                    "value": "204"
+                },
+                {
+                    "name": "Acc",
+                    "value": "16"
+                },
+                {
+                    "name": "HP",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "55",
+                    "empty": false,
+                    "name": "Skill Adept",
+                    "description": "The wearer has a 10% chance to prevent their skills being placed on cooldown during an Extra Turn."
+                },
+                {
+                    "slot": 2,
+                    "id": "37",
+                    "empty": false,
+                    "name": "Foekiller",
+                    "description": "The wearer deals 5% more damage against enemies with full HP."
+                }
+            ],
+            "equipped": true,
+            "wearerId": "Whisper",
+            "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/KnightsRevenant/Epic/Whisper.png"
+        },
+        {
+            "index": 22,
+            "name": "Golden Elixir",
+            "relicTypeId": "12",
+            "rarity": "epic",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer is instantly healed by 10% when their HP drops below 50%.",
+            "stats": [
+                {
+                    "name": "Atk",
+                    "value": "204"
+                },
+                {
+                    "name": "Acc",
+                    "value": "16"
+                },
+                {
+                    "name": "HP",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "55",
+                    "empty": false,
+                    "name": "Skill Adept",
+                    "description": "The wearer has a 10% chance to prevent their skills being placed on cooldown during an Extra Turn."
+                },
+                {
+                    "slot": 2,
+                    "id": "37",
+                    "empty": false,
+                    "name": "Foekiller",
+                    "description": "The wearer deals 5% more damage against enemies with full HP."
+                }
+            ],
+            "equipped": true,
+            "wearerId": "Whisper",
+            "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/KnightsRevenant/Epic/Whisper.png"
+        },
+        {
+            "index": 23,
+            "name": "Demonic Effigy",
+            "relicTypeId": "11",
+            "rarity": "epic",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer's Turn Meter increases by 10% whenever one of their allies dies.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "3185"
+                },
+                {
+                    "name": "Res",
+                    "value": "16"
+                },
+                {
+                    "name": "Spd",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_4",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                },
+                {
+                    "slot": 2,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 24,
+            "name": "Valkanen's Grasp",
+            "relicTypeId": "28",
+            "rarity": "epic",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer reflects 5% of damage absorbed by [Block Damage] or [Unkillable] buffs back to the attacker.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "3185"
+                },
+                {
+                    "name": "Def",
+                    "value": "53"
+                },
+                {
+                    "name": "Res",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_3",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                },
+                {
+                    "slot": 2,
+                    "id": "empty_4",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 25,
+            "name": "Gilded Dragonstone",
+            "relicTypeId": "10",
+            "rarity": "epic",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer's DEF increases by 1% each time they receive damage (stacks up to 10%).",
+            "stats": [
+                {
+                    "name": "Def",
+                    "value": "204"
+                },
+                {
+                    "name": "Res",
+                    "value": "16"
+                },
+                {
+                    "name": "HP",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_3",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                },
+                {
+                    "slot": 2,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 26,
+            "name": "Revolting Seedling",
+            "relicTypeId": "68",
+            "rarity": "epic",
+            "rank": 3,
+            "level": 9,
+            "description": "Whenever the wearer receives damage, has a 20% chance to heal themselves by 20% of the damage received.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "3185"
+                },
+                {
+                    "name": "Def",
+                    "value": "53"
+                },
+                {
+                    "name": "Res",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_3",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                },
+                {
+                    "slot": 2,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 27,
+            "name": "Exuzar’s Totem",
+            "relicTypeId": "59",
+            "rarity": "epic",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer's Turn Meter increases by 10%, whenever an ally receives a [Stun], [Sleep], [Fear], [True Fear], [Freeze], [Provoke], or [Petrification] debuff. Occurs once per turn.",
+            "stats": [
+                {
+                    "name": "Acc",
+                    "value": "51"
+                },
+                {
+                    "name": "HP",
+                    "value": "900"
+                },
+                {
+                    "name": "Spd",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_3",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                },
+                {
+                    "slot": 2,
+                    "id": "empty_5",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 28,
+            "name": "Scroll of the Unseen",
+            "relicTypeId": "13",
+            "rarity": "epic",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer's damage increases by 1% each time any other Champion takes a turn when the wearer is under a [Veil] or [Perfect Veil] buff (stacks up to 30%). Damage bonus resets after the wearer takes a turn.",
+            "stats": [
+                {
+                    "name": "Atk",
+                    "value": "204"
+                },
+                {
+                    "name": "C.Dmg",
+                    "value": "6%"
+                },
+                {
+                    "name": "Spd",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                },
+                {
+                    "slot": 2,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 29,
+            "name": "Demonic Effigy",
+            "relicTypeId": "11",
+            "rarity": "epic",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer's Turn Meter increases by 10% whenever one of their allies dies.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "3185"
+                },
+                {
+                    "name": "Res",
+                    "value": "16"
+                },
+                {
+                    "name": "Spd",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_4",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                },
+                {
+                    "slot": 2,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 30,
+            "name": "Golden Elixir",
+            "relicTypeId": "12",
+            "rarity": "epic",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer is instantly healed by 10% when their HP drops below 50%.",
+            "stats": [
+                {
+                    "name": "Atk",
+                    "value": "204"
+                },
+                {
+                    "name": "Acc",
+                    "value": "16"
+                },
+                {
+                    "name": "HP",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "16",
+                    "empty": false,
+                    "name": "In For The Kill",
+                    "description": "The wearer gains 3% Turn Meter whenever an enemy loses 25% or more HP. Cannot gain more than 20% Turn Meter in a single turn."
+                },
+                {
+                    "slot": 2,
+                    "id": "38",
+                    "empty": false,
+                    "name": "Targetfinder",
+                    "description": "The wearer's ACC increases by 5 whenever an enemy resists a debuff placed by the wearer (stacks up to 40)."
+                }
+            ],
+            "equipped": true,
+            "wearerId": "Coldheart",
+            "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/DarkElves/Rare/Coldheart.png"
+        },
+        {
+            "index": 31,
+            "name": "Scroll of the Unseen",
+            "relicTypeId": "13",
+            "rarity": "epic",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer's damage increases by 1% each time any other Champion takes a turn when the wearer is under a [Veil] or [Perfect Veil] buff (stacks up to 30%). Damage bonus resets after the wearer takes a turn.",
+            "stats": [
+                {
+                    "name": "Atk",
+                    "value": "204"
+                },
+                {
+                    "name": "C.Dmg",
+                    "value": "6%"
+                },
+                {
+                    "name": "Spd",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                },
+                {
+                    "slot": 2,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 32,
+            "name": "Demonic Effigy",
+            "relicTypeId": "11",
+            "rarity": "epic",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer's Turn Meter increases by 10% whenever one of their allies dies.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "3185"
+                },
+                {
+                    "name": "Res",
+                    "value": "16"
+                },
+                {
+                    "name": "Spd",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "7",
+                    "empty": false,
+                    "name": "Blessed Heal",
+                    "description": "When the wearer heals an ally with a skill, the heal is 10% more effective."
+                },
+                {
+                    "slot": 2,
+                    "id": "20",
+                    "empty": false,
+                    "name": "Critical Bolster",
+                    "description": "The wearer's DEF increases by 1% each time they receive a critical hit (stacks up to 10%)."
+                }
+            ],
+            "equipped": true,
+            "wearerId": "RectorDrath",
+            "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/KnightsRevenant/Epic/RectorDrath.png"
+        },
+        {
+            "index": 33,
+            "name": "Demonic Effigy",
+            "relicTypeId": "11",
+            "rarity": "epic",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer's Turn Meter increases by 10% whenever one of their allies dies.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "3185"
+                },
+                {
+                    "name": "Res",
+                    "value": "16"
+                },
+                {
+                    "name": "Spd",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "25",
+                    "empty": false,
+                    "name": "Revival Blessing",
+                    "description": "Allies revived by the wearer are additionally healed by 10% of their HP."
+                },
+                {
+                    "slot": 2,
+                    "id": "20",
+                    "empty": false,
+                    "name": "Critical Bolster",
+                    "description": "The wearer's DEF increases by 1% each time they receive a critical hit (stacks up to 10%)."
+                }
+            ],
+            "equipped": true,
+            "wearerId": "MelgaSteelgirdle",
+            "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/Dwarves/Epic/MelgaSteelgirdle.png"
+        },
+        {
+            "index": 34,
+            "name": "Golden Elixir",
+            "relicTypeId": "12",
+            "rarity": "epic",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer is instantly healed by 10% when their HP drops below 50%.",
+            "stats": [
+                {
+                    "name": "Atk",
+                    "value": "204"
+                },
+                {
+                    "name": "Acc",
+                    "value": "16"
+                },
+                {
+                    "name": "HP",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_5",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                },
+                {
+                    "slot": 2,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 35,
+            "name": "Golden Elixir",
+            "relicTypeId": "12",
+            "rarity": "epic",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer is instantly healed by 10% when their HP drops below 50%.",
+            "stats": [
+                {
+                    "name": "Atk",
+                    "value": "204"
+                },
+                {
+                    "name": "Acc",
+                    "value": "16"
+                },
+                {
+                    "name": "HP",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "13",
+                    "empty": false,
+                    "name": "Extra Velocity",
+                    "description": "The wearer's Turn Meter increases by 3% whenever the wearer fails to place a debuff. Cannot increase the wearer's Turn Meter by more than 20% in a single turn."
+                },
+                {
+                    "slot": 2,
+                    "id": "40",
+                    "empty": false,
+                    "name": "Unflinching",
+                    "description": "Bosses deal 5% less damage to the wearer."
+                }
+            ],
+            "equipped": true,
+            "wearerId": "LeminisitheGoldwing",
+            "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/SylvanWatchers/Legendary/LeminisitheGoldwing.png"
+        },
+        {
+            "index": 36,
+            "name": "Gilded Dragonstone",
+            "relicTypeId": "10",
+            "rarity": "epic",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer's DEF increases by 1% each time they receive damage (stacks up to 10%).",
+            "stats": [
+                {
+                    "name": "Def",
+                    "value": "204"
+                },
+                {
+                    "name": "Res",
+                    "value": "16"
+                },
+                {
+                    "name": "HP",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_3",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                },
+                {
+                    "slot": 2,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 37,
+            "name": "Gilded Dragonstone",
+            "relicTypeId": "10",
+            "rarity": "epic",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer's DEF increases by 1% each time they receive damage (stacks up to 10%).",
+            "stats": [
+                {
+                    "name": "Def",
+                    "value": "204"
+                },
+                {
+                    "name": "Res",
+                    "value": "16"
+                },
+                {
+                    "name": "HP",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_3",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                },
+                {
+                    "slot": 2,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 38,
+            "name": "Irethi Coronet",
+            "relicTypeId": "9",
+            "rarity": "epic",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer's damage increases by 1% each time they place a debuff (stacks up to 30%).",
+            "stats": [
+                {
+                    "name": "Atk",
+                    "value": "204"
+                },
+                {
+                    "name": "Acc",
+                    "value": "16"
+                },
+                {
+                    "name": "HP",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_2",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                },
+                {
+                    "slot": 2,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 39,
+            "name": "Orb of Transfixion",
+            "relicTypeId": "14",
+            "rarity": "epic",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer has a 10% chance to steal 1 random buff when attacking a target. This effect cannot be resisted. Occurs once per skill.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "3185"
+                },
+                {
+                    "name": "Acc",
+                    "value": "16"
+                },
+                {
+                    "name": "Spd",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                },
+                {
+                    "slot": 2,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 40,
+            "name": "Molten Deathbell",
+            "relicTypeId": "8",
+            "rarity": "rare",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer's Turn Meter increases by 10% when applying [Stun], [Sleep], [Fear], [True Fear], [Freeze], [Provoke], [Petrification], and [Sheep] debuffs to enemies. Occurs once per turn.",
+            "stats": [
+                {
+                    "name": "Acc",
+                    "value": "51"
+                },
+                {
+                    "name": "Def",
+                    "value": "53"
+                },
+                {
+                    "name": "HP",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "13",
+                    "empty": false,
+                    "name": "Extra Velocity",
+                    "description": "The wearer's Turn Meter increases by 3% whenever the wearer fails to place a debuff. Cannot increase the wearer's Turn Meter by more than 20% in a single turn."
+                }
+            ],
+            "equipped": true,
+            "wearerId": "CriodantheBlue",
+            "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/SylvanWatchers/Epic/CriodantheBlue.png"
+        },
+        {
+            "index": 41,
+            "name": "Molten Deathbell",
+            "relicTypeId": "8",
+            "rarity": "rare",
+            "rank": 3,
+            "level": 9,
+            "description": "Wearer's Turn Meter increases by 10% when applying [Stun], [Sleep], [Fear], [True Fear], [Freeze], [Provoke], [Petrification], and [Sheep] debuffs to enemies. Occurs once per turn.",
+            "stats": [
+                {
+                    "name": "Acc",
+                    "value": "51"
+                },
+                {
+                    "name": "Def",
+                    "value": "53"
+                },
+                {
+                    "name": "HP",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "13",
+                    "empty": false,
+                    "name": "Extra Velocity",
+                    "description": "The wearer's Turn Meter increases by 3% whenever the wearer fails to place a debuff. Cannot increase the wearer's Turn Meter by more than 20% in a single turn."
+                }
+            ],
+            "equipped": true,
+            "wearerId": "MadameSerris",
+            "wearerImage": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/DarkElves/Epic/MadameSerris.png"
+        },
+        {
+            "index": 42,
+            "name": "Mask of Rage",
+            "relicTypeId": "2",
+            "rarity": "rare",
+            "rank": 3,
+            "level": 6,
+            "description": "Wearer receives 5% less damage from enemies under a [Provoke] debuff.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "2424"
+                },
+                {
+                    "name": "Def",
+                    "value": "0"
+                },
+                {
+                    "name": "Acc",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 43,
+            "name": "Mask of Rage",
+            "relicTypeId": "2",
+            "rarity": "rare",
+            "rank": 3,
+            "level": 6,
+            "description": "Wearer receives 5% less damage from enemies under a [Provoke] debuff.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "2424"
+                },
+                {
+                    "name": "Def",
+                    "value": "0"
+                },
+                {
+                    "name": "Acc",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 44,
+            "name": "Gilded Dragonstone",
+            "relicTypeId": "10",
+            "rarity": "epic",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer's DEF increases by 1% each time they receive damage (stacks up to 10%).",
+            "stats": [
+                {
+                    "name": "Def",
+                    "value": "155"
+                },
+                {
+                    "name": "Res",
+                    "value": "0"
+                },
+                {
+                    "name": "HP",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_3",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                },
+                {
+                    "slot": 2,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 45,
+            "name": "Scroll of the Unseen",
+            "relicTypeId": "13",
+            "rarity": "epic",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer's damage increases by 1% each time any other Champion takes a turn when the wearer is under a [Veil] or [Perfect Veil] buff (stacks up to 30%). Damage bonus resets after the wearer takes a turn.",
+            "stats": [
+                {
+                    "name": "Atk",
+                    "value": "155"
+                },
+                {
+                    "name": "C.Dmg",
+                    "value": "0%"
+                },
+                {
+                    "name": "Spd",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                },
+                {
+                    "slot": 2,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 46,
+            "name": "Scroll of the Unseen",
+            "relicTypeId": "13",
+            "rarity": "epic",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer's damage increases by 1% each time any other Champion takes a turn when the wearer is under a [Veil] or [Perfect Veil] buff (stacks up to 30%). Damage bonus resets after the wearer takes a turn.",
+            "stats": [
+                {
+                    "name": "Atk",
+                    "value": "155"
+                },
+                {
+                    "name": "C.Dmg",
+                    "value": "0%"
+                },
+                {
+                    "name": "Spd",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                },
+                {
+                    "slot": 2,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 47,
+            "name": "Demonic Effigy",
+            "relicTypeId": "11",
+            "rarity": "epic",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer's Turn Meter increases by 10% whenever one of their allies dies.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "2424"
+                },
+                {
+                    "name": "Res",
+                    "value": "0"
+                },
+                {
+                    "name": "Spd",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "empty_4",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                },
+                {
+                    "slot": 2,
+                    "id": "empty_1",
+                    "empty": true,
+                    "name": "Empty Socket",
+                    "description": "Empty Socket"
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 73,
+            "name": "Sigil of the Akar",
+            "relicTypeId": "82",
+            "rarity": "rare",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer receives 2% less damage from enemies whose MAX HP is at least double the wearer's MAX HP.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "2424"
+                },
+                {
+                    "name": "Def",
+                    "value": "0"
+                },
+                {
+                    "name": "Res",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "18",
+                    "empty": false,
+                    "name": "Unstoppable",
+                    "description": "Turn Meter reduction effects from enemies are 10% less effective on the wearer."
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 74,
+            "name": "Journal of Necrotos",
+            "relicTypeId": "3",
+            "rarity": "rare",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer's heals and Turn Meter increase effects applied to allies are boosted by 15%.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "2424"
+                },
+                {
+                    "name": "Def",
+                    "value": "0"
+                },
+                {
+                    "name": "Res",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "17",
+                    "empty": false,
+                    "name": "Invigorated",
+                    "description": "Turn Meter increase effects are 10% more effective on the wearer."
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 75,
+            "name": "Steel-Eyed Cutter",
+            "relicTypeId": "65",
+            "rarity": "rare",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer has a 20% chance to ignore 5% of an enemy's DEF when attacking.",
+            "stats": [
+                {
+                    "name": "Atk",
+                    "value": "155"
+                },
+                {
+                    "name": "C.Dmg",
+                    "value": "0%"
+                },
+                {
+                    "name": "Acc",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "18",
+                    "empty": false,
+                    "name": "Unstoppable",
+                    "description": "Turn Meter reduction effects from enemies are 10% less effective on the wearer."
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 76,
+            "name": "Journal of Necrotos",
+            "relicTypeId": "3",
+            "rarity": "rare",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer's heals and Turn Meter increase effects applied to allies are boosted by 15%.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "2424"
+                },
+                {
+                    "name": "Def",
+                    "value": "0"
+                },
+                {
+                    "name": "Res",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "17",
+                    "empty": false,
+                    "name": "Invigorated",
+                    "description": "Turn Meter increase effects are 10% more effective on the wearer."
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 77,
+            "name": "Journal of Necrotos",
+            "relicTypeId": "3",
+            "rarity": "rare",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer's heals and Turn Meter increase effects applied to allies are boosted by 15%.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "2424"
+                },
+                {
+                    "name": "Def",
+                    "value": "0"
+                },
+                {
+                    "name": "Res",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "17",
+                    "empty": false,
+                    "name": "Invigorated",
+                    "description": "Turn Meter increase effects are 10% more effective on the wearer."
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 78,
+            "name": "Journal of Necrotos",
+            "relicTypeId": "3",
+            "rarity": "rare",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer's heals and Turn Meter increase effects applied to allies are boosted by 15%.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "2424"
+                },
+                {
+                    "name": "Def",
+                    "value": "0"
+                },
+                {
+                    "name": "Res",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "17",
+                    "empty": false,
+                    "name": "Invigorated",
+                    "description": "Turn Meter increase effects are 10% more effective on the wearer."
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 79,
+            "name": "Journal of Necrotos",
+            "relicTypeId": "3",
+            "rarity": "rare",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer's heals and Turn Meter increase effects applied to allies are boosted by 15%.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "2424"
+                },
+                {
+                    "name": "Def",
+                    "value": "0"
+                },
+                {
+                    "name": "Res",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "17",
+                    "empty": false,
+                    "name": "Invigorated",
+                    "description": "Turn Meter increase effects are 10% more effective on the wearer."
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 80,
+            "name": "Thunderous Circlet",
+            "relicTypeId": "57",
+            "rarity": "rare",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer has a 20% chance of placing a 15% [Continuous Heal] buff on themselves for 1 turn after losing 25% or more of their MAX HP.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "2424"
+                },
+                {
+                    "name": "Def",
+                    "value": "0"
+                },
+                {
+                    "name": "Res",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "7",
+                    "empty": false,
+                    "name": "Blessed Heal",
+                    "description": "When the wearer heals an ally with a skill, the heal is 10% more effective."
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 81,
+            "name": "Molten Deathbell",
+            "relicTypeId": "8",
+            "rarity": "rare",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer's Turn Meter increases by 10% when applying [Stun], [Sleep], [Fear], [True Fear], [Freeze], [Provoke], [Petrification], and [Sheep] debuffs to enemies. Occurs once per turn.",
+            "stats": [
+                {
+                    "name": "Acc",
+                    "value": "39"
+                },
+                {
+                    "name": "Def",
+                    "value": "0"
+                },
+                {
+                    "name": "HP",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "14",
+                    "empty": false,
+                    "name": "Unbroken Strength",
+                    "description": "The wearer's RES increases by 3 per each buff on them."
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 82,
+            "name": "Molten Deathbell",
+            "relicTypeId": "8",
+            "rarity": "rare",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer's Turn Meter increases by 10% when applying [Stun], [Sleep], [Fear], [True Fear], [Freeze], [Provoke], [Petrification], and [Sheep] debuffs to enemies. Occurs once per turn.",
+            "stats": [
+                {
+                    "name": "Acc",
+                    "value": "39"
+                },
+                {
+                    "name": "Def",
+                    "value": "0"
+                },
+                {
+                    "name": "HP",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "13",
+                    "empty": false,
+                    "name": "Extra Velocity",
+                    "description": "The wearer's Turn Meter increases by 3% whenever the wearer fails to place a debuff. Cannot increase the wearer's Turn Meter by more than 20% in a single turn."
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 83,
+            "name": "Molten Deathbell",
+            "relicTypeId": "8",
+            "rarity": "rare",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer's Turn Meter increases by 10% when applying [Stun], [Sleep], [Fear], [True Fear], [Freeze], [Provoke], [Petrification], and [Sheep] debuffs to enemies. Occurs once per turn.",
+            "stats": [
+                {
+                    "name": "Acc",
+                    "value": "39"
+                },
+                {
+                    "name": "Def",
+                    "value": "0"
+                },
+                {
+                    "name": "HP",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "13",
+                    "empty": false,
+                    "name": "Extra Velocity",
+                    "description": "The wearer's Turn Meter increases by 3% whenever the wearer fails to place a debuff. Cannot increase the wearer's Turn Meter by more than 20% in a single turn."
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 84,
+            "name": "Malefic Talon",
+            "relicTypeId": "5",
+            "rarity": "rare",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer has a 20% chance to deal 10% more damage when attacking.",
+            "stats": [
+                {
+                    "name": "C.Dmg",
+                    "value": "16%"
+                },
+                {
+                    "name": "HP",
+                    "value": "0"
+                },
+                {
+                    "name": "Atk",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "3",
+                    "empty": false,
+                    "name": "Pierce Defenses",
+                    "description": "The wearer will ignore 3% of the target's DEF if the target is under 2 or more debuffs."
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 85,
+            "name": "Malefic Talon",
+            "relicTypeId": "5",
+            "rarity": "rare",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer has a 20% chance to deal 10% more damage when attacking.",
+            "stats": [
+                {
+                    "name": "C.Dmg",
+                    "value": "16%"
+                },
+                {
+                    "name": "HP",
+                    "value": "0"
+                },
+                {
+                    "name": "Atk",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "4",
+                    "empty": false,
+                    "name": "Unbowed Might",
+                    "description": "The wearer's C.DMG increases by 3% for each debuff they are under (stacks up to 30%)."
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 86,
+            "name": "Malefic Talon",
+            "relicTypeId": "5",
+            "rarity": "rare",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer has a 20% chance to deal 10% more damage when attacking.",
+            "stats": [
+                {
+                    "name": "C.Dmg",
+                    "value": "16%"
+                },
+                {
+                    "name": "HP",
+                    "value": "0"
+                },
+                {
+                    "name": "Atk",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "1",
+                    "empty": false,
+                    "name": "Lifedrain",
+                    "description": "The wearer's critical hits destroy 1% of the target's MAX HP per each buff on the wearer (stacks up to 20%)."
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 87,
+            "name": "Tempus Sanguinis",
+            "relicTypeId": "7",
+            "rarity": "rare",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer's Turn Meter reduction effects are boosted by 15%.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "2424"
+                },
+                {
+                    "name": "Acc",
+                    "value": "0"
+                },
+                {
+                    "name": "Def",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "7",
+                    "empty": false,
+                    "name": "Blessed Heal",
+                    "description": "When the wearer heals an ally with a skill, the heal is 10% more effective."
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 88,
+            "name": "Malefic Talon",
+            "relicTypeId": "5",
+            "rarity": "rare",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer has a 20% chance to deal 10% more damage when attacking.",
+            "stats": [
+                {
+                    "name": "C.Dmg",
+                    "value": "16%"
+                },
+                {
+                    "name": "HP",
+                    "value": "0"
+                },
+                {
+                    "name": "Atk",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "4",
+                    "empty": false,
+                    "name": "Unbowed Might",
+                    "description": "The wearer's C.DMG increases by 3% for each debuff they are under (stacks up to 30%)."
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 89,
+            "name": "Tempus Sanguinis",
+            "relicTypeId": "7",
+            "rarity": "rare",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer's Turn Meter reduction effects are boosted by 15%.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "2424"
+                },
+                {
+                    "name": "Acc",
+                    "value": "0"
+                },
+                {
+                    "name": "Def",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "7",
+                    "empty": false,
+                    "name": "Blessed Heal",
+                    "description": "When the wearer heals an ally with a skill, the heal is 10% more effective."
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        },
+        {
+            "index": 90,
+            "name": "Tempus Sanguinis",
+            "relicTypeId": "7",
+            "rarity": "rare",
+            "rank": 2,
+            "level": 6,
+            "description": "Wearer's Turn Meter reduction effects are boosted by 15%.",
+            "stats": [
+                {
+                    "name": "HP",
+                    "value": "2424"
+                },
+                {
+                    "name": "Acc",
+                    "value": "0"
+                },
+                {
+                    "name": "Def",
+                    "value": "0"
+                }
+            ],
+            "gemstones": [
+                {
+                    "slot": 1,
+                    "id": "7",
+                    "empty": false,
+                    "name": "Blessed Heal",
+                    "description": "When the wearer heals an ally with a skill, the heal is 10% more effective."
+                }
+            ],
+            "equipped": false,
+            "wearerId": null,
+            "wearerImage": null
+        }
+    ]
+}

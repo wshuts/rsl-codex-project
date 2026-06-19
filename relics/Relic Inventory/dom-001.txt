@@ -1,0 +1,464 @@
+{
+  "page": {
+    "url": "https://raidoptimiser.hellhades.com/relics",
+    "title": "Hell Hades Artifact Optimiser",
+    "readyState": "complete"
+  },
+  "counts": {
+    "elements": 635,
+    "buttons": 3,
+    "inputs": 2,
+    "images": 38,
+    "tables": 0,
+    "rows": 0,
+    "dialogs": 0
+  },
+  "frameworkMarkers": {
+    "nextRoot": false,
+    "reactRoot": false,
+    "angularRoot": true
+  },
+  "bodyChildren": [
+    {
+      "tag": "app-root",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "script",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "script",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "script",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "div",
+      "id": "cdk-live-announcer-0",
+      "classes": [
+        "cdk-live-announcer-element",
+        "cdk-visually-hidden"
+      ]
+    },
+    {
+      "tag": "iframe",
+      "id": "19c2105ee456d48",
+      "classes": []
+    },
+    {
+      "tag": "iframe",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "iframe",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "iframe",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "div",
+      "id": "confiant_tag_holder",
+      "classes": []
+    },
+    {
+      "tag": "img",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "img",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "img",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "img",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "img",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "img",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "iframe",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "iframe",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "script",
+      "id": null,
+      "classes": []
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "cdk-overlay-container"
+      ]
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "classes": [
+        "cdk-describedby-message-container",
+        "cdk-visually-hidden"
+      ]
+    }
+  ],
+  "commonClasses": [
+    [
+      "ng-star-inserted",
+      196
+    ],
+    [
+      "relic_stars_normal",
+      35
+    ],
+    [
+      "game-text-color",
+      24
+    ],
+    [
+      "relic_stat_row",
+      24
+    ],
+    [
+      "relic_gemstone",
+      16
+    ],
+    [
+      "relic_gemstone_icon",
+      16
+    ],
+    [
+      "ng-tns-c18-12",
+      12
+    ],
+    [
+      "ng-tns-c18-14",
+      12
+    ],
+    [
+      "ng-tns-c18-16",
+      12
+    ],
+    [
+      "ng-tns-c18-10",
+      12
+    ],
+    [
+      "ng-tns-c18-18",
+      12
+    ],
+    [
+      "mat-mdc-focus-indicator",
+      11
+    ],
+    [
+      "mainnav_menuitem",
+      10
+    ],
+    [
+      "ng-tns-c19-15",
+      9
+    ],
+    [
+      "ng-tns-c19-19",
+      9
+    ],
+    [
+      "mat-mdc-list-item",
+      8
+    ],
+    [
+      "mdc-list-item",
+      8
+    ],
+    [
+      "mat-mdc-list-item-interactive",
+      8
+    ],
+    [
+      "mat-mdc-list-item-single-line",
+      8
+    ],
+    [
+      "mdc-list-item--with-one-line",
+      8
+    ],
+    [
+      "mdc-list-item__content",
+      8
+    ],
+    [
+      "mat-mdc-list-item-unscoped-content",
+      8
+    ],
+    [
+      "mdc-list-item__primary-text",
+      8
+    ],
+    [
+      "ng-tns-c19-13",
+      8
+    ],
+    [
+      "ng-tns-c19-17",
+      8
+    ],
+    [
+      "ng-tns-c19-11",
+      8
+    ],
+    [
+      "relic_row",
+      8
+    ],
+    [
+      "relic",
+      8
+    ],
+    [
+      "relic_default-layer",
+      8
+    ],
+    [
+      "relic_info",
+      8
+    ],
+    [
+      "relic_imgcontainer",
+      8
+    ],
+    [
+      "relic_stars",
+      8
+    ],
+    [
+      "relic_image",
+      8
+    ],
+    [
+      "relic_primary_container",
+      8
+    ],
+    [
+      "relic_level",
+      8
+    ],
+    [
+      "relic_description",
+      8
+    ],
+    [
+      "relic_stats",
+      8
+    ],
+    [
+      "relic_gemstones",
+      8
+    ],
+    [
+      "relic_stat_container",
+      8
+    ],
+    [
+      "ng-trigger",
+      7
+    ],
+    [
+      "mat-mdc-tooltip-trigger",
+      7
+    ],
+    [
+      "relic_used_by",
+      7
+    ],
+    [
+      "cdk-visually-hidden",
+      6
+    ],
+    [
+      "mat-primary",
+      6
+    ],
+    [
+      "ng-untouched",
+      6
+    ],
+    [
+      "ng-pristine",
+      6
+    ],
+    [
+      "ng-valid",
+      6
+    ],
+    [
+      "mat-icon",
+      5
+    ],
+    [
+      "notranslate",
+      5
+    ],
+    [
+      "material-icons",
+      5
+    ]
+  ],
+  "dataAttributes": [
+    [
+      "data-gtm-yt-inspected-10",
+      7
+    ],
+    [
+      "data-mat-icon-type",
+      5
+    ]
+  ],
+  "roles": [
+    [
+      "tooltip",
+      8
+    ],
+    [
+      "img",
+      5
+    ],
+    [
+      "combobox",
+      5
+    ],
+    [
+      "navigation",
+      1
+    ]
+  ],
+  "controls": [
+    {
+      "tag": "button",
+      "type": null,
+      "role": null,
+      "label": "menu",
+      "classes": [
+        "mobile_nav",
+        "mdc-icon-button",
+        "mat-mdc-icon-button",
+        "mat-unthemed",
+        "mat-mdc-button-base"
+      ]
+    },
+    {
+      "tag": "button",
+      "type": null,
+      "role": null,
+      "label": "< Hide",
+      "classes": [
+        "btn",
+        "btn_filters",
+        "ng-star-inserted"
+      ]
+    },
+    {
+      "tag": "input",
+      "type": "range",
+      "role": null,
+      "label": null,
+      "classes": [
+        "mdc-slider__input",
+        "ng-untouched",
+        "ng-pristine",
+        "ng-valid"
+      ]
+    },
+    {
+      "tag": "input",
+      "type": "range",
+      "role": null,
+      "label": null,
+      "classes": [
+        "mdc-slider__input",
+        "ng-untouched",
+        "ng-pristine",
+        "ng-valid",
+        "mat-slider__right-input"
+      ]
+    },
+    {
+      "tag": "button",
+      "type": null,
+      "role": null,
+      "label": "Reset filter",
+      "classes": [
+        "btn",
+        "btn_negative",
+        "btn_reset",
+        "ng-star-inserted"
+      ]
+    }
+  ],
+  "scriptSources": [
+    "https://www.youtube.com/s/player/ac678d18/www-widgetapi.vflset/www-widgetapi.js",
+    "https://cdn.hadronid.net/hadron.js",
+    "https://cdn.confiant-integrations.net/video/202606101730/wrap.js",
+    "https://cdn.hadronid.net/hadron.js",
+    "https://cdn.confiant-integrations.net/IKOzVPjtHv3tevs-RDaJOMdtkBI/video/config.js",
+    "https://cdn.confiant-integrations.net/gptprebidnative/202606101730/wrap.js",
+    "https://cdn.id5-sync.com/api/1.0/id5PrebidModule.js",
+    "https://www.youtube.com/iframe_api",
+    "https://s.nitropay.com/ads-728.js",
+    "https://www.googletagmanager.com/gtag/js",
+    "https://srv.scalibur.io/adserver/static/loader.js",
+    "https://ats-wrapper.privacymanager.io/ats-modules/438cb908-ed61-41e9-b716-05d5f4122a64/ats.js",
+    "https://cdn.confiant-integrations.net/QwN0KdjTe-a-6y-70Vps9qMqCzM/gpt_and_prebid/config.js",
+    "https://sb.scorecardresearch.com/cs/20631572/beacon.js",
+    "https://securepubads.g.doubleclick.net/tag/js/gpt.js",
+    "https://ats-wrapper.privacymanager.io/ats-modules/438cb908-ed61-41e9-b716-05d5f4122a64/ats.js",
+    "https://s.nitropay.com/gpp-61d490e.min.js",
+    "https://c.amazon-adsystem.com/aax2/apstag.js",
+    "https://btloader.com/tag",
+    "https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202606170101/pubads_impl.js",
+    "https://p.cpx.to/p/20023/px.js",
+    "https://config.aps.amazon-adsystem.com/configs/da657530-03e5-4306-95bc-d4eb370426c9",
+    "https://cdn-ima.33across.com/ima.js",
+    "https://cdn.id5-sync.com/api/1.0/id5-api.js",
+    "https://tags.crwdcntrl.net/lt/c/16576/sync.min.js",
+    "https://secure.cdn.fastclick.net/js/pubcid/latest/pubcid.min.js",
+    "https://btloader.com/recovery",
+    "https://p.ad.gt/api/v1/p/720",
+    "https://www.googletagmanager.com/gtag/js",
+    "https://raidoptimiser.hellhades.com/runtime.35b416853e2268c6.js",
+    "https://raidoptimiser.hellhades.com/polyfills.d97f2983030686da.js",
+    "https://raidoptimiser.hellhades.com/main.5bd433cde73d30b9.js",
+    "https://pixels.ad.gt/api/v1/getpixels"
+  ]
+}

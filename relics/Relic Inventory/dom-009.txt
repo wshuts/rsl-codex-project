@@ -1,0 +1,104 @@
+{
+  "localStorage": [
+    {
+      "key": "nitro.mv",
+      "length": 19,
+      "looksLikeJwt": false,
+      "jsonType": "number",
+      "jsonKeys": null
+    },
+    {
+      "key": "nitro.mv.3.consent-config",
+      "length": 2,
+      "looksLikeJwt": false,
+      "jsonType": "number",
+      "jsonKeys": null
+    },
+    {
+      "key": "nitro.mv1.config",
+      "length": 2,
+      "looksLikeJwt": false,
+      "jsonType": "number",
+      "jsonKeys": null
+    },
+    {
+      "key": "BT_AA_DETECTION",
+      "length": 33,
+      "looksLikeJwt": false,
+      "jsonType": "object",
+      "jsonKeys": [
+        "ab",
+        "aa",
+        "nlf"
+      ]
+    },
+    {
+      "key": "nitro.mv.4.iiq",
+      "length": 2,
+      "looksLikeJwt": false,
+      "jsonType": "number",
+      "jsonKeys": null
+    },
+    {
+      "key": "team-optimizer-settings-1002",
+      "length": 16634,
+      "looksLikeJwt": false,
+      "jsonType": "object",
+      "jsonKeys": [
+        "settingsVersion",
+        "selectedTeam",
+   ...eam",
+        "maxDepth",
+        "heroIds",
+        "heroSettings",
+        "includeHeroes",
+        "teamAura",
+        "suggestedBuild",
+        "optimizeOrder",
+        "targetSettings",
+        "remoteTask"
+      ]
+    }
+  ],
+  "sessionStorage": [
+    {
+      "key": "BT_sid",
+      "length": 30,
+      "looksLikeJwt": false,
+      "jsonType": null,
+      "jsonKeys": null
+    }
+  ],
+  "cookieNames": [
+    "_ga",
+    "_pubcid",
+    "_lr_env_src_ats",
+    "_nitroID",
+    "ncmp.domain",
+    "ncmp-ga",
+    "_sharedid",
+    "_au_1d",
+    "_scor_uid",
+    "_cc_id",
+    "panoramaId_expiry",
+    "panoramaId",
+    "panoramaIdType",
+    "_sharedid_cst",
+    "_lr_geo_location_state",
+    "_lr_geo_location",
+    "pbjs_li_nonid_cst",
+    "_ga_24BJXVXDSC",
+    "_pubcid_cst",
+    "nitro-uid",
+    "pbjs_li_nonid",
+    "_ga_FVWZ0RM4DH",
+    "_li_dcdm_c",
+    "_lc2_fpi",
+    "_lc2_fpi_meta",
+    "nitro-uid_cst",
+    "cto_bundle",
+    "cto_bidid",
+    "_ga_WWB52ESTJW"
+  ],
+  "indexedDatabases": []
+}

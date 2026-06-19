@@ -1,0 +1,86 @@
+{
+  "capturedAt": "2026-06-19T01:08:13.168Z",
+  "page": "https://raidoptimiser.hellhades.com/relics",
+  "filtersWarning": "This inventory reflects the filters and sorting active during capture.",
+  "viewport": {
+    "scrollHeight": 19078,
+    "clientHeight": 872,
+    "rowPitch": 154.00001089913505,
+    "baseline": 0,
+    "positionsVisited": 34
+  },
+  "result": {
+    "relicCount": 124,
+    "firstIndex": 0,
+    "lastIndex": 123,
+    "missingIndices": [],
+    "conflicts": 18
+  },
+  "conflictDetails": [
+    {
+      "index": 20,
+      "previous": {
+        "index": 20,
+        "name": null,
+        "relicTypeId": "16",
+        "rarity": "legendary",
+        "rank": 3,
+        "level": null,
+        "description": "When wearer receives fatal damage, reduces it by 50% of their Turn Meter and then fully reduces their Turn Meter. Cooldown: 1 turn.",
+        "stats": [
+          {
+            "name": "Def",
+            "value": "53"
+          },
+          {
+            "name": "Res",
+          ...nes": [
+        {
+          "slot": 1,
+          "id": "empty_1",
+          "empty": true,
+          "name": "Empty Socket",
+          "description": "Empty Socket"
+        }
+      ],
+      "equipped": false,
+      "wearerId": null,
+      "wearerImage": null
+    },
+    {
+      "index": 123,
+      "name": null,
+      "relicTypeId": "7",
+      "rarity": "rare",
+      "rank": 1,
+      "level": null,
+      "description": "Wearer's Turn Meter reduction effects are boosted by 15%.",
+      "stats": [
+        {
+          "name": "HP",
+          "value": "900"
+        },
+        {
+          "name": "Acc",
+          "value": "0"
+        },
+        {
+          "name": "Def",
+          "value": "0"
+        }
+      ],
+      "gemstones": [
+        {
+          "slot": 1,
+          "id": "empty_4",
+          "empty": true,
+          "name": "Empty Socket",
+          "description": "Empty Socket"
+        }
+      ],
+      "equipped": false,
+      "wearerId": null,
+      "wearerImage": null
+    }
+  ]
+}

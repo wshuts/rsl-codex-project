@@ -1,0 +1,1384 @@
+{
+  "cardStructure": {
+    "tag": "app-relic",
+    "classes": [
+      "ng-star-inserted"
+    ],
+    "text": null,
+    "alt": null,
+    "title": null,
+    "src": null,
+    "ownProperties": [
+      "__ngContext__"
+    ],
+    "children": [
+      {
+        "tag": "div",
+        "classes": [
+          "relic",
+          "relic_legendary",
+          "ng-star-inserted"
+        ],
+        "text": null,
+        "alt": null,
+        "title": null,
+        "src": null,
+        "ownProperties": [
+          "__ngContext__"
+        ],
+        "children": [
+          {
+            "tag": "div",
+            "classes": [
+              "relic_default-layer"
+            ],
+            "text": null,
+            "alt": null,
+            "title": null,
+            "src": null,
+            "ownProperties": [],
+            "children": [
+              {
+                "tag": "div",
+                "classes": [
+                  "relic_info"
+                ],
+                "text": null,
+                "alt": null,
+                "title": null,
+                "src": null,
+                "ownProperties": [],
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": [
+                      "relic_imgcontainer"
+                    ],
+                    "text": null,
+                    "alt": null,
+                    "title": null,
+                    "src": null,
+                    "ownProperties": [],
+                    "children": [
+                      {
+                        "tag": "div",
+                        "classes": [
+                          "relic_stars"
+                        ],
+                        "text": null,
+                        "alt": null,
+                        "title": null,
+                        "src": null,
+                        "ownProperties": [],
+                        "children": [
+                          {
+                            "tag": "div",
+                            "classes": [
+                              "relic_stars_normal",
+                              "ng-star-inserted"
+                            ],
+                            "text": null,
+                            "alt": null,
+                            "title": null,
+                            "src": null,
+                            "ownProperties": [
+                              "__ngContext__"
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tag": "div",
+                            "classes": [
+                              "relic_stars_normal",
+                              "ng-star-inserted"
+                            ],
+                            "text": null,
+                            "alt": null,
+                            "title": null,
+                            "src": null,
+                            "ownProperties": [
+                              "__ngContext__"
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tag": "div",
+                            "classes": [
+                              "relic_stars_normal",
+                              "ng-star-inserted"
+                            ],
+                            "text": null,
+                            "alt": null,
+                            "title": null,
+                            "src": null,
+                            "ownProperties": [
+                              "__ngContext__"
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tag": "div",
+                            "classes": [
+                              "relic_stars_normal",
+                              "ng-star-inserted"
+                            ],
+                            "text": null,
+                            "alt": null,
+                            "title": null,
+                            "src": null,
+                            "ownProperties": [
+                              "__ngContext__"
+                            ],
+                            "children": []
+                          },
+                          {
+                            "tag": "div",
+                            "classes": [
+                              "relic_stars_normal",
+                              "ng-star-inserted"
+                            ],
+                            "text": null,
+                            "alt": null,
+                            "title": null,
+                            "src": null,
+                            "ownProperties": [
+                              "__ngContext__"
+                            ],
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "img",
+                        "classes": [
+                          "mat-mdc-tooltip-trigger",
+                          "relic_used_by",
+                          "ng-star-inserted"
+                        ],
+                        "text": null,
+                        "alt": null,
+                        "title": null,
+                        "src": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/KnightsRevenant/Mythical/EmbrystheAnomaly.png",
+                        "ownProperties": [
+                          "__ngContext__"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "tag": "img",
+                        "classes": [
+                          "relic_image"
+                        ],
+                        "text": null,
+                        "alt": null,
+                        "title": null,
+                        "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/17.png",
+                        "ownProperties": [
+                          "__ngContext__"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "classes": [
+                  "relic_primary_container"
+                ],
+                "text": null,
+                "alt": null,
+                "title": null,
+                "src": null,
+                "ownProperties": [],
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": [],
+                    "text": null,
+                    "alt": null,
+                    "title": null,
+                    "src": null,
+                    "ownProperties": [],
+                    "children": [
+                      {
+                        "tag": "div",
+                        "classes": [
+                          "relic_level",
+                          "ng-star-inserted"
+                        ],
+                        "text": "Wand of Submission - Level 15",
+                        "alt": null,
+                        "title": null,
+                        "src": null,
+                        "ownProperties": [
+                          "__ngContext__"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "tag": "div",
+                        "classes": [
+                          "relic_description"
+                        ],
+                        "text": "Wearer has a chance to reflect , , , , , , , and debuffs back at the producer.",
+                        "alt": null,
+                        "title": null,
+                        "src": null,
+                        "ownProperties": [],
+                        "children": [
+                          {
+                            "tag": "span",
+                            "classes": [
+                              "game-text-color"
+                            ],
+                            "text": "25%",
+                            "alt": null,
+                            "title": null,
+                            "src": null,
+                            "ownProperties": [],
+                            "children": []
+                          },
+                          {
+                            "tag": "span",
+                            "classes": [
+                              "game-text-color"
+                            ],
+                            "text": "[Stun]",
+                            "alt": null,
+                            "title": null,
+                            "src": null,
+                            "ownProperties": [],
+                            "children": []
+                          },
+                          {
+                            "tag": "span",
+                            "classes": [
+                              "game-text-color"
+                            ],
+                            "text": "[Sleep]",
+                            "alt": null,
+                            "title": null,
+                            "src": null,
+                            "ownProperties": [],
+                            "children": []
+                          },
+                          {
+                            "tag": "span",
+                            "classes": [
+                              "game-text-color"
+                            ],
+                            "text": "[Fear]",
+                            "alt": null,
+                            "title": null,
+                            "src": null,
+                            "ownProperties": [],
+                            "children": []
+                          },
+                          {
+                            "tag": "span",
+                            "classes": [
+                              "game-text-color"
+                            ],
+                            "text": "[True Fear]",
+                            "alt": null,
+                            "title": null,
+                            "src": null,
+                            "ownProperties": [],
+                            "children": []
+                          },
+                          {
+                            "tag": "span",
+                            "classes": [
+                              "game-text-color"
+                            ],
+                            "text": "[Freeze]",
+                            "alt": null,
+                            "title": null,
+                            "src": null,
+                            "ownProperties": [],
+                            "children": []
+                          },
+                          {
+                            "tag": "span",
+                            "classes": [
+                              "game-text-color"
+                            ],
+                            "text": "[Provoke]",
+                            "alt": null,
+                            "title": null,
+                            "src": null,
+                            "ownProperties": [],
+                            "children": []
+                          },
+                          {
+                            "tag": "span",
+                            "classes": [
+                              "game-text-color"
+                            ],
+                            "text": "[Petrification]",
+                            "alt": null,
+                            "title": null,
+                            "src": null,
+                            "ownProperties": [],
+                            "children": []
+                          },
+                          {
+                            "tag": "span",
+                            "classes": [
+                              "game-text-color"
+                            ],
+                            "text": "[Sheep]",
+                            "alt": null,
+                            "title": null,
+                            "src": null,
+                            "ownProperties": [],
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": [
+                      "relic_stats"
+                    ],
+                    "text": null,
+                    "alt": null,
+                    "title": null,
+                    "src": null,
+                    "ownProperties": [],
+                    "children": [
+                      {
+                        "tag": "div",
+                        "classes": [
+                          "relic_gemstones"
+                        ],
+                        "text": null,
+                        "alt": null,
+                        "title": null,
+                        "src": null,
+                        "ownProperties": [],
+                        "children": [
+                          {
+                            "tag": "div",
+                            "classes": [
+                              "relic_gemstone",
+                              "ng-star-inserted"
+                            ],
+                            "text": null,
+                            "alt": null,
+                            "title": null,
+                            "src": null,
+                            "ownProperties": [
+                              "__ngContext__"
+                            ],
+                            "children": [
+                              {
+                                "tag": "img",
+                                "classes": [
+                                  "relic_gemstone_icon"
+                                ],
+                                "text": null,
+                                "alt": "Enhanced Shot",
+                                "title": "The wearer's ACC increases by 3 per each buff on them.",
+                                "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/Gemstones/8.png",
+                                "ownProperties": [],
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "div",
+                            "classes": [
+                              "relic_gemstone",
+                              "ng-star-inserted"
+                            ],
+                            "text": null,
+                            "alt": null,
+                            "title": null,
+                            "src": null,
+                            "ownProperties": [
+                              "__ngContext__"
+                            ],
+                            "children": [
+                              {
+                                "tag": "img",
+                                "classes": [
+                                  "relic_gemstone_icon"
+                                ],
+                                "text": null,
+                                "alt": "Invigorated",
+                                "title": "Turn Meter increase effects are 10% more effective on the wearer.",
+                                "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/Gemstones/17.png",
+                                "ownProperties": [],
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "div",
+                            "classes": [
+                              "relic_gemstone",
+                              "ng-star-inserted"
+                            ],
+                            "text": null,
+                            "alt": null,
+                            "title": null,
+                            "src": null,
+                            "ownProperties": [
+                              "__ngContext__"
+                            ],
+                            "children": [
+                              {
+                                "tag": "img",
+                                "classes": [
+                                  "relic_gemstone_icon"
+                                ],
+                                "text": null,
+                                "alt": "Invigorated",
+                                "title": "Turn Meter increase effects are 10% more effective on the wearer.",
+                                "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/Gemstones/17.png",
+                                "ownProperties": [],
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "div",
+                        "classes": [
+                          "relic_stat_container"
+                        ],
+                        "text": null,
+                        "alt": null,
+                        "title": null,
+                        "src": null,
+                        "ownProperties": [],
+                        "children": [
+                          {
+                            "tag": "div",
+                            "classes": [
+                              "relic_stat_row",
+                              "ng-star-inserted"
+                            ],
+                            "text": null,
+                            "alt": null,
+                            "title": null,
+                            "src": null,
+                            "ownProperties": [
+                              "__ngContext__"
+                            ],
+                            "children": [
+                              {
+                                "tag": "div",
+                                "classes": [],
+                                "text": "HP",
+                                "alt": null,
+                                "title": null,
+                                "src": null,
+                                "ownProperties": [],
+                                "children": []
+                              },
+                              {
+                                "tag": "div",
+                                "classes": [],
+                                "text": "4709",
+                                "alt": null,
+                                "title": null,
+                                "src": null,
+                                "ownProperties": [],
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "div",
+                            "classes": [
+                              "relic_stat_row",
+                              "ng-star-inserted"
+                            ],
+                            "text": null,
+                            "alt": null,
+                            "title": null,
+                            "src": null,
+                            "ownProperties": [
+                              "__ngContext__"
+                            ],
+                            "children": [
+                              {
+                                "tag": "div",
+                                "classes": [],
+                                "text": "Spd",
+                                "alt": null,
+                                "title": null,
+                                "src": null,
+                                "ownProperties": [],
+                                "children": []
+                              },
+                              {
+                                "tag": "div",
+                                "classes": [],
+                                "text": "9",
+                                "alt": null,
+                                "title": null,
+                                "src": null,
+                                "ownProperties": [],
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "div",
+                            "classes": [
+                              "relic_stat_row",
+                              "ng-star-inserted"
+                            ],
+                            "text": null,
+                            "alt": null,
+                            "title": null,
+                            "src": null,
+                            "ownProperties": [
+                              "__ngContext__"
+                            ],
+                            "children": [
+                              {
+                                "tag": "div",
+                                "classes": [],
+                                "text": "Acc",
+                                "alt": null,
+                                "title": null,
+                                "src": null,
+                                "ownProperties": [],
+                                "children": []
+                              },
+                              {
+                                "tag": "div",
+                                "classes": [],
+                                "text": "16",
+                                "alt": null,
+                                "title": null,
+                                "src": null,
+                                "ownProperties": [],
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "resourceCandidates": [
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://raidoptimiser.hellhades.com",
+      "pathname": "/api/AccountSettings",
+      "queryKeys": [],
+      "durationMs": 159
+    },
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://raidoptimiser.hellhades.com",
+      "pathname": "/api/AccountMetadata",
+      "queryKeys": [],
+      "durationMs": 673
+    },
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://raidoptimiser.hellhades.com",
+      "pathname": "/api/StaticData/blessings",
+      "queryKeys": [
+        "_"
+      ],
+      "durationMs": 673
+    },
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://raidoptimiser.hellhades.com",
+      "pathname": "/api/TierList",
+      "queryKeys": [
+        "_"
+      ],
+      "durationMs": 853
+    },
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://raidoptimiser.hellhades.com",
+      "pathname": "/api/Region",
+      "queryKeys": [
+        "_"
+      ],
+      "durationMs": 548
+    },
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://raidoptimiser.hellhades.com",
+      "pathname": "/api/StaticData/skill_types",
+      "queryKeys": [
+        "_"
+      ],
+      "durationMs": 849
+    },
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://raidoptimiser.hellhades.com",
+      "pathname": "/api/StaticData/blessings",
+      "queryKeys": [
+        "_"
+      ],
+      "durationMs": 988
+    },
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://raidoptimiser.hellhades.com",
+      "pathname": "/api/Login/freshToken",
+      "queryKeys": [],
+      "durationMs": 154
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://floors.nitropay.com",
+      "pathname": "/f",
+      "queryKeys": [
+        "s",
+        "c",
+        "v"
+      ],
+      "durationMs": 0
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://gum.criteo.com",
+      "pathname": "/sid/json",
+      "queryKeys": [
+        "origin",
+        "topUrl",
+        "domain",
+        "bundle",
+        "cw",
+        "lsw"
+      ],
+      "durationMs": 57
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://id5-sync.com",
+      "pathname": "/api/config/prebid",
+      "queryKeys": [],
+      "durationMs": 375
+    },
+    {
+      "initiatorType": "script",
+      "origin": "https://cdn.id5-sync.com",
+      "pathname": "/api/1.0/id5PrebidModule.js",
+      "queryKeys": [],
+      "durationMs": 42
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://match.adsrvr.org",
+      "pathname": "/track/rid",
+      "queryKeys": [
+        "ttd_pid",
+        "fmt"
+      ],
+      "durationMs": 2
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://t.nit.ro",
+      "pathname": "/p",
+      "queryKeys": [
+        "d"
+      ],
+      "durationMs": 43
+    },
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://consent.nitrocnct.com",
+      "pathname": "/additional-consent-providers.csv",
+      "queryKeys": [],
+      "durationMs": 42
+    },
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://c.amazon-adsystem.com",
+      "pathname": "/bao-csm/aps-comm/aps_csm.js",
+      "queryKeys": [],
+      "durationMs": 0
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://s.cpx.to",
+      "pathname": "/fire.js",
+      "queryKeys": [
+        "pid",
+        "url",
+        "hn_ver",
+        "cdl",
+        "dsp",
+        "dsp_uid",
+        "dsp",
+        "dsp_uid",
+        "dsp",
+        "dsp_uid",
+        "dsp",
+        "dsp_uid"
+      ],
+      "durationMs": 372
+    },
+    {
+      "initiatorType": "script",
+      "origin": "https://cdn.id5-sync.com",
+      "pathname": "/api/1.0/id5-api.js",
+      "queryKeys": [],
+      "durationMs": 12
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://raidoptimiser.hellhades.com",
+      "pathname": "/live-updates/negotiate",
+      "queryKeys": [
+        "negotiateVersion"
+      ],
+      "durationMs": 713
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://ad-delivery.net",
+      "pathname": "/px.gif",
+      "queryKeys": [
+        "ch",
+        "e"
+      ],
+      "durationMs": 0
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://ad.doubleclick.net",
+      "pathname": "/favicon.ico",
+      "queryKeys": [
+        "ad",
+        "ad_box_",
+        "adnet",
+        "showad",
+        "size",
+        "e"
+      ],
+      "durationMs": 0
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://ad-delivery.net",
+      "pathname": "/px.gif",
+      "queryKeys": [
+        "ch",
+        "e"
+      ],
+      "durationMs": 34
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://ab.dns-finder.com",
+      "pathname": "/meta/dns",
+      "queryKeys": [],
+      "durationMs": 43
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://api.btloader.com",
+      "pathname": "/country",
+      "queryKeys": [
+        "o"
+      ],
+      "durationMs": 5
+    },
+    {
+      "initiatorType": "script",
+      "origin": "https://p.ad.gt",
+      "pathname": "/api/v1/p/720",
+      "queryKeys": [],
+      "durationMs": 3
+    },
+    {
+      "initiatorType": "img",
+      "origin": "https://ids4.ad.gt",
+      "pathname": "/api/v1/ip_match",
+      "queryKeys": [
+        "id"
+      ],
+      "durationMs": 149
+    },
+    {
+      "initiatorType": "img",
+      "origin": "https://bh.contextweb.com",
+      "pathname": "/bh/rtset",
+      "queryKeys": [
+        "pid",
+        "ev",
+        "rurl",
+        "id",
+        "gdpr"
+      ],
+      "durationMs": 210
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://cdn.jsdelivr.net",
+      "pathname": "/gh/prebid/currency-file@1/latest.json",
+      "queryKeys": [
+        "date",
+        "upapi"
+      ],
+      "durationMs": 1
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://id.a-mx.com",
+      "pathname": "/sync/",
+      "queryKeys": [
+        "upapi",
+        "tagId",
+        "ref",
+        "u"
+      ],
+      "durationMs": 146
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://gum.criteo.com",
+      "pathname": "/sid/json",
+      "queryKeys": [
+        "origin",
+        "topUrl",
+        "domain",
+        "bundle",
+        "cw",
+        "lsw",
+        "us_privacy",
+        "gpp_sid",
+        "upapi"
+      ],
+      "durationMs": 19
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://id.a-mx.com",
+      "pathname": "/sync/",
+      "queryKeys": [
+        "upapi",
+        "tagId",
+        "ref",
+        "u"
+      ],
+      "durationMs": 201
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://gum.criteo.com",
+      "pathname": "/sid/json",
+      "queryKeys": [
+        "origin",
+        "topUrl",
+        "domain",
+        "bundle",
+        "cw",
+        "lsw",
+        "us_privacy",
+        "gpp_sid",
+        "upapi"
+      ],
+      "durationMs": 19
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://id5-sync.com",
+      "pathname": "/api/config/prebid",
+      "queryKeys": [
+        "upapi"
+      ],
+      "durationMs": 181
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://idx.liadm.com",
+      "pathname": "/idex/prebid/any",
+      "queryKeys": [
+        "duid",
+        "us_privacy",
+        "cd",
+        "pu",
+        "resolve",
+        "upapi"
+      ],
+      "durationMs": 2
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://match.adsrvr.org",
+      "pathname": "/track/rid",
+      "queryKeys": [
+        "ttd_pid",
+        "fmt",
+        "upapi"
+      ],
+      "durationMs": 1
+    },
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://raidoptimiser.hellhades.com",
+      "pathname": "/api/Account",
+      "queryKeys": [
+        "_"
+      ],
+      "durationMs": 737
+    },
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://raidoptimiser.hellhades.com",
+      "pathname": "/api/Account/locked",
+      "queryKeys": [
+        "_"
+      ],
+      "durationMs": 425
+    },
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://raidoptimiser.hellhades.com",
+      "pathname": "/api/StaticData/relicData",
+      "queryKeys": [
+        "_"
+      ],
+      "durationMs": 605
+    },
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://a.ad.gt",
+      "pathname": "/api/v1/collect",
+      "queryKeys": [],
+      "durationMs": 95
+    },
+    {
+      "initiatorType": "script",
+      "origin": "https://pixels.ad.gt",
+      "pathname": "/api/v1/getpixels",
+      "queryKeys": [
+        "tagger_id",
+        "url",
+        "code"
+      ],
+      "durationMs": 90
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://www.google-analytics.com",
+      "pathname": "/g/collect",
+      "queryKeys": [
+        "v",
+        "tid",
+        "gtm",
+        "_p",
+        "gcd",
+        "npa",
+        "dma",
+        "_eu",
+        "are",
+        "cid",
+        "frm",
+        "pscdl",
+        "rcb",
+        "sr",
+        "uaa",
+        "uab",
+        "uafvl",
+        "uam",
+        "uamb",
+        "uap",
+        "uapv",
+        "uaw",
+        "ul",
+        "_s",
+        "tag_exp",
+        "sid",
+        "sct",
+        "seg",
+        "dl",
+        "dt",
+        "en",
+        "_ee",
+        "tfd"
+      ],
+      "durationMs": 38
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://ad-delivery.net",
+      "pathname": "/px.gif",
+      "queryKeys": [
+        "ch",
+        "e"
+      ],
+      "durationMs": 14
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://lb.eu-1-id5-sync.com",
+      "pathname": "/lb/v1",
+      "queryKeys": [
+        "upapi"
+      ],
+      "durationMs": 372
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://s.cpx.to",
+      "pathname": "/getClassification",
+      "queryKeys": [
+        "pid",
+        "hn_ver",
+        "dsp",
+        "dsp_uid",
+        "dsp",
+        "dsp_uid",
+        "dsp",
+        "dsp_uid",
+        "dsp",
+        "dsp_uid"
+      ],
+      "durationMs": 120
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://rp.liadm.com",
+      "pathname": "/j",
+      "queryKeys": [
+        "dtstmp",
+        "se",
+        "duid",
+        "tv",
+        "pu",
+        "us_privacy",
+        "wpn",
+        "cd",
+        "upapi"
+      ],
+      "durationMs": 111
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://id5-sync.com",
+      "pathname": "/g/v2/993.json",
+      "queryKeys": [
+        "upapi"
+      ],
+      "durationMs": 121
+    },
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://raidoptimiser.hellhades.com",
+      "pathname": "/api/Login/freshToken",
+      "queryKeys": [],
+      "durationMs": 282
+    },
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://raidoptimiser.hellhades.com",
+      "pathname": "/api/Versions",
+      "queryKeys": [],
+      "durationMs": 280
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://s.cpx.to",
+      "pathname": "/fire.js",
+      "queryKeys": [
+        "pid",
+        "url",
+        "hn_ver",
+        "cdl",
+        "dsp",
+        "dsp_uid",
+        "dsp",
+        "dsp_uid",
+        "dsp",
+        "dsp_uid",
+        "dsp",
+        "dsp_uid"
+      ],
+      "durationMs": 119
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://api.btloader.com",
+      "pathname": "/pv",
+      "queryKeys": [
+        "nlf",
+        "tid",
+        "sid",
+        "cv",
+        "upapi"
+      ],
+      "durationMs": 24
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://api.btloader.com",
+      "pathname": "/ce",
+      "queryKeys": [
+        "nlf",
+        "tid",
+        "sid",
+        "cv",
+        "upapi"
+      ],
+      "durationMs": 26
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://s.cpx.to",
+      "pathname": "/getClassification",
+      "queryKeys": [
+        "pid",
+        "hn_ver",
+        "targeted_categories",
+        "dsp",
+        "dsp_uid",
+        "dsp",
+        "dsp_uid",
+        "dsp",
+        "dsp_uid",
+        "dsp",
+        "dsp_uid"
+      ],
+      "durationMs": 1
+    },
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://raidoptimiser.hellhades.com",
+      "pathname": "/api/Account",
+      "queryKeys": [
+        "_"
+      ],
+      "durationMs": 364
+    },
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://raidoptimiser.hellhades.com",
+      "pathname": "/api/Account/locked",
+      "queryKeys": [
+        "_"
+      ],
+      "durationMs": 157
+    },
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://raidoptimiser.hellhades.com",
+      "pathname": "/api/StaticData/relicData",
+      "queryKeys": [
+        "_"
+      ],
+      "durationMs": 161
+    },
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://raidoptimiser.hellhades.com",
+      "pathname": "/api/Versions",
+      "queryKeys": [],
+      "durationMs": 165
+    },
+    {
+      "initiatorType": "xmlhttprequest",
+      "origin": "https://raidoptimiser.hellhades.com",
+      "pathname": "/api/AccountMetadata",
+      "queryKeys": [],
+      "durationMs": 592
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://api.btloader.com",
+      "pathname": "/pv",
+      "queryKeys": [
+        "nlf",
+        "tid",
+        "sid",
+        "cv",
+        "upapi"
+      ],
+      "durationMs": 32
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://api.btloader.com",
+      "pathname": "/ce",
+      "queryKeys": [
+        "nlf",
+        "tid",
+        "sid",
+        "cv",
+        "upapi"
+      ],
+      "durationMs": 34
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://s.cpx.to",
+      "pathname": "/fire.js",
+      "queryKeys": [
+        "pid",
+        "url",
+        "hn_ver",
+        "cdl",
+        "dsp",
+        "dsp_uid",
+        "dsp",
+        "dsp_uid",
+        "dsp",
+        "dsp_uid",
+        "dsp",
+        "dsp_uid"
+      ],
+      "durationMs": 361
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://s.cpx.to",
+      "pathname": "/getClassification",
+      "queryKeys": [
+        "pid",
+        "hn_ver",
+        "targeted_categories",
+        "dsp",
+        "dsp_uid",
+        "dsp",
+        "dsp_uid",
+        "dsp",
+        "dsp_uid",
+        "dsp",
+        "dsp_uid"
+      ],
+      "durationMs": 1
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://www.google-analytics.com",
+      "pathname": "/g/collect",
+      "queryKeys": [
+        "v",
+        "tid",
+        "gtm",
+        "_p",
+        "gcs",
+        "gcd",
+        "npa",
+        "dma",
+        "_eu",
+        "ae",
+        "are",
+        "cid",
+        "frm",
+        "pscdl",
+        "rcb",
+        "sr",
+        "uaa",
+        "uab",
+        "uafvl",
+        "uam",
+        "uamb",
+        "uap",
+        "uapv",
+        "uaw",
+        "ul",
+        "tag_exp",
+        "sid",
+        "sct",
+        "seg",
+        "dl",
+        "dt",
+        "_s",
+        "tfd"
+      ],
+      "durationMs": 31
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://www.google-analytics.com",
+      "pathname": "/g/collect",
+      "queryKeys": [
+        "v",
+        "tid",
+        "gtm",
+        "_p",
+        "gcs",
+        "gcd",
+        "npa",
+        "dma",
+        "_eu",
+        "ae",
+        "are",
+        "cid",
+        "frm",
+        "pscdl",
+        "rcb",
+        "sr",
+        "uaa",
+        "uab",
+        "uafvl",
+        "uam",
+        "uamb",
+        "uap",
+        "uapv",
+        "uaw",
+        "ul",
+        "_s",
+        "tag_exp",
+        "dl",
+        "dr",
+        "sid",
+        "sct",
+        "seg",
+        "dt",
+        "en",
+        "_et",
+        "tfd"
+      ],
+      "durationMs": 24
+    },
+    {
+      "initiatorType": "fetch",
+      "origin": "https://api.btloader.com",
+      "pathname": "/exd",
+      "queryKeys": [
+        "tid",
+        "sid",
+        "cv",
+        "upapi"
+      ],
+      "durationMs": 24
+    },
+    {
+      "initiatorType": "iframe",
+      "origin": "https://cm.g.doubleclick.net",
+      "pathname": "/partnerpixels",
+      "queryKeys": [
+        "us_privacy",
+        "url"
+      ],
+      "durationMs": 30
+    }
+  ],
+  "viewport": {
+    "scrollHeight": 19050,
+    "clientHeight": 872
+  }
+}

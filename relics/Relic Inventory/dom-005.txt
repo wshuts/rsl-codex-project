@@ -1,0 +1,37 @@
+{
+  "staticRelics": {
+    "pathname": "/api/StaticData/relicData",
+    "status": 200,
+    "statusText": "",
+    "ok": true,
+    "redirected": false,
+    "finalUrl": "https://raidoptimiser.hellhades.com/api/StaticData/relicData",
+    "contentType": "application/json; charset=utf-8",
+    "contentLength": 73529,
+    "parseError": null,
+    "rootType": "object",
+    "rootKeys": [
+      "relicTypes",
+      "relicStoneTypes",
+      "basicRelicRankByRarity",
+      "maxRelicLevelByRank",
+      "statValueByLevel",
+      "statBonusOpeningLevels"
+    ],
+    "responsePreview": null
+  },
+  "account": {
+    "pathname": "/api/Account",
+    "status": 401,
+    "statusText": "",
+    "ok": false,
+    "redirected": false,
+    "finalUrl": "https://raidoptimiser.hellhades.com/api/Account",
+    "contentType": null,
+    "contentLength": 0,
+    "parseError": null,
+    "rootType": null,
+    "rootKeys": null,
+    "responsePreview": null
+  }
+}

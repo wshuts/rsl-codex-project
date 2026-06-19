@@ -1,0 +1,389 @@
+{
+  "renderedRelicCount": 8,
+  "virtualScrollElements": [
+    "cdk-virtual-scroll-viewport.cdk-virtual-scroll-viewport.virtual-scroll.cdk-virtual-scrollable.cdk-virtual-scroll-orientation-vertical",
+    "div.cdk-virtual-scroll-content-wrapper",
+    "div.cdk-virtual-scroll-spacer"
+  ],
+  "scrollContainers": [
+    {
+      "selector": "cdk-virtual-scroll-viewport.cdk-virtual-scroll-viewport.virtual-scroll.cdk-virtual-scrollable.cdk-virtual-scroll-orientation-vertical",
+      "clientHeight": 872,
+      "scrollHeight": 19050,
+      "scrollTop": 0,
+      "children": 2,
+      "relicsInside": 8,
+      "chain": [
+        "cdk-virtual-scroll-viewport.cdk-virtual-scroll-viewport.virtual-scroll.cdk-virtual-scrollable.cdk-virtual-scroll-orientation-vertical",
+        "mat-sidenav-content.mat-drawer-content.mat-sidenav-content.relics-list.relics-list-container.draw_open_content",
+        "mat-sidenav-container.mat-drawer-container.mat-sidenav-container.relics_container.ui_container",
+        "app-relics",
+        "mat-sidenav-content.mat-drawer-content.mat-sidenav-content",
+        "mat-sidenav-container.mat-drawer-container.mat-sidenav-container.sidenav-container",
+        "div.vertical_nav",
+        "app-navigation"
+      ]
+    }
+  ],
+  "relics": [
+    {
+      "index": 0,
+      "rect": {
+        "top": 155,
+        "left": 382,
+        "width": 671,
+        "height": 150
+      },
+      "text": "Wand of Submission - Level 15Wearer has a 25% chance to reflect [Stun], [Sleep], [Fear], [True Fear], [Freeze], [Provoke], [Petrification], and [Sheep] debuffs back at the producer.HP4709Spd9Acc16",
+      "images": [
+        {
+          "alt": null,
+          "title": null,
+          "src": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/KnightsRevenant/Mythical/EmbrystheAnomaly.png"
+        },
+        {
+          "alt": null,
+          "title": null,
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/17.png"
+        },
+        {
+          "alt": "Enhanced Shot",
+          "title": "The wearer's ACC increases by 3 per each buff on them.",
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/Gemstones/8.png"
+        },
+        {
+          "alt": "Invigorated",
+          "title": "Turn Meter increase effects are 10% more effective on the wearer.",
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/Gemstones/17.png"
+        },
+        {
+          "alt": "Invigorated",
+          "title": "Turn Meter increase effects are 10% more effective on the wearer.",
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/Gemstones/17.png"
+        }
+      ],
+      "children": [
+        "div.relic_default-layer"
+      ],
+      "chain": [
+        "div.relic.relic_legendary",
+        "app-relic",
+        "div.relic_row",
+        "div.cdk-virtual-scroll-content-wrapper",
+        "cdk-virtual-scroll-viewport.cdk-virtual-scroll-viewport.virtual-scroll.cdk-virtual-scrollable.cdk-virtual-scroll-orientation-vertical",
+        "mat-sidenav-content.mat-drawer-content.mat-sidenav-content.relics-list.relics-list-container.draw_open_content",
+        "mat-sidenav-container.mat-drawer-container.mat-sidenav-container.relics_container.ui_container",
+        "app-relics"
+      ]
+    },
+    {
+      "index": 1,
+      "rect": {
+        "top": 309,
+        "left": 382,
+        "width": 671,
+        "height": 150
+      },
+      "text": "Unholy Grail - Level 15Wearer deals 2% more damage if under any debuffs.Atk306HP2424C.Dmg6%",
+      "images": [
+        {
+          "alt": null,
+          "title": null,
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/1.png"
+        },
+        {
+          "alt": "Empty Socket",
+          "title": "Empty Socket",
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/Gemstones/empty_1.png"
+        }
+      ],
+      "children": [
+        "div.relic_default-layer"
+      ],
+      "chain": [
+        "div.relic.relic_rare",
+        "app-relic",
+        "div.relic_row",
+        "div.cdk-virtual-scroll-content-wrapper",
+        "cdk-virtual-scroll-viewport.cdk-virtual-scroll-viewport.virtual-scroll.cdk-virtual-scrollable.cdk-virtual-scroll-orientation-vertical",
+        "mat-sidenav-content.mat-drawer-content.mat-sidenav-content.relics-list.relics-list-container.draw_open_content",
+        "mat-sidenav-container.mat-drawer-container.mat-sidenav-container.relics_container.ui_container",
+        "app-relics"
+      ]
+    },
+    {
+      "index": 2,
+      "rect": {
+        "top": 463,
+        "left": 382,
+        "width": 671,
+        "height": 150
+      },
+      "text": "Malefic Talon - Level 15Wearer has a 20% chance to deal 10% more damage when attacking.C.Dmg31%HP2424Atk53",
+      "images": [
+        {
+          "alt": null,
+          "title": null,
+          "src": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/Skinwalkers/Legendary/SunWukong.png"
+        },
+        {
+          "alt": null,
+          "title": null,
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/5.png"
+        },
+        {
+          "alt": "Lifedrain",
+          "title": "The wearer's critical hits destroy 1% of the target's MAX HP per each buff on the wearer (stacks up to 20%).",
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/Gemstones/1.png"
+        }
+      ],
+      "children": [
+        "div.relic_default-layer"
+      ],
+      "chain": [
+        "div.relic.relic_rare",
+        "app-relic",
+        "div.relic_row",
+        "div.cdk-virtual-scroll-content-wrapper",
+        "cdk-virtual-scroll-viewport.cdk-virtual-scroll-viewport.virtual-scroll.cdk-virtual-scrollable.cdk-virtual-scroll-orientation-vertical",
+        "mat-sidenav-content.mat-drawer-content.mat-sidenav-content.relics-list.relics-list-container.draw_open_content",
+        "mat-sidenav-container.mat-drawer-container.mat-sidenav-container.relics_container.ui_container",
+        "app-relics"
+      ]
+    },
+    {
+      "index": 3,
+      "rect": {
+        "top": 617,
+        "left": 382,
+        "width": 671,
+        "height": 150
+      },
+      "text": "Aspect of Siroth - Level 12When wearer receives fatal damage, reduces it by 50% of their Turn Meter and then fully reduces their Turn Meter. Cooldown: 1 turn.Def255Res28Acc0",
+      "images": [
+        {
+          "alt": null,
+          "title": null,
+          "src": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/Dwarves/Legendary/GoffredBrassclad.png"
+        },
+        {
+          "alt": null,
+          "title": null,
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/16.png"
+        },
+        {
+          "alt": "Weak Retort",
+          "title": "The wearer receives 15% less damage from counterattacks.",
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/Gemstones/31.png"
+        },
+        {
+          "alt": "Critical Bolster",
+          "title": "The wearer's DEF increases by 1% each time they receive a critical hit (stacks up to 10%).",
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/Gemstones/20.png"
+        },
+        {
+          "alt": "Foekiller",
+          "title": "The wearer deals 5% more damage against enemies with full HP.",
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/Gemstones/37.png"
+        }
+      ],
+      "children": [
+        "div.relic_default-layer"
+      ],
+      "chain": [
+        "div.relic.relic_legendary",
+        "app-relic",
+        "div.relic_row",
+        "div.cdk-virtual-scroll-content-wrapper",
+        "cdk-virtual-scroll-viewport.cdk-virtual-scroll-viewport.virtual-scroll.cdk-virtual-scrollable.cdk-virtual-scroll-orientation-vertical",
+        "mat-sidenav-content.mat-drawer-content.mat-sidenav-content.relics-list.relics-list-container.draw_open_content",
+        "mat-sidenav-container.mat-drawer-container.mat-sidenav-container.relics_container.ui_container",
+        "app-relics"
+      ]
+    },
+    {
+      "index": 4,
+      "rect": {
+        "top": 771,
+        "left": 382,
+        "width": 671,
+        "height": 150
+      },
+      "text": "Hatter's Reserve - Level 12Wearer receives 5% less damage from enemies whose ATK is lower than the wearer's. Also inflicts 5% more damage to enemies whose MAX HP is lower than the wearer's.HP3947Atk104C.Dmg0%",
+      "images": [
+        {
+          "alt": null,
+          "title": null,
+          "src": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/KnightsRevenant/Legendary/Arix.png"
+        },
+        {
+          "alt": null,
+          "title": null,
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/23.png"
+        },
+        {
+          "alt": "Pierce Defenses",
+          "title": "The wearer will ignore 3% of the target's DEF if the target is under 2 or more debuffs.",
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/Gemstones/3.png"
+        },
+        {
+          "alt": "Embellished Shield",
+          "title": "<color=#1ee600>[Shield]</color> buffs placed on the wearer are 10% stronger.",
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/Gemstones/11.png"
+        }
+      ],
+      "children": [
+        "div.relic_default-layer"
+      ],
+      "chain": [
+        "div.relic.relic_epic",
+        "app-relic",
+        "div.relic_row",
+        "div.cdk-virtual-scroll-content-wrapper",
+        "cdk-virtual-scroll-viewport.cdk-virtual-scroll-viewport.virtual-scroll.cdk-virtual-scrollable.cdk-virtual-scroll-orientation-vertical",
+        "mat-sidenav-content.mat-drawer-content.mat-sidenav-content.relics-list.relics-list-container.draw_open_content",
+        "mat-sidenav-container.mat-drawer-container.mat-sidenav-container.relics_container.ui_container",
+        "app-relics"
+      ]
+    },
+    {
+      "index": 5,
+      "rect": {
+        "top": 925,
+        "left": 382,
+        "width": 671,
+        "height": 150
+      },
+      "text": "Gilded Dragonstone - Level 12Wearer's DEF increases by 1% each time they receive damage (stacks up to 10%).Def255Res28HP0",
+      "images": [
+        {
+          "alt": null,
+          "title": null,
+          "src": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/Barbarians/Legendary/FreyjaFateweaver.png"
+        },
+        {
+          "alt": null,
+          "title": null,
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/10.png"
+        },
+        {
+          "alt": "Embellished Shield",
+          "title": "<color=#1ee600>[Shield]</color> buffs placed on the wearer are 10% stronger.",
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/Gemstones/11.png"
+        },
+        {
+          "alt": "Critical Bolster",
+          "title": "The wearer's DEF increases by 1% each time they receive a critical hit (stacks up to 10%).",
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/Gemstones/20.png"
+        }
+      ],
+      "children": [
+        "div.relic_default-layer"
+      ],
+      "chain": [
+        "div.relic.relic_epic",
+        "app-relic",
+        "div.relic_row",
+        "div.cdk-virtual-scroll-content-wrapper",
+        "cdk-virtual-scroll-viewport.cdk-virtual-scroll-viewport.virtual-scroll.cdk-virtual-scrollable.cdk-virtual-scroll-orientation-vertical",
+        "mat-sidenav-content.mat-drawer-content.mat-sidenav-content.relics-list.relics-list-container.draw_open_content",
+        "mat-sidenav-container.mat-drawer-container.mat-sidenav-container.relics_container.ui_container",
+        "app-relics"
+      ]
+    },
+    {
+      "index": 6,
+      "rect": {
+        "top": 1079,
+        "left": 382,
+        "width": 671,
+        "height": 150
+      },
+      "text": "Orb of Transfixion - Level 12Wearer has a 10% chance to steal 1 random buff when attacking a target. This effect cannot be resisted. Occurs once per skill.HP3947Acc28Spd0",
+      "images": [
+        {
+          "alt": null,
+          "title": null,
+          "src": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/Orcs/Legendary/Warlord.png"
+        },
+        {
+          "alt": null,
+          "title": null,
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/14.png"
+        },
+        {
+          "alt": "Targetfinder",
+          "title": "The wearer's ACC increases by 5 whenever an enemy resists a debuff placed by the wearer (stacks up to 40).",
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/Gemstones/38.png"
+        },
+        {
+          "alt": "Invigorated",
+          "title": "Turn Meter increase effects are 10% more effective on the wearer.",
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/Gemstones/17.png"
+        }
+      ],
+      "children": [
+        "div.relic_default-layer"
+      ],
+      "chain": [
+        "div.relic.relic_epic",
+        "app-relic",
+        "div.relic_row",
+        "div.cdk-virtual-scroll-content-wrapper",
+        "cdk-virtual-scroll-viewport.cdk-virtual-scroll-viewport.virtual-scroll.cdk-virtual-scrollable.cdk-virtual-scroll-orientation-vertical",
+        "mat-sidenav-content.mat-drawer-content.mat-sidenav-content.relics-list.relics-list-container.draw_open_content",
+        "mat-sidenav-container.mat-drawer-container.mat-sidenav-container.relics_container.ui_container",
+        "app-relics"
+      ]
+    },
+    {
+      "index": 7,
+      "rect": {
+        "top": 1233,
+        "left": 382,
+        "width": 671,
+        "height": 150
+      },
+      "text": "Exuzar’s Totem - Level 12Wearer's Turn Meter increases by 10%, whenever an ally receives a [Stun], [Sleep], [Fear], [True Fear], [Freeze], [Provoke], or [Petrification] debuff. Occurs once per turn.Acc62HP1662Spd0",
+      "images": [
+        {
+          "alt": null,
+          "title": null,
+          "src": "https://raidoptimiser.hellhades.com/assets/ChampionsIcons/Demonspawn/Legendary/AuthoratrixLamasu.png"
+        },
+        {
+          "alt": null,
+          "title": null,
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/59.png"
+        },
+        {
+          "alt": "Weakening Resolve",
+          "title": "When attacked with a multi-hit skill, decreases the damage the wearer receives from each subsequent hit after the first one by 10%.",
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/Gemstones/51.png"
+        },
+        {
+          "alt": "Assured Security",
+          "title": "The wearer's RES increases by 30 against buff removal and buff steal effects.",
+          "src": "https://raidoptimiser.hellhades.com/assets/RelicIcons/Gemstones/33.png"
+        }
+      ],
+      "children": [
+        "div.relic_default-layer"
+      ],
+      "chain": [
+        "div.relic.relic_epic",
+        "app-relic",
+        "div.relic_row",
+        "div.cdk-virtual-scroll-content-wrapper",
+        "cdk-virtual-scroll-viewport.cdk-virtual-scroll-viewport.virtual-scroll.cdk-virtual-scrollable.cdk-virtual-scroll-orientation-vertical",
+        "mat-sidenav-content.mat-drawer-content.mat-sidenav-content.relics-list.relics-list-container.draw_open_content",
+        "mat-sidenav-container.mat-drawer-container.mat-sidenav-container.relics_container.ui_container",
+        "app-relics"
+      ]
+    }
+  ],
+  "angular": {
+    "debugApiAvailable": false,
+    "component": null
+  }
+}

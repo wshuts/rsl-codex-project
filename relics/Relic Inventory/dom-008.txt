@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "label": "relic component",
+      "found": true,
+      "tag": "app-relic",
+      "ownProperties": [
+        "__ngContext__"
+      ],
+      "contextType": "number",
+      "contextLength": null,
+      "contextEntries": 4332
+    },
+    {
+      "label": "relic row",
+      "found": true,
+      "tag": "div",
+      "ownProperties": [
+        "__ngContext__",
+        "__ng_removed"
+      ],
+      "contextType": "number",
+      "contextLength": null,
+      "contextEntries": 359
+    },
+    {
+      "label": "virtual viewport",
+      "found": true,
+      "tag": "cdk-virtual-scroll-viewport",
+      "ownProperties": [
+        "__ngContext__",
+        "__zone_symbol__scrollfalse"
+      ],
+      "contextType": "number",
+      "contextLength": null,
+      "contextEntries": 253
+    },
+    {
+      "label": "content wrapper",
+      "found": true,
+      "tag": "div",
+      "ownProperties": [
+        "__ngContext__"
+      ],
+      "contextType": "number",
+      "contextLength": null,
+      "contextEntries": 259
+    },
+    {
+      "label": "relic list component",
+      "found": true,
+      "tag": "app-relics",
+      "ownProperties": [
+        "__ngContext__"
+      ],
+      "contextType": "number",
+      "contextLength": null,
+      "contextEntries": 251
+    }
+  ]
+}
