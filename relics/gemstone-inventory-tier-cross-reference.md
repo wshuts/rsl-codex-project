@@ -113,6 +113,35 @@ Selling every currently available gemstone would generate 6,820 Starstones, but 
 4. Review Enhanced Shot on Embrys and Weak Retort on Goffred for possible upgrades after checking removal costs.
 5. Sell surplus B- and C-tier copies first when generating Starstones, rather than selling scarce A-, S-, or SS-tier gemstones.
 
+## Immediate Selling Shortlist
+
+### Tranche 1: Lowest-Risk C-Tier Surplus
+
+This tranche sells only excess copies while retaining at least two available copies of each listed Rare gemstone and one available Weak Retort in addition to its socketed copy.
+
+| Gemstone | Rarity | Available before | Sell | Available after | Starstones |
+|---|---|---:|---:|---:|---:|
+| Unerring Focus | Rare | 21 | 19 | 2 | 380 |
+| Barbed Defense | Rare | 4 | 2 | 2 | 40 |
+| Unburdened | Rare | 3 | 1 | 2 | 20 |
+| Weak Retort | Epic | 2 | 1 | 1 | 40 |
+| **Tranche 1 total** |  |  | **23** |  | **480** |
+
+### Tranche 2: Deep B-Tier Stacks
+
+This is a broader but still conservative follow-up. Existing socketed copies are not included in the sale quantities.
+
+| Gemstone | Rarity | Available before | Sell | Available after | Already socketed | Starstones |
+|---|---|---:|---:|---:|---:|---:|
+| Critical Bolster | Rare | 20 | 15 | 5 | 5 | 300 |
+| Unstoppable | Rare | 14 | 9 | 5 | 3 | 180 |
+| Shieldbreaker | Rare | 9 | 6 | 3 | 0 | 120 |
+| Embellished Shield | Rare | 7 | 4 | 3 | 2 | 80 |
+| Unflinching | Epic | 7 | 4 | 3 | 2 | 160 |
+| **Tranche 2 total** |  |  | **38** |  |  | **840** |
+
+Selling both tranches removes 61 available gemstones and generates 1,320 Starstones. Tranche 1 is the clearest immediate action; Tranche 2 can be deferred if fewer Starstones are needed.
+
 ## Reproduction
 
 Run `gemstone-inventory-tier-analysis.js` to regenerate the tier counts and per-gemstone inventory cross-reference from the current sanitized inventory snapshot and HellHades tier-list DOM excerpt.
