@@ -1,0 +1,128 @@
+<h2 id="gemstone" class="wpc--darkluplite-element darkluplite--text darkluplite--border">Gemstone Tier List Guide</h2>
+<p class="wpc--darkluplite-element darkluplite--text">The following outlines the criteria used to determine the various tiers in this list:<br class="wpc--darkluplite-element">
+<strong class="wpc--darkluplite-element darkluplite--text">SS Tier</strong> – Best-in-class gemstones delivering exceptional value across multiple areas.<br class="wpc--darkluplite-element">
+<strong class="wpc--darkluplite-element darkluplite--text">S Tier</strong> – Extremely strong gemstones that excel in specific roles or content types.<br class="wpc--darkluplite-element">
+<strong class="wpc--darkluplite-element darkluplite--text">A Tier</strong> – Solid gemstones with consistent usefulness and good synergy potential.<br class="wpc--darkluplite-element">
+<strong class="wpc--darkluplite-element darkluplite--text">B Tier</strong> – Situational gemstones that perform well in niche setups or early-to-mid game.<br class="wpc--darkluplite-element">
+<strong class="wpc--darkluplite-element darkluplite--text">C Tier</strong> – Low-impact gemstones that are rarely optimal but may have limited use.</p>
+<table class="wpc--darkluplite-element darkluplite--border">
+<tbody class="wpc--darkluplite-element">
+<tr class="wpc--darkluplite-element">
+<td colspan="2" style="text-align:center" class="wpc--darkluplite-element darkluplite--border"><strong class="wpc--darkluplite-element darkluplite--text">Gemstone Abbreviations (Rarity-Gemstone)</strong></td>
+</tr>
+<tr class="wpc--darkluplite-element">
+<td colspan="2" style="text-align:center" class="wpc--darkluplite-element darkluplite--border"><strong class="wpc--darkluplite-element darkluplite--text">Example: MC refers to Mythical rarity, and Circle gemstone shape</strong></td>
+</tr>
+<tr class="wpc--darkluplite-element">
+<td style="width:50%;" class="wpc--darkluplite-element darkluplite--border">
+<h4 class="wpc--darkluplite-element darkluplite--text">Rarity</h4>
+<p class="wpc--darkluplite-element darkluplite--text">M – Mythical<br class="wpc--darkluplite-element">
+L – Legendary<br class="wpc--darkluplite-element">
+E – Epic<br class="wpc--darkluplite-element">
+R – Rare
+</p></td>
+<td style="width:50%;" class="wpc--darkluplite-element darkluplite--border">
+<h4 class="wpc--darkluplite-element darkluplite--text">Shape</h4>
+<p class="wpc--darkluplite-element darkluplite--text">C – Circle<br class="wpc--darkluplite-element">
+D – Diamond<br class="wpc--darkluplite-element">
+P – Pentagon<br class="wpc--darkluplite-element">
+S – Square<br class="wpc--darkluplite-element">
+T – Triangle
+</p></td>
+</tr>
+<tr class="wpc--darkluplite-element">
+<td colspan="2" style="text-align:center" class="wpc--darkluplite-element darkluplite--border"><strong class="wpc--darkluplite-element darkluplite--text">Gemstone Tier List</strong></td>
+</tr>
+<tr class="wpc--darkluplite-element">
+<td style="width:50%;" class="wpc--darkluplite-element darkluplite--border">
+<h4 class="wpc--darkluplite-element darkluplite--text">SS Tier Gemstones</h4>
+<p class="wpc--darkluplite-element"><a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#bloodthirsty-prowess" class="darkluplite--link">Bloodthirsty Prowess (MC)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#bolstered-defense" class="darkluplite--link">Bolstered Defense (MC)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#boss-slayer" class="darkluplite--link">Boss Slayer (MC)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#caught-unaware" class="darkluplite--link">Caught Unaware (MD)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#gathering-momentum" class="darkluplite--link">Gathering Momentum (LD)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#heal-n-go" class="darkluplite--link">Heal N Go (MD)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#impede-them" class="darkluplite--link">Impede Them (MP)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#necrodefense" class="darkluplite--link">Necrodefense (MD)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#revivals-boon" class="darkluplite--link">Revival’s Boon (MD)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#skillmaster" class="darkluplite--link">Skillmaster (MP)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#speedy-willpower" class="darkluplite--link">Speedy Willpower (LP)</a></p>
+<h4 class="wpc--darkluplite-element darkluplite--text">S Tier Gemstones</h4>
+<p class="wpc--darkluplite-element"><a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#attacking-prowess" class="darkluplite--link">Attacking Prowess (LT)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#constant-onslaught" class="darkluplite--link">Constant Onslaught (MT)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#expeditioius-exploitation" class="darkluplite--link">Expeditioius Exploitation (LD)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#explosive-power" class="darkluplite--link">Explosive Power (LC)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#invigorated" class="darkluplite--link">Invigorated (RC)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#opening-gambit" class="darkluplite--link">Opening Gambit (LS)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#pierce-defenses" class="darkluplite--link">Pierce Defenses (RT)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#piercing-strike" class="darkluplite--link">Piercing Strike (LT)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#puppetmaster" class="darkluplite--link">Puppetmaster (LC)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#rolling-force" class="darkluplite--link">Rolling Force (LT)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#sharpened-riposte" class="darkluplite--link">Sharpened Riposte (MT)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#slow-the-enemy" class="darkluplite--link">Slow The Enemy (MP)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#torpidity" class="darkluplite--link">Torpidity (MS)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#undead-bulwark" class="darkluplite--link">Undead Bulwark (MC)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#uncontrollable" class="darkluplite--link">Uncontrollable (LC)</a></p>
+<h4 class="wpc--darkluplite-element darkluplite--text">A Tier Gemstones</h4>
+<p class="wpc--darkluplite-element"><a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#assured-security" class="darkluplite--link">Assured Security (EP)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#buff-depletion" class="darkluplite--link">Buff Depletion (MS)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#critical-strategy" class="darkluplite--link">Critical Strategy (LT)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#damage-mitigation" class="darkluplite--link">Damage Mitigation (LS)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#destructive-accuracy" class="darkluplite--link">Destructive Accuracy (EC)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#double-down" class="darkluplite--link">Double Down (MT)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#dungeon-delver" class="darkluplite--link">Dungeon Delver (LC)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#energy-expansion" class="darkluplite--link">Energy Expansion (ED)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#extra-punishment" class="darkluplite--link">Extra Punishment (MT)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#foekiller" class="darkluplite--link">Foekiller (EC)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#in-for-the-kill" class="darkluplite--link">In For the Kill (RP)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#life-drain" class="darkluplite--link">Life Drain (RT)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#maximum-velocity" class="darkluplite--link">Maximum Velocity (EP)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#parting-gift" class="darkluplite--link">Parting Gift (LD)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#patient-refuge" class="darkluplite--link">Patient Refuge (MP)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#power-reset" class="darkluplite--link">Power REset (LP)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#precision-removal" class="darkluplite--link">Precision Removal (ED)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#quickstrike" class="darkluplite--link">Quickstrike (ET)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#revival-blessing" class="darkluplite--link">Revival Blessing (ED)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#skill-adept" class="darkluplite--link">Skill Adept (LP)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#starting-strength" class="darkluplite--link">Starting Strength (ED)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#steadfast-preparation" class="darkluplite--link">Steadfast Preparation (LS)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#strength-sap" class="darkluplite--link">Strength Sap (ES)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#survival-speed" class="darkluplite--link">Survival Speed (EP)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#targetfinder" class="darkluplite--link">Targetfinder (EC)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#weakening-resolve" class="darkluplite--link">Weakening Resolve (LS)</a></p>
+</td>
+<td style="width:50%;" class="wpc--darkluplite-element darkluplite--border">
+<h4 class="wpc--darkluplite-element darkluplite--text">B Tier Gemstones</h4>
+<p class="wpc--darkluplite-element"><a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#blessed-heal" class="darkluplite--link">Blessed Heal (RD)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#blunt-blades" class="darkluplite--link">Blunt Blades (MS)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#carved-open" class="darkluplite--link">Carved Open (LD)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#critical-bolster" class="darkluplite--link">Critical Bolster (RC)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#embellished-shield" class="darkluplite--link">Embellished Shield (RS)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#extra-velocity" class="darkluplite--link">Extra Velocity (RP)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#fleetfoot" class="darkluplite--link">Fleetfoot (RP)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#goad-god" class="darkluplite--link">Goad God (MS)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#growing-resolve" class="darkluplite--link">Growing Resolve (EP)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#nimblemiss" class="darkluplite--link">Nimblemiss (LP)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#pouncing-strike" class="darkluplite--link">Pouncing Strike (ET)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#shieldbreaker" class="darkluplite--link">Shieldbreaker (RT)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#single-combat-master" class="darkluplite--link">Single Combat Master (ES)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#strengthening-will" class="darkluplite--link">Strengthening Will (ES)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#target-smash" class="darkluplite--link">Target Smash (ET)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#unbowed-might" class="darkluplite--link">Unbowed Might (RT)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#unbroken-strength" class="darkluplite--link">Unbroken Strength (RP)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#unflincing" class="darkluplite--link">Unflincing (EC)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#unrelenting-power" class="darkluplite--link">Unrelenting Power (ET)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#unstoppable" class="darkluplite--link">Unstoppable (RC)</a></p>
+<h4 class="wpc--darkluplite-element darkluplite--text">C Tier Gemstones</h4>
+<p class="wpc--darkluplite-element"><a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#barbed-defense" class="darkluplite--link">Barbed Defense (RS)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#enhanced-shot" class="darkluplite--link">Enhanced Shot (RD)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#greater-restoration" class="darkluplite--link">Greater Restoration (RD)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#sanctified-skin" class="darkluplite--link">Sanctified Skin (RS)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#steadfastness" class="darkluplite--link">Steadfastness (RS)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#unburdened" class="darkluplite--link">Unburdened (RD)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#unerring-focus" class="darkluplite--link">Unerring Focus (RC)</a><br class="wpc--darkluplite-element">
+<a href="https://ayumilove.net/raid-shadow-legends-relics-and-gemstones-guide/#weak-retort" class="darkluplite--link">Weak Retort (ES)</a>
+</p></td>
+</tr>
+</tbody>
+</table>
