@@ -1,0 +1,88 @@
+# Relic Inventory Update Guide
+
+## Purpose
+
+`build-relic-inventory.ps1` converts the newest private account snapshot into the sanitized relic and gemstone inventory used by the project.
+
+## Prepare the Snapshot
+
+Place the new account snapshot in this directory and give it a numbered name such as:
+
+```text
+account-response-09-private.json
+```
+
+When no `-AccountPath` is supplied, the script selects the numbered snapshot matching `account-response-<number>-private.json` with the newest file-modification time. It prints the selected filename before processing.
+
+The generated inventory overwrites:
+
+```text
+relic-inventory-sanitized.json
+```
+
+## Run From Windows PowerShell
+
+PowerShell is the more convenient console when inspecting JSON, passing parameters, or troubleshooting interactively.
+
+### One-command invocation
+
+This starts a child PowerShell process with a temporary execution-policy bypass:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\dev\rsl-codex-project\relics\Relic Inventory\build-relic-inventory.ps1"
+```
+
+The bypass ends when the command finishes and does not permanently change the machine's execution policy.
+
+### Bypass for the current PowerShell window
+
+Alternatively, enable the bypass only for the current console process:
+
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+Then run the script directly:
+
+```powershell
+& "C:\dev\rsl-codex-project\relics\Relic Inventory\build-relic-inventory.ps1"
+```
+
+Closing that PowerShell window discards the process-scoped setting.
+
+## Run From Command Prompt
+
+From `cmd.exe`, explicitly launch PowerShell:
+
+```cmd
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\dev\rsl-codex-project\relics\Relic Inventory\build-relic-inventory.ps1"
+```
+
+The generated inventory is identical regardless of whether the command originated in PowerShell or Command Prompt.
+
+## Select a Snapshot Explicitly
+
+Use `-AccountPath` to override automatic snapshot selection:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\dev\rsl-codex-project\relics\Relic Inventory\build-relic-inventory.ps1" -AccountPath "C:\path\to\account-response-09-private.json"
+```
+
+## Verify the Update
+
+Before relying on the regenerated inventory, confirm:
+
+1. The script printed the expected account snapshot filename.
+2. The reported relic and gemstone totals are plausible.
+3. `relic-inventory-sanitized.json` has a new modification time.
+4. Its `sources.account` property names the intended snapshot.
+
+For the post-sale snapshot discussed on 2026-06-20, the expected gemstone totals are:
+
+| Measure | Expected value |
+|---|---:|
+| Total gemstones | 197 |
+| Socketed gemstones | 61 |
+| Unsocketed gemstones | 136 |
+
+These expected totals assume no gemstone changes occurred after the two completed selling tranches.
