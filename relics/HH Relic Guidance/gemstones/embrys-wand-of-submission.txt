@@ -1,0 +1,8 @@
+<div class="raid-relic-gemstone-container">
+  <div class="raid-relic-gemstone" data-gem-id="47" data-gem-name="Gathering Momentum" data-gem-description="Increases the wearer's Turn Meter by 3% each time they place a debuff on an enemy. Cannot increase the wearer's Turn Meter by more than 20% in a single turn." title="Gathering Momentum">
+    <img class="raid-relic-gemstone-img" src="/wp-content/plugins/rsl-assets/assets/relics/gemstones/47.png" onerror="this.onerror=null;this.src='/wp-content/plugins/rsl-assets/assets/artwork/raid-relics/temporary.png';"/>
+    <div class="raid-relic-gemstone" data-gem-id="17" data-gem-name="Invigorated" data-gem-description="Turn Meter increase effects are 10% more effective on the wearer." title="Invigorated">
+      <img class="raid-relic-gemstone-img" src="/wp-content/plugins/rsl-assets/assets/relics/gemstones/17.png" onerror="this.onerror=null;this.src='/wp-content/plugins/rsl-assets/assets/artwork/raid-relics/temporary.png';"/>
+      <div class="raid-relic-gemstone" data-gem-id="17" data-gem-name="Invigorated" data-gem-description="Turn Meter increase effects are 10% more effective on the wearer." title="Invigorated">
+        <img class="raid-relic-gemstone-img" src="/wp-content/plugins/rsl-assets/assets/relics/gemstones/17.png" onerror="this.onerror=null;this.src='/wp-content/plugins/rsl-assets/assets/artwork/raid-relics/temporary.png';"/>
+      </div>
