@@ -1,10 +1,28 @@
 param(
-    [string]$AccountPath = "$PSScriptRoot\account-response-current-private.json",
+    [string]$AccountPath,
     [string]$StaticPath = "$PSScriptRoot\relic-static-data.json",
     [string]$OutputPath = "$PSScriptRoot\relic-inventory-sanitized.json"
 )
 
 $ErrorActionPreference = "Stop"
+
+if ([string]::IsNullOrWhiteSpace($AccountPath)) {
+    $accountSnapshot = Get-ChildItem -LiteralPath $PSScriptRoot -File |
+        Where-Object { $_.Name -match '^account-response-\d+-private\.json$' } |
+        Sort-Object -Property LastWriteTimeUtc, Name -Descending |
+        Select-Object -First 1
+
+    if ($null -eq $accountSnapshot) {
+        throw "No numbered account snapshot matching account-response-<number>-private.json was found in $PSScriptRoot."
+    }
+
+    $AccountPath = $accountSnapshot.FullName
+}
+
+$AccountPath = (Resolve-Path -LiteralPath $AccountPath).Path
+$StaticPath = (Resolve-Path -LiteralPath $StaticPath).Path
+
+Write-Host "Using account snapshot: $(Split-Path -Leaf $AccountPath)"
 
 $account = Get-Content -Raw -LiteralPath $AccountPath | ConvertFrom-Json
 $static = Get-Content -Raw -LiteralPath $StaticPath | ConvertFrom-Json
