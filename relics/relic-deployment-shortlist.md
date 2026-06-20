@@ -24,6 +24,23 @@ Before equipping, upgrading, or socketing any shortlisted relic, record and revi
 
 An unknown in any applicable field means **hold: do not equip, upgrade, or socket**. A change is approved only after the complete final state—not merely the relic's present level—has been shown safe for every known team.
 
+## Displayed-Effect Interpretation Safeguard
+
+Relic thumbnail and static-data descriptions appear to show the Ability Level 1 effect and may omit enhancements unlocked at the owned copy's current relic level. Do not treat the headline percentage as the complete current-state value.
+
+For every proposed deployment, distinguish:
+
+- the displayed Ability Level 1 effect;
+- the owned copy's current rank and level;
+- the ability progression attached to relic-level thresholds; and
+- the current effective value, confirmed in-game when the account export does not expose it.
+
+Aspect of Siroth is the first detailed case. Both the Rank 3/+0 and Rank 3/+9 panels display 50%. The callout begins at Ability Level 2 and lists five `Damage Reduction +10%` enhancements through Ability Level 6. At +0 none of those enhancements are active; at +9, Levels 2 and 3 are active. In-game help says the ability level *increases* at relic levels +6, +9, +12, +15, and +18. The revised working scale is therefore: Ability Level 1 displays 50%; +6 enhances it to 60%, +9 to 70%, +12 to 80%, +15 to 90%, and +18 to 100%.
+
+One activation question remains open: whether Ability Level 1 is functional immediately at relic +0, or requires a separate activation condition. The wording “increases at Relic Levels 6, 9, 12, 15, and 18” and the callout's first listed enhancement being `Lvl. 2` both favor Level 1 already existing at +0. Direct observation of an unlevelled relic triggering its effect would settle this.
+
+The account owner inspected several other relic types at several levels and observed the same general structure: a headline Ability Level 1 effect plus five upgrade rows, regardless of the specific ability. This cross-relic observation was not screenshot-captured and remains provisional evidence. Representative captures of other ability types would strengthen the model.
+
 ## Gemstone Dependency Grades
 
 Every relic/champion proposal must receive one of these grades. The grade applies to the complete pairing, not universally to the relic type: the same relic may be Core for one champion and Gem-dependent or Package-dependent for another.
@@ -110,11 +127,12 @@ These categories describe the present snapshot only. They are not approval group
 | Status | Equipped; initial deployment complete |
 | Relic copy | ID 214; confirmed by account snapshot 06 |
 | Rank / level | Rank 3, +9 |
+| Current effect strength | **Working value: 70% of current Turn Meter at Rank 3/+9.** The 50% headline is Ability Level 1; active Ability Levels 2 and 3 add 10% each. |
 | Active stat path | DEF; RES unlocked at +9; ACC remains locked until +15 |
 | Gemstones | Steadfast Preparation; 1× Uncontrollable; third socket empty |
 | Remaining work | Obtain a second Uncontrollable and accumulate resources for further relic levels |
 | Previous relic | Gilded Dragonstone removed non-destructively and preserved with its gemstones |
-| Deployment rationale | Freyja's Arena role is to remain alive while Sun Wukong repeatedly revives and pressures the enemy. Aspect reinforces that survival-anchor role by trading Turn Meter for fatal-damage reduction. |
+| Deployment rationale | Freyja's Arena role is to remain alive while Sun Wukong repeatedly revives and pressures the enemy. Aspect reinforces that survival-anchor role by trading Turn Meter for rank-scaled fatal-damage reduction. |
 | Speed review | No displayed-SPD change from this relic path or the installed gemstones; the relic's own fatal-damage effect can consume all Turn Meter and must be evaluated in battle. |
 
 #### Arena Test Log

@@ -26,10 +26,11 @@ Before allocating any shortlisted relic with an active, future, or proposed SPD/
 
 1. Learn and document what gemstones can modify, whether they can add or modify SPD, when their bonuses activate, and whether socketing or replacing one is reversible.
 2. Verify when a relic's locked attributes become active as it is leveled. The inventory notation such as `SPD (Lvl. 9)` must not be treated as harmless until confirmed in-game.
-3. Record the current total SPD of every proposed recipient before touching the relic.
-4. Record the champion's team(s), turn order, required SPD range, and permitted variance. If the safe range is unknown, the champion is not eligible for allocation.
-5. Preview or calculate the exact post-equip and post-upgrade SPD before confirming any change.
-6. Re-run the relevant team manually after any approved change before using instant, auto-repeat, or scarce keys/resources.
+3. Verify whether headline effect values describe the base ability, current ability level, or maximum. Static descriptions must not be assumed to represent complete current effect strength; inspect the ability-level callout.
+4. Record the current total SPD of every proposed recipient before touching the relic.
+5. Record the champion's team(s), turn order, required SPD range, and permitted variance. If the safe range is unknown, the champion is not eligible for allocation.
+6. Preview or calculate the exact post-equip and post-upgrade SPD before confirming any change.
+7. Re-run the relevant team manually after any approved change before using instant, auto-repeat, or scarce keys/resources.
 
 For non-speed-sensitive proposals, proceed through a reversible deployment with a restoration plan and relevant team testing. Build-locked champions require intentional review, not permanent exclusion.
 

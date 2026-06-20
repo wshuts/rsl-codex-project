@@ -4,6 +4,8 @@
 
 > Historical baseline from the original screenshot pass. Current copy-level equipped state is maintained in `Relic Inventory/relic-inventory-sanitized.json`; this table is not automatically rewritten after deployments.
 
+> Effect percentages transcribed from thumbnails appear to describe Ability Level 1 and may omit unlocked enhancements. Aspect of Siroth displays 50% at both +0 and +9; its callout shows two active `Damage Reduction +10%` enhancements at +9, producing a working current value of 70%. Whether Ability Level 1 is functional at relic +0 still awaits direct trigger confirmation.
+
 - 46 relic entries
 - Legendary and Epic relics only
 - Unequipped inventory
