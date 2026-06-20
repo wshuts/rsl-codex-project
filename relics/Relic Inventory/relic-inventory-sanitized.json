@@ -1,16 +1,16 @@
 ﻿{
     "schemaVersion":  1,
-    "generatedAt":  "2026-06-19T22:36:05.4601759Z",
+    "generatedAt":  "2026-06-20T01:07:54.7381985Z",
     "sources":  {
-                    "account":  "account-response-05-private.json",
+                    "account":  "account-response-current-private.json",
                     "staticData":  "relic-static-data.json"
                 },
     "summary":  {
                     "relics":  120,
                     "equippedRelics":  20,
                     "unequippedRelics":  100,
-                    "gemstones":  258,
-                    "socketedGemstones":  61,
+                    "gemstones":  260,
+                    "socketedGemstones":  63,
                     "unsocketedGemstones":  197
                 },
     "relics":  [
@@ -331,14 +331,9 @@
                        "maxLevel":  12,
                        "baseRankForRarity":  2,
                        "seen":  true,
-                       "activationState":  true,
-                       "equipped":  true,
-                       "wearer":  {
-                                      "heroId":  35004,
-                                      "heroTypeId":  9186,
-                                      "name":  "Freyja Fateweaver",
-                                      "shortName":  "Freyja"
-                                  },
+                       "activationState":  false,
+                       "equipped":  false,
+                       "wearer":  null,
                        "stats":  [
                                      {
                                          "slot":  1,
@@ -5489,13 +5484,18 @@
                        "rarityId":  5,
                        "rarity":  "Legendary",
                        "rank":  3,
-                       "level":  0,
+                       "level":  9,
                        "maxLevel":  9,
                        "baseRankForRarity":  3,
                        "seen":  true,
-                       "activationState":  null,
-                       "equipped":  false,
-                       "wearer":  null,
+                       "activationState":  true,
+                       "equipped":  true,
+                       "wearer":  {
+                                      "heroId":  35004,
+                                      "heroTypeId":  9186,
+                                      "name":  "Freyja Fateweaver",
+                                      "shortName":  "Freyja"
+                                  },
                        "stats":  [
                                      {
                                          "slot":  1,
@@ -5503,7 +5503,7 @@
                                          "name":  "Defense",
                                          "openingLevel":  0,
                                          "unlocked":  true,
-                                         "value":  53,
+                                         "value":  204,
                                          "isAbsolute":  true
                                      },
                                      {
@@ -5511,8 +5511,8 @@
                                          "statId":  5,
                                          "name":  "Resistance",
                                          "openingLevel":  9,
-                                         "unlocked":  false,
-                                         "value":  0,
+                                         "unlocked":  true,
+                                         "value":  51,
                                          "isAbsolute":  true
                                      },
                                      {
@@ -5529,12 +5529,30 @@
                                        {
                                            "slot":  1,
                                            "shapeId":  3,
-                                           "stone":  null
+                                           "stone":  {
+                                                         "id":  295,
+                                                         "typeId":  52,
+                                                         "name":  "Steadfast Preparation",
+                                                         "description":  "If the wearer loses 20% or more of their MAX HP from a single attack, the next hit received will deal 20% less damage.",
+                                                         "rarityId":  5,
+                                                         "rarity":  "Legendary",
+                                                         "shapeId":  3,
+                                                         "shapeMatchesSocket":  true
+                                                     }
                                        },
                                        {
                                            "slot":  2,
                                            "shapeId":  1,
-                                           "stone":  null
+                                           "stone":  {
+                                                         "id":  309,
+                                                         "typeId":  59,
+                                                         "name":  "Uncontrollable",
+                                                         "description":  "The wearer gains an additional 30 RES against enemies attempting to place \u003ccolor=#1ee600\u003e[Stun]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[Freeze]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[Sleep]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[Provoke]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[Fear]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[True Fear]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[Petrification]\u003c/color\u003e, or \u003ccolor=#1ee600\u003e[Sheep]\u003c/color\u003e debuffs.",
+                                                         "rarityId":  5,
+                                                         "rarity":  "Legendary",
+                                                         "shapeId":  1,
+                                                         "shapeMatchesSocket":  true
+                                                     }
                                        },
                                        {
                                            "slot":  3,
@@ -12425,8 +12443,12 @@
                           "rarityId":  5,
                           "rarity":  "Legendary",
                           "shapeId":  3,
-                          "socketed":  false,
-                          "socketedIn":  null,
+                          "socketed":  true,
+                          "socketedIn":  {
+                                             "relicId":  214,
+                                             "slot":  1,
+                                             "shapeId":  3
+                                         },
                           "skillIds":  [
                                            4000051
                                        ]
@@ -12625,8 +12647,12 @@
                           "rarityId":  5,
                           "rarity":  "Legendary",
                           "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
+                          "socketed":  true,
+                          "socketedIn":  {
+                                             "relicId":  214,
+                                             "slot":  2,
+                                             "shapeId":  1
+                                         },
                           "skillIds":  [
                                            4000058
                                        ]
@@ -14239,6 +14265,34 @@
                           "socketedIn":  null,
                           "skillIds":  [
                                            4000005
+                                       ]
+                      },
+                      {
+                          "id":  425,
+                          "typeId":  40,
+                          "name":  "Unflinching",
+                          "description":  "Bosses deal 5% less damage to the wearer.",
+                          "rarityId":  4,
+                          "rarity":  "Epic",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000039
+                                       ]
+                      },
+                      {
+                          "id":  426,
+                          "typeId":  26,
+                          "name":  "Energy Expansion",
+                          "description":  "Every time the wearer receives healing from a skill, increases the wearer\u0027s MAX HP by 1% (stacks up to 10%).",
+                          "rarityId":  4,
+                          "rarity":  "Epic",
+                          "shapeId":  4,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000025
                                        ]
                       }
                   ]

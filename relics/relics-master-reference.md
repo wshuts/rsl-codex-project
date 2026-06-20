@@ -17,7 +17,7 @@ Canonical reference artifact for relic management, evaluation, reserve-vault pla
 | 5 | Lamasu | Exuzar's Totem |
 | 6 | Arix | Hatter's Reserve |
 | 7 | Warlord | Orb of Transfixion |
-| 8 | Freyja | Gilded Dragonstone |
+| 8 | Freyja | Aspect of Siroth |
 | 9 | Elva Autumnborn | Soulmar Crystal |
 | 10 | Basher | Last Laugh Amulet |
 | 11 | Firrol the Barkhorn | Aspect of Siroth |
@@ -39,12 +39,11 @@ Canonical reference artifact for relic management, evaluation, reserve-vault pla
 |------|------:|
 | Wand of Submission | 1 |
 | Malefic Talon | 1 |
-| Aspect of Siroth | 2 |
+| Aspect of Siroth | 3 |
 | Darksmile's Toast | 1 |
 | Exuzar's Totem | 1 |
 | Hatter's Reserve | 1 |
 | Orb of Transfixion | 1 |
-| Gilded Dragonstone | 1 |
 | Soulmar Crystal | 1 |
 | Last Laugh Amulet | 1 |
 | Gorecrescent | 1 |
@@ -58,7 +57,7 @@ Canonical reference artifact for relic management, evaluation, reserve-vault pla
 
 | Relic | Champions |
 |------|------|
-| Aspect of Siroth | Goffred Brassclad, Firrol the Barkhorn |
+| Aspect of Siroth | Goffred Brassclad, Firrol the Barkhorn, Freyja |
 | Golden Elixir | Leminisi, Coldheart, Yakarl, Whisper |
 | Demonic Effigy | Melga Steelgirdle, Rector Drath |
 | Molten Deathbell | Madame Serris, Criodan the Blue |

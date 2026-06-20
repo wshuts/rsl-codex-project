@@ -1,8 +1,10 @@
 # Relic Allocation Action Plan
 
-> **Status: research draft — do not execute yet.**
+> **Current scope:** deployment work is limited to the 28 individual SS/S/A copies that formed the original unequipped shortlist in `relic-deployment-shortlist.md`; 27 remain unequipped after the Freyja deployment. Recommendations involving other relics are retained as prior research but are outside the active pass.
+
+> **Status: active, iterative deployment plan.**
 >
-> No relic in this document should be equipped on a build-locked champion until the gemstone system is understood and the champion's current speed, resulting speed, team role, and tune tolerance have been recorded. The recommendations below identify pairings worth investigating; they are not equip instructions.
+> Speed and Turn Meter risks require deliberate review, but uncertainty is not an indefinite stop. Prefer reversible, recorded experiments and relevant team testing. Doing nothing also carries an opportunity cost.
 
 ## Basis and Guardrails
 
@@ -10,7 +12,7 @@ This plan cross-references:
 
 - the current roster and build-locked roster;
 - equipped relic assignments;
-- the 46 unequipped Epic/Legendary relics;
+- the original 28-copy SS/S/A deployment shortlist;
 - observed HellHades champion-specific recommendations; and
 - the local relic tier notes.
 
@@ -18,7 +20,9 @@ It is intentionally conservative. An HH recommendation establishes that a pairin
 
 ## Prerequisite: Gemstones and Speed Safety
 
-Before allocating any of the 46 relics:
+Gemstone availability is evaluated using the **Core**, **Gem-dependent**, and **Package-dependent** framework defined in `relic-deployment-shortlist.md`. Missing ideal stones block only Package-dependent proposals; they do not automatically prevent a Core deployment.
+
+Before allocating any shortlisted relic with an active, future, or proposed SPD/Turn Meter effect:
 
 1. Learn and document what gemstones can modify, whether they can add or modify SPD, when their bonuses activate, and whether socketing or replacing one is reversible.
 2. Verify when a relic's locked attributes become active as it is leveled. The inventory notation such as `SPD (Lvl. 9)` must not be treated as harmless until confirmed in-game.
@@ -27,7 +31,7 @@ Before allocating any of the 46 relics:
 5. Preview or calculate the exact post-equip and post-upgrade SPD before confirming any change.
 6. Re-run the relevant team manually after any approved change before using instant, auto-repeat, or scarce keys/resources.
 
-Until those questions are answered, use unlocked or non-speed-sensitive champions as the learning environment. Build-locked champions should remain observational candidates only.
+For non-speed-sensitive proposals, proceed through a reversible deployment with a restoration plan and relevant team testing. Build-locked champions require intentional review, not permanent exclusion.
 
 ### Required Safety Record
 
@@ -35,14 +39,14 @@ Until those questions are answered, use unlocked or non-speed-sensitive champion
 |---|---:|---|---|---|---:|---:|---:|---:|---|
 | Arbiter | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown | No |
 
-An `Unknown` anywhere in the speed path means **do not equip**.
+An `Unknown` in an applicable speed or Turn Meter path means **hold that specific proposal until the risk is bounded**. It does not block unrelated, non-speed-sensitive deployments.
 
 ## Recommended First Pass
 
 | Priority | Unequipped relic | Copy to use | Recommended champion | Why this is the cleanest first move |
 |---:|---|---|---|---|
 | 1 | Wand of Submission | 3-star Legendary, +0 | Arbiter | SS-tier relic, direct HH match, and the control-reflection effect is highly relevant to an Arena speed lead/support. |
-| 2 | Aspect of Siroth | 3-star Legendary, +0 | Freyja | A-tier relic and direct HH match; the survival effect fits a passive-value support better than her currently equipped Gilded Dragonstone. |
+| 2 | Aspect of Siroth | 3-star Legendary; now +9 | Freyja | **Deployed.** The survival effect fits her Arena role as the anchor who remains alive while Sun Wukong repeatedly revives. Equipped with Steadfast Preparation and one Uncontrollable; awaiting a second Uncontrollable and resources for further levels. |
 | 3 | Aspect of Siroth | 3-star Legendary, +0 | Galleus Bloodcrest | Direct HH match and preserves Warlord's already-valid Orb of Transfixion assignment. Review Galleus's modes before confirming. |
 | 4 | Golden Elixir | 3-star Epic, +9 | Geomancer | S-tier relic and direct HH match; use the strongest unequipped copy on a tanky boss specialist. |
 | 5 | Orb of Transfixion | 3-star Epic, +9 | Seeker | Direct HH match, useful ACC/SPD stat profile, and the stronger spare copy is already partially leveled. Confirm that this does not interfere with a speed tune. |
@@ -70,7 +74,7 @@ These are not automatic removals. They are current pairings absent from the obse
 
 | Current champion | Current relic | Review candidate |
 |---|---|---|
-| Freyja | Gilded Dragonstone | Replace with an unequipped Aspect of Siroth; reserve the Dragonstone for Visix or Morag. |
+| Freyja | Gilded Dragonstone | **Completed non-destructively:** replaced with an Aspect of Siroth. The preserved Dragonstone remains available for Visix or Morag. |
 | Firrol | Aspect of Siroth | Golden Elixir or Orb of Transfixion are observed HH matches. Keep Aspect if a specific survival strategy justifies it. |
 | Leminisi | Golden Elixir | Irethi Coronet or Malefic Talon are observed damage-oriented matches. |
 | Coldheart | Golden Elixir | Irethi Coronet is available and is an observed match. |
@@ -88,11 +92,11 @@ The Golden Elixirs on Yakarl and Whisper are also unsupported by the current HH 
 - Do not classify Scroll of the Unseen, Howling Guardians, Compass of Anaxia, Preserved Aberration, Revolting Seedling, Valkanen's Grasp, Exuzar's Totem, or Hatter's Reserve as food from this dataset alone. Most lack champion-specific HH observations, and several have situational uses in the tier notes.
 - After the selected assignments, lower-rank duplicate Golden Elixirs, Demonic Effigies, and Gilded Dragonstones can remain on reserve-mule champions so the unequipped inventory continues functioning as the food locker.
 
-## Future Execution Order (Blocked by Prerequisites)
+## Iterative Execution Order
 
-1. Complete the gemstone and relic-stat activation research.
-2. Build a speed-safety record for one low-risk learning champion.
-3. Test the full equip, level, gemstone, removal, and restoration workflow on that champion.
-4. Re-snapshot the account and confirm that observed stat changes match the documented model.
-5. Only then evaluate the candidate pairings above one champion at a time.
-6. Re-snapshot equipped relics before making any food decisions.
+1. **Completed:** deploy Aspect of Siroth #214 to Freyja non-destructively with the two available recommended gemstones.
+2. **Completed:** re-snapshot the account and confirm the relic ID, +9 level, stats, sockets, gemstones, and preservation of the previous relic.
+3. Test Freyja's Arena team and record whether the relic changes real match outcomes as intended.
+4. Continue gemstone-personality research for the remaining six shortlisted relic types.
+5. Evaluate and deploy the next pairing one champion at a time, using a speed/Turn Meter review only where applicable.
+6. Re-snapshot equipped relics before making food decisions.

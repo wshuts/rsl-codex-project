@@ -2,10 +2,10 @@
 
 ## Scope
 
-- Inventory snapshot: `relic-inventory-sanitized.json`, generated 2026-06-19 22:36:05 UTC
-- Account source: `account-response-05-private.json`
+- Inventory snapshot: `relic-inventory-sanitized.json`, generated 2026-06-20 01:07:54 UTC
+- Account source: `account-response-06-private.json` via `account-response-current-private.json`
 - Inventory size: 120 relics (20 equipped, 100 unequipped)
-- Gemstone inventory: 258 gemstones (61 socketed, 197 unsocketed)
+- Gemstone inventory: 260 gemstones (63 socketed, 197 unsocketed)
 - Tier source: `Ayumilove/relic-tier-list.txt`
 - Match result: 120 of 120 relics matched
 
@@ -30,8 +30,8 @@ Only Draught of Ire currently has relic-specific Ayumilove guidance in the local
 |---|---:|---:|---:|
 | SS | 2 | 1 | 1 |
 | S | 14 | 5 | 9 |
-| A | 24 | 6 | 18 |
-| B | 37 | 5 | 32 |
+| A | 24 | 7 | 17 |
+| B | 37 | 4 | 33 |
 | C | 35 | 3 | 32 |
 | F | 8 | 0 | 8 |
 | **Total** | **120** | **20** | **100** |
@@ -70,12 +70,13 @@ The rule reflects the account's transition from mid-game toward late-game, the r
 
 ### Account-Level Defaults
 
-- **Strong preserve default:** 28 unequipped SS/S/A relics. Preserve first, then assess duplicates and account fit rather than treating the tier as absolute.
+- **Strong preserve working set:** 28 relics were initially unequipped; 27 remain unequipped after Aspect of Siroth #214 was deployed to Freyja. Preserve first, then assess duplicates and account fit rather than treating the tier as absolute.
 - **Evaluate:** 32 unequipped B-tier relics. Require a credible niche, champion, content, stat, or gemstone case before further investment.
 - **Fodder-leaning with exceptions:** 32 unequipped C-tier relics. These remain advisory candidates, not declared Food.
 - **Authoritative Food:** all 8 current F-tier copies plus the B-tier Draught of Ire. Their Food status comes from the owner policy, not from their tier letters.
 - No F-tier relic is currently equipped.
 - Three C-tier relics are equipped: Hatter's Reserve on Arix and Demonic Effigy on Melga Steelgirdle and Rector Drath. These are the first equipped placements to reconsider when a suitable higher-tier alternative is available.
+- Aspect of Siroth #214 is now equipped on Freyja at Rank 3, +9 with Steadfast Preparation and one Uncontrollable; one gemstone socket remains empty.
 
 ## Relic-Specific Guidance
 
@@ -102,7 +103,7 @@ Ayumilove's niche guidance is retained as explanatory background, but it does no
 | SS | Wand of Submission | 1 | Rank 3, +0 |
 | S | Golden Elixir | 8 | Rank 3, +9 |
 | S | Irethi Coronet | 1 | Rank 3, +9 |
-| A | Aspect of Siroth | 2 | Rank 3, +0 |
+| A | Aspect of Siroth | 1 | Rank 3, +0 |
 | A | Journal of Necrotos | 7 | Rank 2, +6 |
 | A | Molten Deathbell | 3 | Rank 2, +6 |
 | A | Scroll of the Unseen | 6 | Rank 3, +9 |
@@ -117,7 +118,7 @@ Gorecrescent, Last Laugh Amulet, and Soulmar Crystal are also high-tier, but the
 | S | Epic | Golden Elixir | Preserve | 12 | 4 | 8 | Rank 3, +9 |
 | S | Legendary | Gorecrescent | Preserve | 1 | 1 | 0 | n/a |
 | S | Epic | Irethi Coronet | Preserve | 1 | 0 | 1 | Rank 3, +9 |
-| A | Legendary | Aspect of Siroth | Preserve | 4 | 2 | 2 | Rank 3, +0 |
+| A | Legendary | Aspect of Siroth | Preserve | 4 | 3 | 1 | Rank 3, +0 |
 | A | Rare | Journal of Necrotos | Preserve | 7 | 0 | 7 | Rank 2, +6 |
 | A | Legendary | Last Laugh Amulet | Preserve | 1 | 1 | 0 | n/a |
 | A | Rare | Molten Deathbell | Preserve | 5 | 2 | 3 | Rank 2, +6 |
@@ -127,7 +128,7 @@ Gorecrescent, Last Laugh Amulet, and Soulmar Crystal are also high-tier, but the
 | B | Epic | Darksmile's Toast | Evaluate | 1 | 1 | 0 | n/a |
 | B | Rare | Draught of Ire | Food - authoritative | 1 | 0 | 1 | Rank 4, +9 |
 | B | Epic | Exuzar's Totem | Evaluate | 2 | 1 | 1 | Rank 3, +9 |
-| B | Epic | Gilded Dragonstone | Evaluate | 9 | 1 | 8 | Rank 3, +9 |
+| B | Epic | Gilded Dragonstone | Evaluate | 9 | 0 | 9 | Rank 4, +12 |
 | B | Epic | Howling Guardians | Evaluate | 2 | 0 | 2 | Rank 2, +0 |
 | B | Rare | Malefic Talon | Evaluate | 7 | 1 | 6 | Rank 2, +6 |
 | B | Epic | Orb of Transfixion | Evaluate | 3 | 1 | 2 | Rank 3, +9 |
@@ -156,8 +157,8 @@ Gorecrescent, Last Laugh Amulet, and Soulmar Crystal are also high-tier, but the
 |---|---|
 | SS | Wand of Submission - Embrys the Anomaly |
 | S | Gorecrescent - Vestele Riverthorn; Golden Elixir - Leminisi, Coldheart, Yakarl, Whisper |
-| A | Aspect of Siroth - Goffred Brassclad, Firrol the Barkhorn; Soulmar Crystal - Elva Autumnborn; Last Laugh Amulet - Basher; Molten Deathbell - Madame Serris, Criodan the Blue |
-| B | Malefic Talon - Sun Wukong; Darksmile's Toast - Sulfuryion; Exuzar's Totem - Lamasu; Orb of Transfixion - Warlord; Gilded Dragonstone - Freyja Fateweaver |
+| A | Aspect of Siroth - Goffred Brassclad, Firrol the Barkhorn, Freyja Fateweaver; Soulmar Crystal - Elva Autumnborn; Last Laugh Amulet - Basher; Molten Deathbell - Madame Serris, Criodan the Blue |
+| B | Malefic Talon - Sun Wukong; Darksmile's Toast - Sulfuryion; Exuzar's Totem - Lamasu; Orb of Transfixion - Warlord |
 | C | Hatter's Reserve - Arix; Demonic Effigy - Melga Steelgirdle, Rector Drath |
 | F | None |
 

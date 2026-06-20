@@ -1,5 +1,5 @@
 param(
-    [string]$AccountPath = "$PSScriptRoot\account-response-01-private.json",
+    [string]$AccountPath = "$PSScriptRoot\account-response-current-private.json",
     [string]$StaticPath = "$PSScriptRoot\relic-static-data.json",
     [string]$OutputPath = "$PSScriptRoot\relic-inventory-sanitized.json"
 )

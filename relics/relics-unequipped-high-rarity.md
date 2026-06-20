@@ -2,6 +2,8 @@
 
 ## Scope
 
+> Historical baseline from the original screenshot pass. Current copy-level equipped state is maintained in `Relic Inventory/relic-inventory-sanitized.json`; this table is not automatically rewritten after deployments.
+
 - 46 relic entries
 - Legendary and Epic relics only
 - Unequipped inventory
