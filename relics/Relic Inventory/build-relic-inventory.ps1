@@ -80,7 +80,10 @@ function Get-CalculatedStat {
     $openingLevel = [int]$static.statBonusOpeningLevels[$SlotIndex]
     $unlocked = $Level -ge $openingLevel
     $table = $static.statValueByLevel.$statName
-    $entry = $table[$Level]
+    # Each stat starts its own progression when its slot unlocks. For example,
+    # a Speed stat opening at +9 uses the level-0 Speed value at relic +9.
+    $effectiveLevel = [Math]::Max(0, $Level - $openingLevel)
+    $entry = $table[$effectiveLevel]
 
     [ordered]@{
         slot = $SlotIndex + 1
