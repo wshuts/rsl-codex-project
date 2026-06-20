@@ -1,17 +1,17 @@
 ﻿{
     "schemaVersion":  1,
-    "generatedAt":  "2026-06-20T05:57:49.8714444Z",
+    "generatedAt":  "2026-06-20T21:16:26.8898475Z",
     "sources":  {
-                    "account":  "account-response-08-private.json",
+                    "account":  "account-response-09-private.json",
                     "staticData":  "relic-static-data.json"
                 },
     "summary":  {
                     "relics":  106,
                     "equippedRelics":  20,
                     "unequippedRelics":  86,
-                    "gemstones":  258,
+                    "gemstones":  197,
                     "socketedGemstones":  61,
-                    "unsocketedGemstones":  197
+                    "unsocketedGemstones":  136
                 },
     "relics":  [
                    {
@@ -9696,20 +9696,6 @@
                                        ]
                       },
                       {
-                          "id":  137,
-                          "typeId":  2,
-                          "name":  "Shieldbreaker",
-                          "description":  "The wearer deals 5% more damage to targets under a \u003ccolor=#1ee600\u003e[Shield]\u003c/color\u003e buff per each buff on the target.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  2,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000001
-                                       ]
-                      },
-                      {
                           "id":  138,
                           "typeId":  24,
                           "name":  "Target Smash",
@@ -10069,20 +10055,6 @@
                           "socketedIn":  null,
                           "skillIds":  [
                                            4000010
-                                       ]
-                      },
-                      {
-                          "id":  190,
-                          "typeId":  40,
-                          "name":  "Unflinching",
-                          "description":  "Bosses deal 5% less damage to the wearer.",
-                          "rarityId":  4,
-                          "rarity":  "Epic",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000039
                                        ]
                       },
                       {
@@ -10734,20 +10706,6 @@
                                        ]
                       },
                       {
-                          "id":  259,
-                          "typeId":  19,
-                          "name":  "Unerring Focus",
-                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000018
-                                       ]
-                      },
-                      {
                           "id":  260,
                           "typeId":  17,
                           "name":  "Invigorated",
@@ -10759,20 +10717,6 @@
                           "socketedIn":  null,
                           "skillIds":  [
                                            4000016
-                                       ]
-                      },
-                      {
-                          "id":  261,
-                          "typeId":  19,
-                          "name":  "Unerring Focus",
-                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000018
                                        ]
                       },
                       {
@@ -10815,20 +10759,6 @@
                           "socketedIn":  null,
                           "skillIds":  [
                                            4000016
-                                       ]
-                      },
-                      {
-                          "id":  265,
-                          "typeId":  2,
-                          "name":  "Shieldbreaker",
-                          "description":  "The wearer deals 5% more damage to targets under a \u003ccolor=#1ee600\u003e[Shield]\u003c/color\u003e buff per each buff on the target.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  2,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000001
                                        ]
                       },
                       {
@@ -11004,20 +10934,6 @@
                                        ]
                       },
                       {
-                          "id":  278,
-                          "typeId":  19,
-                          "name":  "Unerring Focus",
-                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000018
-                                       ]
-                      },
-                      {
                           "id":  279,
                           "typeId":  57,
                           "name":  "Dungeon Delver",
@@ -11071,20 +10987,6 @@
                           "socketedIn":  null,
                           "skillIds":  [
                                            4000019
-                                       ]
-                      },
-                      {
-                          "id":  283,
-                          "typeId":  19,
-                          "name":  "Unerring Focus",
-                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000018
                                        ]
                       },
                       {
@@ -11162,20 +11064,6 @@
                                        ]
                       },
                       {
-                          "id":  289,
-                          "typeId":  20,
-                          "name":  "Critical Bolster",
-                          "description":  "The wearer\u0027s DEF increases by 1% each time they receive a critical hit (stacks up to 10%).",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000019
-                                       ]
-                      },
-                      {
                           "id":  290,
                           "typeId":  17,
                           "name":  "Invigorated",
@@ -11191,48 +11079,6 @@
                                          },
                           "skillIds":  [
                                            4000016
-                                       ]
-                      },
-                      {
-                          "id":  291,
-                          "typeId":  20,
-                          "name":  "Critical Bolster",
-                          "description":  "The wearer\u0027s DEF increases by 1% each time they receive a critical hit (stacks up to 10%).",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000019
-                                       ]
-                      },
-                      {
-                          "id":  292,
-                          "typeId":  19,
-                          "name":  "Unerring Focus",
-                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000018
-                                       ]
-                      },
-                      {
-                          "id":  293,
-                          "typeId":  18,
-                          "name":  "Unstoppable",
-                          "description":  "Turn Meter reduction effects from enemies are 10% less effective on the wearer.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000017
                                        ]
                       },
                       {
@@ -11310,20 +11156,6 @@
                                        ]
                       },
                       {
-                          "id":  299,
-                          "typeId":  19,
-                          "name":  "Unerring Focus",
-                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000018
-                                       ]
-                      },
-                      {
                           "id":  300,
                           "typeId":  37,
                           "name":  "Foekiller",
@@ -11335,34 +11167,6 @@
                           "socketedIn":  null,
                           "skillIds":  [
                                            4000036
-                                       ]
-                      },
-                      {
-                          "id":  301,
-                          "typeId":  18,
-                          "name":  "Unstoppable",
-                          "description":  "Turn Meter reduction effects from enemies are 10% less effective on the wearer.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000017
-                                       ]
-                      },
-                      {
-                          "id":  302,
-                          "typeId":  11,
-                          "name":  "Embellished Shield",
-                          "description":  "\u003ccolor=#1ee600\u003e[Shield]\u003c/color\u003e buffs placed on the wearer are 10% stronger.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  3,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000010
                                        ]
                       },
                       {
@@ -11514,48 +11318,6 @@
                                        ]
                       },
                       {
-                          "id":  313,
-                          "typeId":  20,
-                          "name":  "Critical Bolster",
-                          "description":  "The wearer\u0027s DEF increases by 1% each time they receive a critical hit (stacks up to 10%).",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000019
-                                       ]
-                      },
-                      {
-                          "id":  314,
-                          "typeId":  19,
-                          "name":  "Unerring Focus",
-                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000018
-                                       ]
-                      },
-                      {
-                          "id":  315,
-                          "typeId":  19,
-                          "name":  "Unerring Focus",
-                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000018
-                                       ]
-                      },
-                      {
                           "id":  316,
                           "typeId":  17,
                           "name":  "Invigorated",
@@ -11626,34 +11388,6 @@
                                        ]
                       },
                       {
-                          "id":  321,
-                          "typeId":  19,
-                          "name":  "Unerring Focus",
-                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000018
-                                       ]
-                      },
-                      {
-                          "id":  322,
-                          "typeId":  11,
-                          "name":  "Embellished Shield",
-                          "description":  "\u003ccolor=#1ee600\u003e[Shield]\u003c/color\u003e buffs placed on the wearer are 10% stronger.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  3,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000010
-                                       ]
-                      },
-                      {
                           "id":  323,
                           "typeId":  17,
                           "name":  "Invigorated",
@@ -11665,34 +11399,6 @@
                           "socketedIn":  null,
                           "skillIds":  [
                                            4000016
-                                       ]
-                      },
-                      {
-                          "id":  324,
-                          "typeId":  20,
-                          "name":  "Critical Bolster",
-                          "description":  "The wearer\u0027s DEF increases by 1% each time they receive a critical hit (stacks up to 10%).",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000019
-                                       ]
-                      },
-                      {
-                          "id":  325,
-                          "typeId":  20,
-                          "name":  "Critical Bolster",
-                          "description":  "The wearer\u0027s DEF increases by 1% each time they receive a critical hit (stacks up to 10%).",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000019
                                        ]
                       },
                       {
@@ -11752,20 +11458,6 @@
                                        ]
                       },
                       {
-                          "id":  330,
-                          "typeId":  19,
-                          "name":  "Unerring Focus",
-                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000018
-                                       ]
-                      },
-                      {
                           "id":  331,
                           "typeId":  22,
                           "name":  "Unrelenting Power",
@@ -11805,48 +11497,6 @@
                           "socketedIn":  null,
                           "skillIds":  [
                                            4000002
-                                       ]
-                      },
-                      {
-                          "id":  334,
-                          "typeId":  18,
-                          "name":  "Unstoppable",
-                          "description":  "Turn Meter reduction effects from enemies are 10% less effective on the wearer.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000017
-                                       ]
-                      },
-                      {
-                          "id":  335,
-                          "typeId":  19,
-                          "name":  "Unerring Focus",
-                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000018
-                                       ]
-                      },
-                      {
-                          "id":  336,
-                          "typeId":  18,
-                          "name":  "Unstoppable",
-                          "description":  "Turn Meter reduction effects from enemies are 10% less effective on the wearer.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000017
                                        ]
                       },
                       {
@@ -11906,62 +11556,6 @@
                                        ]
                       },
                       {
-                          "id":  341,
-                          "typeId":  2,
-                          "name":  "Shieldbreaker",
-                          "description":  "The wearer deals 5% more damage to targets under a \u003ccolor=#1ee600\u003e[Shield]\u003c/color\u003e buff per each buff on the target.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  2,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000001
-                                       ]
-                      },
-                      {
-                          "id":  342,
-                          "typeId":  2,
-                          "name":  "Shieldbreaker",
-                          "description":  "The wearer deals 5% more damage to targets under a \u003ccolor=#1ee600\u003e[Shield]\u003c/color\u003e buff per each buff on the target.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  2,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000001
-                                       ]
-                      },
-                      {
-                          "id":  343,
-                          "typeId":  19,
-                          "name":  "Unerring Focus",
-                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000018
-                                       ]
-                      },
-                      {
-                          "id":  344,
-                          "typeId":  19,
-                          "name":  "Unerring Focus",
-                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000018
-                                       ]
-                      },
-                      {
                           "id":  345,
                           "typeId":  57,
                           "name":  "Dungeon Delver",
@@ -11973,34 +11567,6 @@
                           "socketedIn":  null,
                           "skillIds":  [
                                            4000056
-                                       ]
-                      },
-                      {
-                          "id":  346,
-                          "typeId":  18,
-                          "name":  "Unstoppable",
-                          "description":  "Turn Meter reduction effects from enemies are 10% less effective on the wearer.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000017
-                                       ]
-                      },
-                      {
-                          "id":  347,
-                          "typeId":  11,
-                          "name":  "Embellished Shield",
-                          "description":  "\u003ccolor=#1ee600\u003e[Shield]\u003c/color\u003e buffs placed on the wearer are 10% stronger.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  3,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000010
                                        ]
                       },
                       {
@@ -12088,48 +11654,6 @@
                                        ]
                       },
                       {
-                          "id":  354,
-                          "typeId":  19,
-                          "name":  "Unerring Focus",
-                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000018
-                                       ]
-                      },
-                      {
-                          "id":  355,
-                          "typeId":  19,
-                          "name":  "Unerring Focus",
-                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000018
-                                       ]
-                      },
-                      {
-                          "id":  356,
-                          "typeId":  20,
-                          "name":  "Critical Bolster",
-                          "description":  "The wearer\u0027s DEF increases by 1% each time they receive a critical hit (stacks up to 10%).",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000019
-                                       ]
-                      },
-                      {
                           "id":  357,
                           "typeId":  12,
                           "name":  "Barbed Defense",
@@ -12155,48 +11679,6 @@
                           "socketedIn":  null,
                           "skillIds":  [
                                            4000040
-                                       ]
-                      },
-                      {
-                          "id":  359,
-                          "typeId":  20,
-                          "name":  "Critical Bolster",
-                          "description":  "The wearer\u0027s DEF increases by 1% each time they receive a critical hit (stacks up to 10%).",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000019
-                                       ]
-                      },
-                      {
-                          "id":  360,
-                          "typeId":  18,
-                          "name":  "Unstoppable",
-                          "description":  "Turn Meter reduction effects from enemies are 10% less effective on the wearer.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000017
-                                       ]
-                      },
-                      {
-                          "id":  361,
-                          "typeId":  19,
-                          "name":  "Unerring Focus",
-                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000018
                                        ]
                       },
                       {
@@ -12284,104 +11766,6 @@
                                        ]
                       },
                       {
-                          "id":  368,
-                          "typeId":  2,
-                          "name":  "Shieldbreaker",
-                          "description":  "The wearer deals 5% more damage to targets under a \u003ccolor=#1ee600\u003e[Shield]\u003c/color\u003e buff per each buff on the target.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  2,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000001
-                                       ]
-                      },
-                      {
-                          "id":  369,
-                          "typeId":  20,
-                          "name":  "Critical Bolster",
-                          "description":  "The wearer\u0027s DEF increases by 1% each time they receive a critical hit (stacks up to 10%).",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000019
-                                       ]
-                      },
-                      {
-                          "id":  370,
-                          "typeId":  18,
-                          "name":  "Unstoppable",
-                          "description":  "Turn Meter reduction effects from enemies are 10% less effective on the wearer.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000017
-                                       ]
-                      },
-                      {
-                          "id":  371,
-                          "typeId":  19,
-                          "name":  "Unerring Focus",
-                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000018
-                                       ]
-                      },
-                      {
-                          "id":  372,
-                          "typeId":  20,
-                          "name":  "Critical Bolster",
-                          "description":  "The wearer\u0027s DEF increases by 1% each time they receive a critical hit (stacks up to 10%).",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000019
-                                       ]
-                      },
-                      {
-                          "id":  373,
-                          "typeId":  2,
-                          "name":  "Shieldbreaker",
-                          "description":  "The wearer deals 5% more damage to targets under a \u003ccolor=#1ee600\u003e[Shield]\u003c/color\u003e buff per each buff on the target.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  2,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000001
-                                       ]
-                      },
-                      {
-                          "id":  374,
-                          "typeId":  6,
-                          "name":  "Unburdened",
-                          "description":  "The wearer\u0027s SPD increases by 2 for each dead ally.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  4,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000005
-                                       ]
-                      },
-                      {
                           "id":  375,
                           "typeId":  57,
                           "name":  "Dungeon Delver",
@@ -12438,20 +11822,6 @@
                                        ]
                       },
                       {
-                          "id":  379,
-                          "typeId":  19,
-                          "name":  "Unerring Focus",
-                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000018
-                                       ]
-                      },
-                      {
                           "id":  380,
                           "typeId":  7,
                           "name":  "Blessed Heal",
@@ -12463,20 +11833,6 @@
                           "socketedIn":  null,
                           "skillIds":  [
                                            4000006
-                                       ]
-                      },
-                      {
-                          "id":  381,
-                          "typeId":  12,
-                          "name":  "Barbed Defense",
-                          "description":  "Any \u003ccolor=#1ee600\u003e[Reflect Damage]\u003c/color\u003e effects and buffs on the wearer deal 10% more damage to enemies.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  3,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000011
                                        ]
                       },
                       {
@@ -12536,20 +11892,6 @@
                                        ]
                       },
                       {
-                          "id":  386,
-                          "typeId":  11,
-                          "name":  "Embellished Shield",
-                          "description":  "\u003ccolor=#1ee600\u003e[Shield]\u003c/color\u003e buffs placed on the wearer are 10% stronger.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  3,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000010
-                                       ]
-                      },
-                      {
                           "id":  387,
                           "typeId":  30,
                           "name":  "Strengthening Will",
@@ -12561,34 +11903,6 @@
                           "socketedIn":  null,
                           "skillIds":  [
                                            4000029
-                                       ]
-                      },
-                      {
-                          "id":  388,
-                          "typeId":  19,
-                          "name":  "Unerring Focus",
-                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000018
-                                       ]
-                      },
-                      {
-                          "id":  389,
-                          "typeId":  18,
-                          "name":  "Unstoppable",
-                          "description":  "Turn Meter reduction effects from enemies are 10% less effective on the wearer.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000017
                                        ]
                       },
                       {
@@ -12718,34 +12032,6 @@
                                        ]
                       },
                       {
-                          "id":  399,
-                          "typeId":  20,
-                          "name":  "Critical Bolster",
-                          "description":  "The wearer\u0027s DEF increases by 1% each time they receive a critical hit (stacks up to 10%).",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000019
-                                       ]
-                      },
-                      {
-                          "id":  400,
-                          "typeId":  40,
-                          "name":  "Unflinching",
-                          "description":  "Bosses deal 5% less damage to the wearer.",
-                          "rarityId":  4,
-                          "rarity":  "Epic",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000039
-                                       ]
-                      },
-                      {
                           "id":  401,
                           "typeId":  9,
                           "name":  "Sanctified Skin",
@@ -12761,20 +12047,6 @@
                       },
                       {
                           "id":  402,
-                          "typeId":  20,
-                          "name":  "Critical Bolster",
-                          "description":  "The wearer\u0027s DEF increases by 1% each time they receive a critical hit (stacks up to 10%).",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000019
-                                       ]
-                      },
-                      {
-                          "id":  403,
                           "typeId":  20,
                           "name":  "Critical Bolster",
                           "description":  "The wearer\u0027s DEF increases by 1% each time they receive a critical hit (stacks up to 10%).",
@@ -12816,20 +12088,6 @@
                                        ]
                       },
                       {
-                          "id":  406,
-                          "typeId":  12,
-                          "name":  "Barbed Defense",
-                          "description":  "Any \u003ccolor=#1ee600\u003e[Reflect Damage]\u003c/color\u003e effects and buffs on the wearer deal 10% more damage to enemies.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  3,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000011
-                                       ]
-                      },
-                      {
                           "id":  407,
                           "typeId":  16,
                           "name":  "In For The Kill",
@@ -12844,20 +12102,6 @@
                                        ]
                       },
                       {
-                          "id":  408,
-                          "typeId":  31,
-                          "name":  "Weak Retort",
-                          "description":  "The wearer receives 15% less damage from counterattacks.",
-                          "rarityId":  4,
-                          "rarity":  "Epic",
-                          "shapeId":  3,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000030
-                                       ]
-                      },
-                      {
                           "id":  409,
                           "typeId":  6,
                           "name":  "Unburdened",
@@ -12869,20 +12113,6 @@
                           "socketedIn":  null,
                           "skillIds":  [
                                            4000005
-                                       ]
-                      },
-                      {
-                          "id":  410,
-                          "typeId":  18,
-                          "name":  "Unstoppable",
-                          "description":  "Turn Meter reduction effects from enemies are 10% less effective on the wearer.",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000017
                                        ]
                       },
                       {
@@ -12911,20 +12141,6 @@
                           "socketedIn":  null,
                           "skillIds":  [
                                            4000018
-                                       ]
-                      },
-                      {
-                          "id":  413,
-                          "typeId":  20,
-                          "name":  "Critical Bolster",
-                          "description":  "The wearer\u0027s DEF increases by 1% each time they receive a critical hit (stacks up to 10%).",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000019
                                        ]
                       },
                       {
@@ -13012,62 +12228,6 @@
                                        ]
                       },
                       {
-                          "id":  420,
-                          "typeId":  20,
-                          "name":  "Critical Bolster",
-                          "description":  "The wearer\u0027s DEF increases by 1% each time they receive a critical hit (stacks up to 10%).",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000019
-                                       ]
-                      },
-                      {
-                          "id":  421,
-                          "typeId":  20,
-                          "name":  "Critical Bolster",
-                          "description":  "The wearer\u0027s DEF increases by 1% each time they receive a critical hit (stacks up to 10%).",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000019
-                                       ]
-                      },
-                      {
-                          "id":  422,
-                          "typeId":  40,
-                          "name":  "Unflinching",
-                          "description":  "Bosses deal 5% less damage to the wearer.",
-                          "rarityId":  4,
-                          "rarity":  "Epic",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000039
-                                       ]
-                      },
-                      {
-                          "id":  423,
-                          "typeId":  20,
-                          "name":  "Critical Bolster",
-                          "description":  "The wearer\u0027s DEF increases by 1% each time they receive a critical hit (stacks up to 10%).",
-                          "rarityId":  3,
-                          "rarity":  "Rare",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000019
-                                       ]
-                      },
-                      {
                           "id":  424,
                           "typeId":  6,
                           "name":  "Unburdened",
@@ -13079,20 +12239,6 @@
                           "socketedIn":  null,
                           "skillIds":  [
                                            4000005
-                                       ]
-                      },
-                      {
-                          "id":  425,
-                          "typeId":  40,
-                          "name":  "Unflinching",
-                          "description":  "Bosses deal 5% less damage to the wearer.",
-                          "rarityId":  4,
-                          "rarity":  "Epic",
-                          "shapeId":  1,
-                          "socketed":  false,
-                          "socketedIn":  null,
-                          "skillIds":  [
-                                           4000039
                                        ]
                       },
                       {
