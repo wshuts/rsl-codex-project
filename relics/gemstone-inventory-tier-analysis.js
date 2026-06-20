@@ -23,7 +23,12 @@ for (const gem of inventory.gemstones) {
 }
 
 const order = { SS: 0, S: 1, A: 2, B: 3, C: 4, UNMATCHED: 5 };
+const starstoneYield = { Rare: 20, Epic: 40, Legendary: 80, Mythical: 160 };
 const rows = [...grouped.values()].sort((a, b) => order[a.tier] - order[b.tier] || b.available - a.available || a.name.localeCompare(b.name));
+for (const row of rows) {
+  row.starstonesPerSale = starstoneYield[row.rarity];
+  row.availableStarstoneValue = row.available * row.starstonesPerSale;
+}
 const aggregate = {};
 for (const tier of Object.keys(order)) {
   const matches = rows.filter((row) => row.tier === tier);
@@ -32,6 +37,7 @@ for (const tier of Object.keys(order)) {
     available: matches.reduce((sum, row) => sum + row.available, 0),
     socketed: matches.reduce((sum, row) => sum + row.socketed, 0),
     types: matches.length,
+    availableStarstoneValue: matches.reduce((sum, row) => sum + row.availableStarstoneValue, 0),
   };
 }
 

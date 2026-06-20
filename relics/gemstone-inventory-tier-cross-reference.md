@@ -12,14 +12,14 @@ Tier placement is a general measure of value. Champion synergy, relic effects, s
 
 ## Inventory by Consensus Tier
 
-| Tier | Total copies | Available | Socketed | Types owned | Types in tier |
-|---|---:|---:|---:|---:|---:|
-| SS | 7 | 7 | 0 | 5 | 11 |
-| S | 42 | 28 | 14 | 8 | 15 |
-| A | 62 | 46 | 16 | 17 | 26 |
-| B | 109 | 80 | 29 | 17 | 20 |
-| C | 38 | 36 | 2 | 8 | 8 |
-| **Total** | **258** | **197** | **61** | **55** | **80** |
+| Tier | Total copies | Available | Socketed | Types owned | Types in tier | Available sale value |
+|---|---:|---:|---:|---:|---:|---:|
+| SS | 7 | 7 | 0 | 5 | 11 | 1,120 |
+| S | 42 | 28 | 14 | 8 | 15 | 1,040 |
+| A | 62 | 46 | 16 | 17 | 26 | 1,940 |
+| B | 109 | 80 | 29 | 17 | 20 | 1,960 |
+| C | 38 | 36 | 2 | 8 | 8 | 760 |
+| **Total** | **258** | **197** | **61** | **55** | **80** | **6,820** |
 
 ## Highest-Priority Available Gemstones
 
@@ -81,7 +81,16 @@ Only two C-tier gemstones are currently socketed:
 
 These are the clearest candidates for an upgrade review, but tier alone is not sufficient reason to remove them. Validate champion synergy, replacement shape, and non-destructive removal cost first.
 
-## Surplus and Consolidation Candidates
+## Starstone Sale Candidates
+
+### Sale Yields
+
+| Rarity | Starstones per gemstone |
+|---|---:|
+| Rare | 20 |
+| Epic | 40 |
+| Legendary | 80 |
+| Mythical | 160 |
 
 The largest available lower-tier holdings are:
 
@@ -94,7 +103,7 @@ The largest available lower-tier holdings are:
 | Embellished Shield | B | 7 | 9 |
 | Unflinching | B | 7 | 9 |
 
-Treat these as the first candidates for consolidation, crafting inputs, or inventory reduction if the game mechanics permit it. Retain enough copies for known niche applications before consuming them.
+Selling every currently available gemstone would generate 6,820 Starstones, but that figure includes valuable A-, S-, and SS-tier inventory and is not a recommended liquidation plan. The available B- and C-tier inventory represents up to 2,720 Starstones. Treat those abundant lower-tier holdings as the first sale candidates when Starstones are needed, while retaining enough copies for known niche applications.
 
 ## Recommended Actions
 
@@ -102,7 +111,7 @@ Treat these as the first candidates for consolidation, crafting inputs, or inven
 2. Preserve the only copies of Piercing Strike and Uncontrollable unless a clearly superior deployment is identified.
 3. Prioritize acquisition or crafting of the six missing SS-tier types, weighted by current champion and relic needs.
 4. Review Enhanced Shot on Embrys and Weak Retort on Goffred for possible upgrades after checking removal costs.
-5. Use abundant B- and C-tier copies as the initial consolidation pool rather than consuming scarce A-, S-, or SS-tier gemstones.
+5. Sell surplus B- and C-tier copies first when generating Starstones, rather than selling scarce A-, S-, or SS-tier gemstones.
 
 ## Reproduction
 
