@@ -1,0 +1,41 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+
+const html = fs.readFileSync(new URL('./glyph-dashboard.html', import.meta.url), 'utf8');
+const dataScript = fs.readFileSync(new URL('./generated/glyph-dashboard-data.js', import.meta.url), 'utf8');
+const context = { window: {} };
+vm.createContext(context);
+new vm.Script(dataScript, { filename: 'glyph-dashboard-data.js' }).runInContext(context);
+
+const inlineScripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(match => match[1]);
+if (inlineScripts.length !== 1) throw new Error(`Expected one inline application script, found ${inlineScripts.length}`);
+new vm.Script(inlineScripts[0], { filename: 'glyph-dashboard-inline.js' });
+
+const requiredIds = ['search', 'status', 'missing', 'slot', 'rank', 'rarity', 'sort', 'reset', 'results', 'drawer', 'detail'];
+for (const id of requiredIds) {
+  if (!html.includes(`id="${id}"`)) throw new Error(`Missing control #${id}`);
+}
+
+const payload = context.window.GLYPH_DATA;
+const pieces = payload.pieces;
+const isEligible = stat => stat.kind !== 7 && stat.kind !== 8;
+const isMissing = stat => isEligible(stat) && !(stat.enhancement > 0);
+const needs = pieces.filter(piece => piece.substats.some(isMissing));
+const missing = pieces.reduce((sum, piece) => sum + piece.substats.filter(isMissing).length, 0);
+const artifactIds = new Set(pieces.map(piece => piece.artifactId));
+
+if (pieces.length !== 1919) throw new Error(`Expected 1,919 pieces, found ${pieces.length}`);
+if (needs.length !== 1428) throw new Error(`Expected 1,428 incomplete pieces, found ${needs.length}`);
+if (missing !== 4109) throw new Error(`Expected 4,109 missing glyphs, found ${missing}`);
+if (artifactIds.size !== pieces.length) throw new Error('Artifact IDs are not unique');
+if (pieces.some(piece => piece.substats.length !== 4)) throw new Error('A piece does not have exactly four sub-stats');
+
+console.log(JSON.stringify({
+  javascript: 'valid',
+  controls: requiredIds.length,
+  pieces: pieces.length,
+  needsGlyphs: needs.length,
+  complete: pieces.length - needs.length,
+  missingEligibleGlyphs: missing,
+  uniqueArtifactIds: artifactIds.size
+}, null, 2));
