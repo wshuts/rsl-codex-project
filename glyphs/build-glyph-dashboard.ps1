@@ -5,6 +5,7 @@ $snapshotPath = Join-Path $projectRoot 'data-acount-specific-dynamic\snapshots\a
 $outputPath = Join-Path $PSScriptRoot 'generated\glyph-dashboard-data.js'
 New-Item -ItemType Directory -Force -Path (Split-Path -Parent $outputPath) | Out-Null
 $data = Get-Content -Raw -LiteralPath $snapshotPath | ConvertFrom-Json
+$speedTunedHeroIds = @(14940, 16279, 18270, 19828, 10289)
 
 $artifactsById = @{}
 foreach ($artifact in $data.artifacts) {
@@ -34,6 +35,7 @@ $pieces = foreach ($hero in $data.heroes) {
         [ordered]@{
             champion = $heroTypesById[[string]$hero.typeId]
             heroId = [int]$hero.id
+            speedTuned = $hero.id -in $speedTunedHeroIds
             artifactId = [int]$artifact.id
             gearKind = [int]$artifact.kind
             setCode = [int]$artifact.set
@@ -49,6 +51,7 @@ $payload = [ordered]@{
     source = Split-Path -Leaf $snapshotPath
     sourceModified = (Get-Item -LiteralPath $snapshotPath).LastWriteTime.ToString('o')
     generated = (Get-Date).ToString('o')
+    speedTunedHeroIds = $speedTunedHeroIds
     pieces = @($pieces)
 }
 

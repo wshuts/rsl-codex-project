@@ -18,15 +18,20 @@ for (const id of requiredIds) {
 
 const payload = context.window.GLYPH_DATA;
 const pieces = payload.pieces;
+const expectedSpeedTunedHeroIds = [14940, 16279, 18270, 19828, 10289];
 const isEligible = stat => stat.kind !== 7 && stat.kind !== 8;
-const isMissing = stat => isEligible(stat) && !(stat.enhancement > 0);
-const needs = pieces.filter(piece => piece.substats.some(isMissing));
-const missing = pieces.reduce((sum, piece) => sum + piece.substats.filter(isMissing).length, 0);
+const isProtectedSpeed = (piece, stat) => piece.speedTuned && stat.kind === 4;
+const isMissing = (piece, stat) => isEligible(stat) && !isProtectedSpeed(piece, stat) && !(stat.enhancement > 0);
+const needs = pieces.filter(piece => piece.substats.some(stat => isMissing(piece, stat)));
+const missing = pieces.reduce((sum, piece) => sum + piece.substats.filter(stat => isMissing(piece, stat)).length, 0);
+const protectedSpeed = pieces.reduce((sum, piece) => sum + piece.substats.filter(stat => isProtectedSpeed(piece, stat)).length, 0);
 const artifactIds = new Set(pieces.map(piece => piece.artifactId));
 
 if (pieces.length !== 1919) throw new Error(`Expected 1,919 pieces, found ${pieces.length}`);
-if (needs.length !== 1428) throw new Error(`Expected 1,428 incomplete pieces, found ${needs.length}`);
-if (missing !== 4109) throw new Error(`Expected 4,109 missing glyphs, found ${missing}`);
+if (needs.length !== 1425) throw new Error(`Expected 1,425 incomplete pieces, found ${needs.length}`);
+if (missing !== 4101) throw new Error(`Expected 4,101 actionable missing glyphs, found ${missing}`);
+if (protectedSpeed !== 19) throw new Error(`Expected 19 protected SPD sub-stats, found ${protectedSpeed}`);
+if (JSON.stringify(payload.speedTunedHeroIds) !== JSON.stringify(expectedSpeedTunedHeroIds)) throw new Error('Speed-tuned hero IDs changed');
 if (artifactIds.size !== pieces.length) throw new Error('Artifact IDs are not unique');
 if (pieces.some(piece => piece.substats.length !== 4)) throw new Error('A piece does not have exactly four sub-stats');
 
@@ -37,5 +42,6 @@ console.log(JSON.stringify({
   needsGlyphs: needs.length,
   complete: pieces.length - needs.length,
   missingEligibleGlyphs: missing,
+  protectedSpeedSubstats: protectedSpeed,
   uniqueArtifactIds: artifactIds.size
 }, null, 2));
