@@ -15,6 +15,7 @@ const requiredIds = ['search', 'status', 'missing', 'slot', 'rank', 'rarity', 's
 for (const id of requiredIds) {
   if (!html.includes(`id="${id}"`)) throw new Error(`Missing control #${id}`);
 }
+if (!html.includes('const SLOT_ORDER=[5,1,6,3,2,4,7,8,9]')) throw new Error('In-game gear slot order changed');
 
 const payload = context.window.GLYPH_DATA;
 const pieces = payload.pieces;
