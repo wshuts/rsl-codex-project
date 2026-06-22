@@ -5,7 +5,7 @@ param(
 $ErrorActionPreference = 'Stop'
 
 $projectRoot = Split-Path -Parent $PSScriptRoot
-$snapshotDirectory = Join-Path $projectRoot 'data-acount-specific-dynamic\snapshots'
+$snapshotDirectory = Join-Path $projectRoot 'data-account-specific-dynamic\snapshots'
 if ([string]::IsNullOrWhiteSpace($SnapshotPath)) {
     $snapshot = Get-ChildItem -LiteralPath $snapshotDirectory -File |
         Where-Object { $_.Name -match '^account-response-(\d+)-private\.json$' } |
