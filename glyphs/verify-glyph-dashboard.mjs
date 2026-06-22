@@ -28,11 +28,13 @@ const missing = pieces.reduce((sum, piece) => sum + piece.substats.filter(stat =
 const protectedSpeed = pieces.reduce((sum, piece) => sum + piece.substats.filter(stat => isProtectedSpeed(piece, stat)).length, 0);
 const artifactIds = new Set(pieces.map(piece => piece.artifactId));
 
-if (pieces.length !== 1919) throw new Error(`Expected 1,919 pieces, found ${pieces.length}`);
-if (needs.length !== 1425) throw new Error(`Expected 1,425 incomplete pieces, found ${needs.length}`);
-if (missing !== 4101) throw new Error(`Expected 4,101 actionable missing glyphs, found ${missing}`);
-if (protectedSpeed !== 19) throw new Error(`Expected 19 protected SPD sub-stats, found ${protectedSpeed}`);
+if (pieces.length === 0) throw new Error('Dashboard contains no equipped pieces');
+if (needs.length > pieces.length) throw new Error('Incomplete-piece count exceeds total pieces');
+if (missing < needs.length) throw new Error('Missing-glyph count is inconsistent with incomplete pieces');
 if (JSON.stringify(payload.speedTunedHeroIds) !== JSON.stringify(expectedSpeedTunedHeroIds)) throw new Error('Speed-tuned hero IDs changed');
+for (const heroId of expectedSpeedTunedHeroIds) {
+  if (!pieces.some(piece => piece.heroId === heroId && piece.speedTuned)) throw new Error(`Speed-tuned hero ${heroId} is missing`);
+}
 if (artifactIds.size !== pieces.length) throw new Error('Artifact IDs are not unique');
 if (pieces.some(piece => piece.substats.length !== 4)) throw new Error('A piece does not have exactly four sub-stats');
 

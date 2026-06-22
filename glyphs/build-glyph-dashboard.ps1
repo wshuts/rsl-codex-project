@@ -1,10 +1,28 @@
+param(
+    [string]$SnapshotPath
+)
+
 $ErrorActionPreference = 'Stop'
 
 $projectRoot = Split-Path -Parent $PSScriptRoot
-$snapshotPath = Join-Path $projectRoot 'data-acount-specific-dynamic\snapshots\account-response-09-private.json'
+$snapshotDirectory = Join-Path $projectRoot 'data-acount-specific-dynamic\snapshots'
+if ([string]::IsNullOrWhiteSpace($SnapshotPath)) {
+    $snapshot = Get-ChildItem -LiteralPath $snapshotDirectory -File |
+        Where-Object { $_.Name -match '^account-response-(\d+)-private\.json$' } |
+        ForEach-Object { [pscustomobject]@{ File = $_; Number = [int]$Matches[1] } } |
+        Sort-Object Number -Descending |
+        Select-Object -First 1
+
+    if ($null -eq $snapshot) {
+        throw "No numbered account snapshot was found in $snapshotDirectory."
+    }
+    $SnapshotPath = $snapshot.File.FullName
+}
+$snapshotPath = (Resolve-Path -LiteralPath $SnapshotPath).Path
 $outputPath = Join-Path $PSScriptRoot 'generated\glyph-dashboard-data.js'
 New-Item -ItemType Directory -Force -Path (Split-Path -Parent $outputPath) | Out-Null
 $data = Get-Content -Raw -LiteralPath $snapshotPath | ConvertFrom-Json
+Write-Host "Using account snapshot: $(Split-Path -Leaf $snapshotPath)"
 $speedTunedHeroIds = @(14940, 16279, 18270, 19828, 10289)
 
 $artifactsById = @{}
