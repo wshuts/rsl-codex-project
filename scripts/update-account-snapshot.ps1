@@ -13,6 +13,7 @@ param(
 $ErrorActionPreference = 'Stop'
 
 $projectRoot = Split-Path -Parent $PSScriptRoot
+$currentMarkerName = 'current-account-snapshot.txt'
 if ([string]::IsNullOrWhiteSpace($SnapshotDir)) {
     $SnapshotDir = Join-Path $projectRoot 'data-account-specific-dynamic\snapshots'
 }
@@ -62,22 +63,45 @@ if ($LASTEXITCODE -ne 0) {
     throw "Account snapshot capture failed with exit code $LASTEXITCODE."
 }
 
-$snapshot = Get-ChildItem -LiteralPath $SnapshotDir -File |
-    Where-Object { $_.Name -match '^account-response-(\d+)-private\.json$' } |
-    ForEach-Object { [pscustomobject]@{ File = $_; Number = [int]$Matches[1] } } |
-    Sort-Object Number -Descending |
-    Select-Object -First 1
+function Resolve-CurrentAccountSnapshot {
+    param([string]$Directory)
 
-if ($null -eq $snapshot) {
+    $markerPath = Join-Path $Directory $currentMarkerName
+    if (Test-Path -LiteralPath $markerPath) {
+        $snapshotName = (Get-Content -Raw -LiteralPath $markerPath).Trim()
+        if ($snapshotName -match '^account-response-\d{2}-private\.json$' -and
+            [IO.Path]::GetFileName($snapshotName) -eq $snapshotName) {
+            $candidatePath = Join-Path $Directory $snapshotName
+            if (Test-Path -LiteralPath $candidatePath) {
+                return (Resolve-Path -LiteralPath $candidatePath).Path
+            }
+        }
+        Write-Warning "Ignoring stale or invalid current snapshot marker: $markerPath"
+    }
+
+    $snapshot = Get-ChildItem -LiteralPath $Directory -File |
+        Where-Object { $_.Name -match '^account-response-\d{2}-private\.json$' } |
+        Sort-Object -Property LastWriteTimeUtc, Name -Descending |
+        Select-Object -First 1
+
+    if ($null -eq $snapshot) {
+        return $null
+    }
+    return $snapshot.FullName
+}
+
+$snapshotPath = Resolve-CurrentAccountSnapshot -Directory $SnapshotDir
+
+if ($null -eq $snapshotPath) {
     throw "Capture completed, but no numbered account snapshot was found in $SnapshotDir."
 }
 
-Write-Host "Newest account snapshot: $($snapshot.File.FullName)"
+Write-Host "Current account snapshot: $snapshotPath"
 
 if (-not $SkipRebuild) {
-    & (Join-Path $projectRoot 'relics\Relic Inventory\build-relic-inventory.ps1') -AccountPath $snapshot.File.FullName
-    & (Join-Path $projectRoot 'glyphs\build-glyph-dashboard.ps1') -SnapshotPath $snapshot.File.FullName
-    & (Join-Path $projectRoot 'glyphs\query-gear-glyph-progress.ps1') -SnapshotPath $snapshot.File.FullName
+    & (Join-Path $projectRoot 'relics\Relic Inventory\build-relic-inventory.ps1') -AccountPath $snapshotPath
+    & (Join-Path $projectRoot 'glyphs\build-glyph-dashboard.ps1') -SnapshotPath $snapshotPath
+    & (Join-Path $projectRoot 'glyphs\query-gear-glyph-progress.ps1') -SnapshotPath $snapshotPath
     & $nodePath (Join-Path $projectRoot 'glyphs\verify-glyph-dashboard.mjs')
     if ($LASTEXITCODE -ne 0) {
         throw "Glyph dashboard verification failed with exit code $LASTEXITCODE."

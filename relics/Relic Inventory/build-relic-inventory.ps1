@@ -8,19 +8,36 @@ $ErrorActionPreference = "Stop"
 
 $projectRoot = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 $snapshotDirectory = Join-Path $projectRoot "data-account-specific-dynamic\snapshots"
+$currentMarkerName = "current-account-snapshot.txt"
 
 if ([string]::IsNullOrWhiteSpace($AccountPath)) {
-    $accountSnapshot = Get-ChildItem -LiteralPath $snapshotDirectory -File |
-        Where-Object { $_.Name -match '^account-response-(\d+)-private\.json$' } |
-        ForEach-Object { [pscustomobject]@{ File = $_; Number = [int]$Matches[1] } } |
-        Sort-Object Number -Descending |
-        Select-Object -First 1
-
-    if ($null -eq $accountSnapshot) {
-        throw "No numbered account snapshot matching account-response-<number>-private.json was found in $snapshotDirectory."
+    $markerPath = Join-Path $snapshotDirectory $currentMarkerName
+    if (Test-Path -LiteralPath $markerPath) {
+        $snapshotName = (Get-Content -Raw -LiteralPath $markerPath).Trim()
+        if ($snapshotName -match '^account-response-\d{2}-private\.json$' -and
+            [IO.Path]::GetFileName($snapshotName) -eq $snapshotName) {
+            $candidatePath = Join-Path $snapshotDirectory $snapshotName
+            if (Test-Path -LiteralPath $candidatePath) {
+                $AccountPath = $candidatePath
+            }
+        }
+        if ([string]::IsNullOrWhiteSpace($AccountPath)) {
+            Write-Warning "Ignoring stale or invalid current snapshot marker: $markerPath"
+        }
     }
 
-    $AccountPath = $accountSnapshot.File.FullName
+    if ([string]::IsNullOrWhiteSpace($AccountPath)) {
+        $accountSnapshot = Get-ChildItem -LiteralPath $snapshotDirectory -File |
+            Where-Object { $_.Name -match '^account-response-\d{2}-private\.json$' } |
+            Sort-Object -Property LastWriteTimeUtc, Name -Descending |
+            Select-Object -First 1
+
+        if ($null -eq $accountSnapshot) {
+            throw "No numbered account snapshot matching account-response-<00-99>-private.json was found in $snapshotDirectory."
+        }
+
+        $AccountPath = $accountSnapshot.FullName
+    }
 }
 
 $AccountPath = (Resolve-Path -LiteralPath $AccountPath).Path

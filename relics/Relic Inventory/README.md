@@ -12,13 +12,19 @@ Place the new account snapshot in the central snapshot directory:
 C:\dev\rsl-codex-project\data-account-specific-dynamic\snapshots
 ```
 
-Give it a numbered name such as:
+Give it a two-digit ring-buffer name such as:
 
 ```text
 account-response-09-private.json
 ```
 
-When no `-AccountPath` is supplied, the script selects the highest numbered snapshot matching `account-response-<number>-private.json`. It prints the selected filename before processing.
+Automation uses `account-response-00-private.json` through `account-response-99-private.json`. After `99`, it reuses the oldest snapshot slot. The current snapshot is recorded in:
+
+```text
+current-account-snapshot.txt
+```
+
+When no `-AccountPath` is supplied, the script selects the snapshot named by that marker. If the marker is missing, it falls back to the most recently modified two-digit snapshot. It prints the selected filename before processing.
 
 The generated inventory overwrites:
 

@@ -3,6 +3,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const require = createRequire(import.meta.url);
+const SNAPSHOT_PATTERN = /^account-response-(\d{2})-private\.json$/;
+const CURRENT_MARKER = 'current-account-snapshot.txt';
 
 function parseArgs(argv) {
   const args = {
@@ -56,16 +58,55 @@ the saved session as long as the site keeps it valid.`);
 
 function getNextSnapshotPath(snapshotDir) {
   fs.mkdirSync(snapshotDir, { recursive: true });
-  const nextNumber = fs.readdirSync(snapshotDir)
-    .map(name => name.match(/^account-response-(\d+)-private\.json$/))
+  const records = fs.readdirSync(snapshotDir)
+    .map(name => {
+      const match = name.match(SNAPSHOT_PATTERN);
+      if (!match) return null;
+      const filePath = path.join(snapshotDir, name);
+      return {
+        name,
+        filePath,
+        number: Number(match[1]),
+        modifiedMs: fs.statSync(filePath).mtimeMs
+      };
+    })
     .filter(Boolean)
-    .map(match => Number(match[1]))
-    .reduce((max, value) => Math.max(max, value), 0) + 1;
+    .filter(record => record.number >= 0 && record.number <= 99);
+
+  const usedNumbers = new Set(records.map(record => record.number));
+  let nextNumber;
+
+  if (usedNumbers.size < 100) {
+    const highestNumber = records.reduce(
+      (max, record) => Math.max(max, record.number),
+      -1
+    );
+    for (let offset = 1; offset <= 100; offset += 1) {
+      const candidate = (highestNumber + offset) % 100;
+      if (!usedNumbers.has(candidate)) {
+        nextNumber = candidate;
+        break;
+      }
+    }
+  } else {
+    const oldest = records
+      .toSorted((left, right) => left.modifiedMs - right.modifiedMs)
+      .at(0);
+    nextNumber = oldest.number;
+  }
 
   return path.join(
     snapshotDir,
     `account-response-${String(nextNumber).padStart(2, '0')}-private.json`
   );
+}
+
+function writeCurrentMarker(snapshotPath) {
+  const snapshotName = path.basename(snapshotPath);
+  if (!SNAPSHOT_PATTERN.test(snapshotName)) return;
+
+  const markerPath = path.join(path.dirname(snapshotPath), CURRENT_MARKER);
+  fs.writeFileSync(markerPath, `${snapshotName}\n`, 'utf8');
 }
 
 function looksLikeAccountSnapshot(value) {
@@ -151,6 +192,7 @@ async function main() {
         settled = true;
         clearTimeout(timer);
         fs.writeFileSync(outputPath, `${JSON.stringify(payload)}\n`, 'utf8');
+        writeCurrentMarker(outputPath);
         console.log(`Captured account snapshot from ${responseUrl}`);
         console.log(`SNAPSHOT_PATH=${outputPath}`);
         resolve(outputPath);
