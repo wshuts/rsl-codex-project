@@ -34,11 +34,21 @@ if (-not (Test-Path -LiteralPath $nodePath)) {
 
 $bundledModules = 'C:\Users\Bill\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\node_modules'
 if (Test-Path -LiteralPath $bundledModules) {
-    $nodePathParts = @(
-        $bundledModules,
-        (Join-Path $bundledModules '.pnpm\playwright@1.60.0\node_modules'),
-        (Join-Path $bundledModules '.pnpm\playwright-core@1.60.0\node_modules')
-    )
+    $nodePathParts = [System.Collections.Generic.List[string]]::new()
+    $nodePathParts.Add($bundledModules)
+
+    $pnpmModules = Join-Path $bundledModules '.pnpm'
+    if (Test-Path -LiteralPath $pnpmModules) {
+        Get-ChildItem -LiteralPath $pnpmModules -Directory |
+            Where-Object { $_.Name -match '^playwright(?:-core)?@' } |
+            ForEach-Object {
+                $packageModules = Join-Path $_.FullName 'node_modules'
+                if (Test-Path -LiteralPath $packageModules) {
+                    $nodePathParts.Add($packageModules)
+                }
+            }
+    }
+
     $env:NODE_PATH = ($nodePathParts -join [IO.Path]::PathSeparator)
 }
 
