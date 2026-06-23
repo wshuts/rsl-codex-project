@@ -1,17 +1,17 @@
 ﻿{
     "schemaVersion":  1,
-    "generatedAt":  "2026-06-23T02:25:23.5606122Z",
+    "generatedAt":  "2026-06-23T02:43:51.9541895Z",
     "sources":  {
-                    "account":  "account-response-10-private.json",
+                    "account":  "account-response-11-private.json",
                     "staticData":  "relic-static-data.json"
                 },
     "summary":  {
                     "relics":  107,
                     "equippedRelics":  20,
                     "unequippedRelics":  87,
-                    "gemstones":  200,
+                    "gemstones":  204,
                     "socketedGemstones":  61,
-                    "unsocketedGemstones":  139
+                    "unsocketedGemstones":  143
                 },
     "relics":  [
                    {
@@ -12373,6 +12373,62 @@
                           "socketedIn":  null,
                           "skillIds":  [
                                            4000042
+                                       ]
+                      },
+                      {
+                          "id":  430,
+                          "typeId":  60,
+                          "name":  "Puppetmaster",
+                          "description":  "The wearer gains an additional 30 ACC when attempting to place \u003ccolor=#1ee600\u003e[Stun]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[Freeze]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[Sleep]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[Provoke]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[Fear]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[True Fear]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[Petrification]\u003c/color\u003e, and \u003ccolor=#1ee600\u003e[Sheep]\u003c/color\u003e debuffs.",
+                          "rarityId":  5,
+                          "rarity":  "Legendary",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000059
+                                       ]
+                      },
+                      {
+                          "id":  431,
+                          "typeId":  64,
+                          "name":  "Extra Punishment",
+                          "description":  "The wearer deals 20% more damage against enemies under \u003ccolor=#1ee600\u003e[Stun]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[Freeze]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[Sleep]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[Provoke]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[Fear]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[True Fear]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[Petrification]\u003c/color\u003e, or \u003ccolor=#1ee600\u003e[Sheep]\u003c/color\u003e debuffs.",
+                          "rarityId":  6,
+                          "rarity":  "Mythical",
+                          "shapeId":  2,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000063
+                                       ]
+                      },
+                      {
+                          "id":  432,
+                          "typeId":  19,
+                          "name":  "Unerring Focus",
+                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000018
+                                       ]
+                      },
+                      {
+                          "id":  433,
+                          "typeId":  58,
+                          "name":  "Explosive Power",
+                          "description":  "\u003ccolor=#1ee600\u003e[Bomb]\u003c/color\u003e debuffs placed by the wearer deal 10% more damage.",
+                          "rarityId":  5,
+                          "rarity":  "Legendary",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000057
                                        ]
                       }
                   ]
