@@ -113,6 +113,12 @@ To avoid putting a tokenized URL in shell history, put it in this ignored local 
 C:\dev\rsl-codex-project\data-account-specific-dynamic\local-start-url.txt
 ```
 
+That file should contain only the start URL on one line. Do not include quotes, command text, or PowerShell syntax.
+
+```text
+https://example.com/account-page?token=...
+```
+
 Then run:
 
 ```powershell
