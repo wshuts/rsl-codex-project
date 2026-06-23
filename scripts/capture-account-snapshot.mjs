@@ -24,6 +24,7 @@ function parseArgs(argv) {
     };
 
     if (arg === '--start-url') args.startUrl = next();
+    else if (arg === '--start-url-file') args.startUrlFile = path.resolve(next());
     else if (arg === '--snapshot-dir') args.snapshotDir = path.resolve(next());
     else if (arg === '--profile-dir') args.profileDir = path.resolve(next());
     else if (arg === '--output') args.output = path.resolve(next());
@@ -42,8 +43,10 @@ function parseArgs(argv) {
 function printHelp() {
   console.log(`Usage:
   node scripts/capture-account-snapshot.mjs --start-url <url> [options]
+  node scripts/capture-account-snapshot.mjs --start-url-file <path> [options]
 
 Options:
+  --start-url-file <path>    Read the start URL from a local text file.
   --url-pattern <regex>       Only inspect responses whose URL matches the regex.
   --browser-channel <name>    Browser channel to use; defaults to chrome.
   --timeout-seconds <number>  Seconds to wait for the account snapshot response.
@@ -121,14 +124,22 @@ function looksLikeAccountSnapshot(value) {
   );
 }
 
+function withoutSensitiveUrl(message, startUrl) {
+  if (!startUrl) return message;
+  return message.split(startUrl).join('[start URL redacted]');
+}
+
 async function main() {
   const args = parseArgs(process.argv.slice(2));
   if (args.help) {
     printHelp();
     return;
   }
+  if (args.startUrlFile) {
+    args.startUrl = fs.readFileSync(args.startUrlFile, 'utf8').trim();
+  }
   if (!args.startUrl) {
-    throw new Error('Pass --start-url with the account/optimizer page to open.');
+    throw new Error('Pass --start-url or --start-url-file with the account/optimizer page to open.');
   }
   if (!Number.isFinite(args.timeoutMs) || args.timeoutMs <= 0) {
     throw new Error('--timeout-ms/--timeout-seconds must be a positive number.');
@@ -193,7 +204,7 @@ async function main() {
         clearTimeout(timer);
         fs.writeFileSync(outputPath, `${JSON.stringify(payload)}\n`, 'utf8');
         writeCurrentMarker(outputPath);
-        console.log(`Captured account snapshot from ${responseUrl}`);
+        console.log('Captured account snapshot response.');
         console.log(`SNAPSHOT_PATH=${outputPath}`);
         resolve(outputPath);
       } catch (error) {
@@ -204,8 +215,12 @@ async function main() {
 
   try {
     const page = context.pages()[0] || await context.newPage();
-    console.log(`Opening ${args.startUrl}`);
-    await page.goto(args.startUrl, { waitUntil: 'domcontentloaded', timeout: 60000 });
+    console.log('Opening start URL.');
+    try {
+      await page.goto(args.startUrl, { waitUntil: 'domcontentloaded', timeout: 60000 });
+    } catch (error) {
+      throw new Error(`Failed to open start URL: ${withoutSensitiveUrl(error.message, args.startUrl)}`);
+    }
     console.log('Waiting for an account-shaped JSON response. If login is required, complete it in the opened browser.');
     await capture;
   } finally {

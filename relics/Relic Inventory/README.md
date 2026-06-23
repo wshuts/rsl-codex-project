@@ -107,4 +107,16 @@ The repository also includes a wrapper that opens a persistent browser session, 
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\dev\rsl-codex-project\scripts\update-account-snapshot.ps1" -StartUrl "https://example.com/account-page"
 ```
 
+To avoid putting a tokenized URL in shell history, put it in this ignored local file:
+
+```text
+C:\dev\rsl-codex-project\data-account-specific-dynamic\local-start-url.txt
+```
+
+Then run:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\dev\rsl-codex-project\scripts\update-account-snapshot.ps1"
+```
+
 The browser profile is stored under `data-account-specific-dynamic\browser-profile` and is ignored by git because it may contain login state. On the first run, complete login in the opened browser; later runs can reuse the session while it remains valid. The wrapper defaults to the installed Chrome channel; pass `-BrowserChannel msedge` to use Edge instead.

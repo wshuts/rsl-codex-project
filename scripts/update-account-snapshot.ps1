@@ -1,6 +1,6 @@
 param(
-    [Parameter(Mandatory = $true)]
     [string]$StartUrl,
+    [string]$StartUrlFile,
     [string]$UrlPattern,
     [int]$TimeoutSeconds = 300,
     [string]$BrowserChannel = 'chrome',
@@ -19,6 +19,21 @@ if ([string]::IsNullOrWhiteSpace($SnapshotDir)) {
 }
 if ([string]::IsNullOrWhiteSpace($ProfileDir)) {
     $ProfileDir = Join-Path $projectRoot 'data-account-specific-dynamic\browser-profile'
+}
+if ([string]::IsNullOrWhiteSpace($StartUrl) -and [string]::IsNullOrWhiteSpace($StartUrlFile)) {
+    $defaultStartUrlFile = Join-Path $projectRoot 'data-account-specific-dynamic\local-start-url.txt'
+    if (Test-Path -LiteralPath $defaultStartUrlFile) {
+        $StartUrlFile = $defaultStartUrlFile
+    }
+}
+if (-not [string]::IsNullOrWhiteSpace($StartUrl) -and -not [string]::IsNullOrWhiteSpace($StartUrlFile)) {
+    throw "Pass either -StartUrl or -StartUrlFile, not both."
+}
+if ([string]::IsNullOrWhiteSpace($StartUrl) -and [string]::IsNullOrWhiteSpace($StartUrlFile)) {
+    throw "Pass -StartUrl, pass -StartUrlFile, or create data-account-specific-dynamic\local-start-url.txt."
+}
+if (-not [string]::IsNullOrWhiteSpace($StartUrlFile)) {
+    $StartUrlFile = (Resolve-Path -LiteralPath $StartUrlFile).Path
 }
 
 $nodeCommand = Get-Command node -ErrorAction SilentlyContinue
@@ -55,12 +70,16 @@ if (Test-Path -LiteralPath $bundledModules) {
 $captureScript = Join-Path $PSScriptRoot 'capture-account-snapshot.mjs'
 $captureArgs = @(
     $captureScript,
-    '--start-url', $StartUrl,
     '--timeout-seconds', $TimeoutSeconds,
     '--browser-channel', $BrowserChannel,
     '--snapshot-dir', $SnapshotDir,
     '--profile-dir', $ProfileDir
 )
+if (-not [string]::IsNullOrWhiteSpace($StartUrlFile)) {
+    $captureArgs += @('--start-url-file', $StartUrlFile)
+} else {
+    $captureArgs += @('--start-url', $StartUrl)
+}
 if (-not [string]::IsNullOrWhiteSpace($UrlPattern)) {
     $captureArgs += @('--url-pattern', $UrlPattern)
 }

@@ -2,5 +2,6 @@
 glyphs/generated/
 data-account-specific-dynamic/browser-profile/
 data-account-specific-dynamic/snapshots/current-account-snapshot.txt
+data-account-specific-dynamic/local-start-url.txt
 
 /scripts/temp.txt
