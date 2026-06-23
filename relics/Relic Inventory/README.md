@@ -6,13 +6,19 @@
 
 ## Prepare the Snapshot
 
-Place the new account snapshot in this directory and give it a numbered name such as:
+Place the new account snapshot in the central snapshot directory:
+
+```text
+C:\dev\rsl-codex-project\data-account-specific-dynamic\snapshots
+```
+
+Give it a numbered name such as:
 
 ```text
 account-response-09-private.json
 ```
 
-When no `-AccountPath` is supplied, the script selects the numbered snapshot matching `account-response-<number>-private.json` with the newest file-modification time. It prints the selected filename before processing.
+When no `-AccountPath` is supplied, the script selects the highest numbered snapshot matching `account-response-<number>-private.json`. It prints the selected filename before processing.
 
 The generated inventory overwrites:
 
@@ -86,3 +92,13 @@ For the post-sale snapshot discussed on 2026-06-20, the expected gemstone totals
 | Unsocketed gemstones | 136 |
 
 These expected totals assume no gemstone changes occurred after the two completed selling tranches.
+
+## Capture and Rebuild
+
+The repository also includes a wrapper that opens a persistent browser session, waits for an account-shaped JSON response, saves the next numbered snapshot, and rebuilds relic and glyph outputs:
+
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\dev\rsl-codex-project\scripts\update-account-snapshot.ps1" -StartUrl "https://example.com/account-page"
+```
+
+The browser profile is stored under `data-account-specific-dynamic\browser-profile` and is ignored by git because it may contain login state. On the first run, complete login in the opened browser; later runs can reuse the session while it remains valid. The wrapper defaults to the installed Chrome channel; pass `-BrowserChannel msedge` to use Edge instead.

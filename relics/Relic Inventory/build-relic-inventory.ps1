@@ -6,17 +6,21 @@ param(
 
 $ErrorActionPreference = "Stop"
 
+$projectRoot = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
+$snapshotDirectory = Join-Path $projectRoot "data-account-specific-dynamic\snapshots"
+
 if ([string]::IsNullOrWhiteSpace($AccountPath)) {
-    $accountSnapshot = Get-ChildItem -LiteralPath $PSScriptRoot -File |
-        Where-Object { $_.Name -match '^account-response-\d+-private\.json$' } |
-        Sort-Object -Property LastWriteTimeUtc, Name -Descending |
+    $accountSnapshot = Get-ChildItem -LiteralPath $snapshotDirectory -File |
+        Where-Object { $_.Name -match '^account-response-(\d+)-private\.json$' } |
+        ForEach-Object { [pscustomobject]@{ File = $_; Number = [int]$Matches[1] } } |
+        Sort-Object Number -Descending |
         Select-Object -First 1
 
     if ($null -eq $accountSnapshot) {
-        throw "No numbered account snapshot matching account-response-<number>-private.json was found in $PSScriptRoot."
+        throw "No numbered account snapshot matching account-response-<number>-private.json was found in $snapshotDirectory."
     }
 
-    $AccountPath = $accountSnapshot.FullName
+    $AccountPath = $accountSnapshot.File.FullName
 }
 
 $AccountPath = (Resolve-Path -LiteralPath $AccountPath).Path
