@@ -1,17 +1,17 @@
 ﻿{
     "schemaVersion":  1,
-    "generatedAt":  "2026-06-23T03:46:11.6682199Z",
+    "generatedAt":  "2026-07-01T01:06:58.7513241Z",
     "sources":  {
-                    "account":  "account-response-13-private.json",
+                    "account":  "account-response-22-private.json",
                     "staticData":  "relic-static-data.json"
                 },
     "summary":  {
-                    "relics":  107,
+                    "relics":  108,
                     "equippedRelics":  20,
-                    "unequippedRelics":  87,
-                    "gemstones":  204,
+                    "unequippedRelics":  88,
+                    "gemstones":  212,
                     "socketedGemstones":  61,
-                    "unsocketedGemstones":  143
+                    "unsocketedGemstones":  151
                 },
     "relics":  [
                    {
@@ -9328,6 +9328,94 @@
                                                           "description":  "Effect Chance +10%"
                                                       }
                                                   ]
+                   },
+                   {
+                       "id":  366,
+                       "typeId":  54,
+                       "name":  "Gilded Pinion",
+                       "description":  "Wearer receives \u003ccolor=#1ee600\u003e1%\u003c/color\u003e less damage for each turn of cooldown on all their skills.",
+                       "groupId":  7,
+                       "rarityId":  5,
+                       "rarity":  "Legendary",
+                       "rank":  3,
+                       "level":  0,
+                       "maxLevel":  9,
+                       "baseRankForRarity":  3,
+                       "seen":  true,
+                       "activationState":  null,
+                       "equipped":  false,
+                       "wearer":  null,
+                       "stats":  [
+                                     {
+                                         "slot":  1,
+                                         "statId":  1,
+                                         "name":  "Health",
+                                         "openingLevel":  0,
+                                         "unlocked":  true,
+                                         "value":  900,
+                                         "isAbsolute":  true
+                                     },
+                                     {
+                                         "slot":  2,
+                                         "statId":  4,
+                                         "name":  "Speed",
+                                         "openingLevel":  9,
+                                         "unlocked":  false,
+                                         "value":  0,
+                                         "isAbsolute":  true
+                                     },
+                                     {
+                                         "slot":  3,
+                                         "statId":  5,
+                                         "name":  "Resistance",
+                                         "openingLevel":  15,
+                                         "unlocked":  false,
+                                         "value":  0,
+                                         "isAbsolute":  true
+                                     }
+                                 ],
+                       "sockets":  [
+                                       {
+                                           "slot":  1,
+                                           "shapeId":  5,
+                                           "stone":  null
+                                       },
+                                       {
+                                           "slot":  2,
+                                           "shapeId":  4,
+                                           "stone":  null
+                                       },
+                                       {
+                                           "slot":  3,
+                                           "shapeId":  1,
+                                           "stone":  null
+                                       }
+                                   ],
+                       "skillIds":  [
+                                        3000053
+                                    ],
+                       "skillLevelDescriptions":  [
+                                                      {
+                                                          "combinedId":  "54_2",
+                                                          "description":  "Damage Reduction +0.25%"
+                                                      },
+                                                      {
+                                                          "combinedId":  "54_3",
+                                                          "description":  "Damage Reduction +0.25%"
+                                                      },
+                                                      {
+                                                          "combinedId":  "54_4",
+                                                          "description":  "Damage Reduction +0.25%"
+                                                      },
+                                                      {
+                                                          "combinedId":  "54_5",
+                                                          "description":  "Damage Reduction +0.25%"
+                                                      },
+                                                      {
+                                                          "combinedId":  "54_6",
+                                                          "description":  "Damage Reduction +0.5%"
+                                                      }
+                                                  ]
                    }
                ],
     "gemstones":  [
@@ -12429,6 +12517,118 @@
                           "socketedIn":  null,
                           "skillIds":  [
                                            4000057
+                                       ]
+                      },
+                      {
+                          "id":  434,
+                          "typeId":  53,
+                          "name":  "Speedy Willpower",
+                          "description":  "The wearer receives 5% Turn Meter each time they resist a debuff. Cannot gain more than 20% Turn Meter in a single turn.",
+                          "rarityId":  5,
+                          "rarity":  "Legendary",
+                          "shapeId":  5,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000052
+                                       ]
+                      },
+                      {
+                          "id":  435,
+                          "typeId":  40,
+                          "name":  "Unflinching",
+                          "description":  "Bosses deal 5% less damage to the wearer.",
+                          "rarityId":  4,
+                          "rarity":  "Epic",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000039
+                                       ]
+                      },
+                      {
+                          "id":  436,
+                          "typeId":  17,
+                          "name":  "Invigorated",
+                          "description":  "Turn Meter increase effects are 10% more effective on the wearer.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000016
+                                       ]
+                      },
+                      {
+                          "id":  437,
+                          "typeId":  4,
+                          "name":  "Unbowed Might",
+                          "description":  "The wearer\u0027s C.DMG increases by 3% for each debuff they are under (stacks up to 30%).",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  2,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000003
+                                       ]
+                      },
+                      {
+                          "id":  438,
+                          "typeId":  7,
+                          "name":  "Blessed Heal",
+                          "description":  "When the wearer heals an ally with a skill, the heal is 10% more effective.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  4,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000006
+                                       ]
+                      },
+                      {
+                          "id":  439,
+                          "typeId":  26,
+                          "name":  "Energy Expansion",
+                          "description":  "Every time the wearer receives healing from a skill, increases the wearer\u0027s MAX HP by 1% (stacks up to 10%).",
+                          "rarityId":  4,
+                          "rarity":  "Epic",
+                          "shapeId":  4,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000025
+                                       ]
+                      },
+                      {
+                          "id":  440,
+                          "typeId":  18,
+                          "name":  "Unstoppable",
+                          "description":  "Turn Meter reduction effects from enemies are 10% less effective on the wearer.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000017
+                                       ]
+                      },
+                      {
+                          "id":  441,
+                          "typeId":  14,
+                          "name":  "Unbroken Strength",
+                          "description":  "The wearer\u0027s RES increases by 3 per each buff on them.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  5,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000013
                                        ]
                       }
                   ]

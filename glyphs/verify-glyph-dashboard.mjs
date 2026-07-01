@@ -16,6 +16,12 @@ for (const id of requiredIds) {
   if (!html.includes(`id="${id}"`)) throw new Error(`Missing control #${id}`);
 }
 if (!html.includes('const SLOT_ORDER=[5,1,6,3,2,4,7,8,9]')) throw new Error('In-game gear slot order changed');
+if (!html.includes("function statName(s){return s.kind>=1&&s.kind<=3&&!s.absolute?STATS[s.kind]+'%':STATS[s.kind]}")) {
+  throw new Error('Flat/percent sub-stat labels are not distinguished');
+}
+if (!html.includes('HP, ATK, and DEF percent rolls are marked with %')) {
+  throw new Error('Sub-stat audit text does not explain percent-roll labels');
+}
 
 const payload = context.window.GLYPH_DATA;
 const pieces = payload.pieces;
