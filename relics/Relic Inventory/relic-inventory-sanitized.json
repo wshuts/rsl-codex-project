@@ -1,8 +1,8 @@
 ﻿{
     "schemaVersion":  1,
-    "generatedAt":  "2026-07-01T01:06:58.7513241Z",
+    "generatedAt":  "2026-07-03T01:23:31.4709174Z",
     "sources":  {
-                    "account":  "account-response-22-private.json",
+                    "account":  "account-response-26-private.json",
                     "staticData":  "relic-static-data.json"
                 },
     "summary":  {

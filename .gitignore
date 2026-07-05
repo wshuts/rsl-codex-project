@@ -5,3 +5,5 @@ data-account-specific-dynamic/snapshots/current-account-snapshot.txt
 data-account-specific-dynamic/local-start-url.txt
 
 /scripts/temp.txt
+
+/relics/Relic Inventory/relic-inventory-sanitized.json
