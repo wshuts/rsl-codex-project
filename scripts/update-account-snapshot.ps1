@@ -37,31 +37,51 @@ if (-not [string]::IsNullOrWhiteSpace($StartUrlFile)) {
 }
 
 $nodeCommand = Get-Command node -ErrorAction SilentlyContinue
+$codexNodePath = if (-not [string]::IsNullOrWhiteSpace($env:USERPROFILE)) {
+    Join-Path $env:USERPROFILE '.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe'
+} else {
+    $null
+}
 $nodePath = if ($null -ne $nodeCommand) {
     $nodeCommand.Source
+} elseif (-not [string]::IsNullOrWhiteSpace($codexNodePath) -and (Test-Path -LiteralPath $codexNodePath)) {
+    $codexNodePath
 } else {
-    'C:\Users\Bill\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe'
+    $null
 }
 
-if (-not (Test-Path -LiteralPath $nodePath)) {
-    throw "Node.js was not found on PATH or at the Codex bundled runtime path: $nodePath"
+if ([string]::IsNullOrWhiteSpace($nodePath) -or -not (Test-Path -LiteralPath $nodePath)) {
+    throw "Node.js was not found on PATH or in the Codex bundled runtime under the current user profile."
 }
 
-$bundledModules = 'C:\Users\Bill\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\node_modules'
-if (Test-Path -LiteralPath $bundledModules) {
+$moduleRoots = [System.Collections.Generic.List[string]]::new()
+$localModules = Join-Path $projectRoot 'node_modules'
+if (Test-Path -LiteralPath $localModules) {
+    $moduleRoots.Add($localModules)
+}
+if (-not [string]::IsNullOrWhiteSpace($env:USERPROFILE)) {
+    $codexModules = Join-Path $env:USERPROFILE '.cache\codex-runtimes\codex-primary-runtime\dependencies\node\node_modules'
+    if (Test-Path -LiteralPath $codexModules) {
+        $moduleRoots.Add($codexModules)
+    }
+}
+
+if ($moduleRoots.Count -gt 0) {
     $nodePathParts = [System.Collections.Generic.List[string]]::new()
-    $nodePathParts.Add($bundledModules)
+    foreach ($moduleRoot in $moduleRoots) {
+        $nodePathParts.Add($moduleRoot)
 
-    $pnpmModules = Join-Path $bundledModules '.pnpm'
-    if (Test-Path -LiteralPath $pnpmModules) {
-        Get-ChildItem -LiteralPath $pnpmModules -Directory |
-            Where-Object { $_.Name -match '^playwright(?:-core)?@' } |
-            ForEach-Object {
-                $packageModules = Join-Path $_.FullName 'node_modules'
-                if (Test-Path -LiteralPath $packageModules) {
-                    $nodePathParts.Add($packageModules)
+        $pnpmModules = Join-Path $moduleRoot '.pnpm'
+        if (Test-Path -LiteralPath $pnpmModules) {
+            Get-ChildItem -LiteralPath $pnpmModules -Directory |
+                Where-Object { $_.Name -match '^playwright(?:-core)?@' } |
+                ForEach-Object {
+                    $packageModules = Join-Path $_.FullName 'node_modules'
+                    if (Test-Path -LiteralPath $packageModules) {
+                        $nodePathParts.Add($packageModules)
+                    }
                 }
-            }
+        }
     }
 
     $env:NODE_PATH = ($nodePathParts -join [IO.Path]::PathSeparator)

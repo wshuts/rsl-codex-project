@@ -1,8 +1,11 @@
 import { createRequire } from 'node:module';
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 const require = createRequire(import.meta.url);
+const scriptDir = path.dirname(fileURLToPath(import.meta.url));
+const projectRoot = path.resolve(scriptDir, '..');
 const SNAPSHOT_PATTERN = /^account-response-(\d{2})-private\.json$/;
 const CURRENT_MARKER = 'current-account-snapshot.txt';
 
@@ -11,8 +14,8 @@ function parseArgs(argv) {
     timeoutMs: 300000,
     headless: false,
     browserChannel: 'chrome',
-    snapshotDir: path.resolve('data-account-specific-dynamic/snapshots'),
-    profileDir: path.resolve('data-account-specific-dynamic/browser-profile')
+    snapshotDir: path.join(projectRoot, 'data-account-specific-dynamic', 'snapshots'),
+    profileDir: path.join(projectRoot, 'data-account-specific-dynamic', 'browser-profile')
   };
 
   for (let index = 0; index < argv.length; index += 1) {
