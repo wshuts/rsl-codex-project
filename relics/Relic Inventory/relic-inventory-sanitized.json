@@ -1,17 +1,17 @@
 ﻿{
     "schemaVersion":  1,
-    "generatedAt":  "2026-07-03T01:23:31.4709174Z",
+    "generatedAt":  "2026-07-09T03:15:39.7060918Z",
     "sources":  {
-                    "account":  "account-response-26-private.json",
+                    "account":  "account-response-30-private.json",
                     "staticData":  "relic-static-data.json"
                 },
     "summary":  {
                     "relics":  108,
                     "equippedRelics":  20,
                     "unequippedRelics":  88,
-                    "gemstones":  212,
+                    "gemstones":  224,
                     "socketedGemstones":  61,
-                    "unsocketedGemstones":  151
+                    "unsocketedGemstones":  163
                 },
     "relics":  [
                    {
@@ -12619,6 +12619,174 @@
                       },
                       {
                           "id":  441,
+                          "typeId":  14,
+                          "name":  "Unbroken Strength",
+                          "description":  "The wearer\u0027s RES increases by 3 per each buff on them.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  5,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000013
+                                       ]
+                      },
+                      {
+                          "id":  442,
+                          "typeId":  17,
+                          "name":  "Invigorated",
+                          "description":  "Turn Meter increase effects are 10% more effective on the wearer.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000016
+                                       ]
+                      },
+                      {
+                          "id":  443,
+                          "typeId":  17,
+                          "name":  "Invigorated",
+                          "description":  "Turn Meter increase effects are 10% more effective on the wearer.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000016
+                                       ]
+                      },
+                      {
+                          "id":  444,
+                          "typeId":  37,
+                          "name":  "Foekiller",
+                          "description":  "The wearer deals 5% more damage against enemies with full HP.",
+                          "rarityId":  4,
+                          "rarity":  "Epic",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000036
+                                       ]
+                      },
+                      {
+                          "id":  445,
+                          "typeId":  19,
+                          "name":  "Unerring Focus",
+                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000018
+                                       ]
+                      },
+                      {
+                          "id":  446,
+                          "typeId":  9,
+                          "name":  "Sanctified Skin",
+                          "description":  "The wearer receives 10% more healing.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  3,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000008
+                                       ]
+                      },
+                      {
+                          "id":  447,
+                          "typeId":  16,
+                          "name":  "In For The Kill",
+                          "description":  "The wearer gains 3% Turn Meter whenever an enemy loses 25% or more HP. Cannot gain more than 20% Turn Meter in a single turn.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  5,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000015
+                                       ]
+                      },
+                      {
+                          "id":  448,
+                          "typeId":  14,
+                          "name":  "Unbroken Strength",
+                          "description":  "The wearer\u0027s RES increases by 3 per each buff on them.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  5,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000013
+                                       ]
+                      },
+                      {
+                          "id":  449,
+                          "typeId":  17,
+                          "name":  "Invigorated",
+                          "description":  "Turn Meter increase effects are 10% more effective on the wearer.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000016
+                                       ]
+                      },
+                      {
+                          "id":  450,
+                          "typeId":  40,
+                          "name":  "Unflinching",
+                          "description":  "Bosses deal 5% less damage to the wearer.",
+                          "rarityId":  4,
+                          "rarity":  "Epic",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000039
+                                       ]
+                      },
+                      {
+                          "id":  451,
+                          "typeId":  6,
+                          "name":  "Unburdened",
+                          "description":  "The wearer\u0027s SPD increases by 2 for each dead ally.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  4,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000005
+                                       ]
+                      },
+                      {
+                          "id":  452,
+                          "typeId":  19,
+                          "name":  "Unerring Focus",
+                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000018
+                                       ]
+                      },
+                      {
+                          "id":  453,
                           "typeId":  14,
                           "name":  "Unbroken Strength",
                           "description":  "The wearer\u0027s RES increases by 3 per each buff on them.",
