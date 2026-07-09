@@ -1,0 +1,2 @@
+Propose a concrete scoring algorithm (for example, a weighted "Ascension Alignment Score" from 0–100) rather than hard-coding rules immediately.
+This will enable easier tuning of the dashboard as account priorities evolve.
