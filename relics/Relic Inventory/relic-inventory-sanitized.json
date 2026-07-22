@@ -1,17 +1,17 @@
 ﻿{
     "schemaVersion":  1,
-    "generatedAt":  "2026-07-09T03:15:39.7060918Z",
+    "generatedAt":  "2026-07-22T05:15:26.7682368Z",
     "sources":  {
-                    "account":  "account-response-30-private.json",
-                    "staticData":  "relic-static-data.json"
+                    "account":  "account-response-44-private.json",
+                    "staticData":  "relics.json"
                 },
     "summary":  {
-                    "relics":  108,
+                    "relics":  110,
                     "equippedRelics":  20,
-                    "unequippedRelics":  88,
-                    "gemstones":  224,
+                    "unequippedRelics":  90,
+                    "gemstones":  238,
                     "socketedGemstones":  61,
-                    "unsocketedGemstones":  163
+                    "unsocketedGemstones":  177
                 },
     "relics":  [
                    {
@@ -9416,6 +9416,182 @@
                                                           "description":  "Damage Reduction +0.5%"
                                                       }
                                                   ]
+                   },
+                   {
+                       "id":  367,
+                       "typeId":  69,
+                       "name":  "Soulmar Crystal",
+                       "description":  "Once per Round, wearer has a \u003ccolor=#1ee600\u003e50%\u003c/color\u003e chance of activating an \u003ccolor=#1ee600\u003e[Instant Turn]\u003c/color\u003e effect when one or more allies are killed.",
+                       "groupId":  10,
+                       "rarityId":  5,
+                       "rarity":  "Legendary",
+                       "rank":  3,
+                       "level":  0,
+                       "maxLevel":  9,
+                       "baseRankForRarity":  3,
+                       "seen":  true,
+                       "activationState":  null,
+                       "equipped":  false,
+                       "wearer":  null,
+                       "stats":  [
+                                     {
+                                         "slot":  1,
+                                         "statId":  1,
+                                         "name":  "Health",
+                                         "openingLevel":  0,
+                                         "unlocked":  true,
+                                         "value":  900,
+                                         "isAbsolute":  true
+                                     },
+                                     {
+                                         "slot":  2,
+                                         "statId":  4,
+                                         "name":  "Speed",
+                                         "openingLevel":  9,
+                                         "unlocked":  false,
+                                         "value":  0,
+                                         "isAbsolute":  true
+                                     },
+                                     {
+                                         "slot":  3,
+                                         "statId":  5,
+                                         "name":  "Resistance",
+                                         "openingLevel":  15,
+                                         "unlocked":  false,
+                                         "value":  0,
+                                         "isAbsolute":  true
+                                     }
+                                 ],
+                       "sockets":  [
+                                       {
+                                           "slot":  1,
+                                           "shapeId":  1,
+                                           "stone":  null
+                                       },
+                                       {
+                                           "slot":  2,
+                                           "shapeId":  4,
+                                           "stone":  null
+                                       },
+                                       {
+                                           "slot":  3,
+                                           "shapeId":  1,
+                                           "stone":  null
+                                       }
+                                   ],
+                       "skillIds":  [
+                                        3000068
+                                    ],
+                       "skillLevelDescriptions":  [
+                                                      {
+                                                          "combinedId":  "69_2",
+                                                          "description":  "Effect Chance +10%"
+                                                      },
+                                                      {
+                                                          "combinedId":  "69_3",
+                                                          "description":  "Effect Chance +10%"
+                                                      },
+                                                      {
+                                                          "combinedId":  "69_4",
+                                                          "description":  "Effect Chance +10%"
+                                                      },
+                                                      {
+                                                          "combinedId":  "69_5",
+                                                          "description":  "Effect Chance +10%"
+                                                      },
+                                                      {
+                                                          "combinedId":  "69_6",
+                                                          "description":  "Effect Chance +10%"
+                                                      }
+                                                  ]
+                   },
+                   {
+                       "id":  368,
+                       "typeId":  16,
+                       "name":  "Aspect of Siroth",
+                       "description":  "When wearer receives fatal damage, reduces it by \u003ccolor=#1ee600\u003e50%\u003c/color\u003e of their Turn Meter and then fully reduces their Turn Meter. Cooldown: 1 turn.",
+                       "groupId":  1,
+                       "rarityId":  5,
+                       "rarity":  "Legendary",
+                       "rank":  3,
+                       "level":  0,
+                       "maxLevel":  9,
+                       "baseRankForRarity":  3,
+                       "seen":  true,
+                       "activationState":  null,
+                       "equipped":  false,
+                       "wearer":  null,
+                       "stats":  [
+                                     {
+                                         "slot":  1,
+                                         "statId":  3,
+                                         "name":  "Defense",
+                                         "openingLevel":  0,
+                                         "unlocked":  true,
+                                         "value":  53,
+                                         "isAbsolute":  true
+                                     },
+                                     {
+                                         "slot":  2,
+                                         "statId":  5,
+                                         "name":  "Resistance",
+                                         "openingLevel":  9,
+                                         "unlocked":  false,
+                                         "value":  0,
+                                         "isAbsolute":  true
+                                     },
+                                     {
+                                         "slot":  3,
+                                         "statId":  6,
+                                         "name":  "Accuracy",
+                                         "openingLevel":  15,
+                                         "unlocked":  false,
+                                         "value":  0,
+                                         "isAbsolute":  true
+                                     }
+                                 ],
+                       "sockets":  [
+                                       {
+                                           "slot":  1,
+                                           "shapeId":  3,
+                                           "stone":  null
+                                       },
+                                       {
+                                           "slot":  2,
+                                           "shapeId":  1,
+                                           "stone":  null
+                                       },
+                                       {
+                                           "slot":  3,
+                                           "shapeId":  1,
+                                           "stone":  null
+                                       }
+                                   ],
+                       "skillIds":  [
+                                        3000015
+                                    ],
+                       "skillLevelDescriptions":  [
+                                                      {
+                                                          "combinedId":  "16_2",
+                                                          "description":  "Damage Reduction +10%"
+                                                      },
+                                                      {
+                                                          "combinedId":  "16_3",
+                                                          "description":  "Damage Reduction +10%"
+                                                      },
+                                                      {
+                                                          "combinedId":  "16_4",
+                                                          "description":  "Damage Reduction +10%"
+                                                      },
+                                                      {
+                                                          "combinedId":  "16_5",
+                                                          "description":  "Damage Reduction +10%"
+                                                      },
+                                                      {
+                                                          "combinedId":  "16_6",
+                                                          "description":  "Damage Reduction +10%"
+                                                      }
+                                                  ]
                    }
                ],
     "gemstones":  [
@@ -12797,6 +12973,202 @@
                           "socketedIn":  null,
                           "skillIds":  [
                                            4000013
+                                       ]
+                      },
+                      {
+                          "id":  454,
+                          "typeId":  40,
+                          "name":  "Unflinching",
+                          "description":  "Bosses deal 5% less damage to the wearer.",
+                          "rarityId":  4,
+                          "rarity":  "Epic",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000039
+                                       ]
+                      },
+                      {
+                          "id":  455,
+                          "typeId":  18,
+                          "name":  "Unstoppable",
+                          "description":  "Turn Meter reduction effects from enemies are 10% less effective on the wearer.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000017
+                                       ]
+                      },
+                      {
+                          "id":  456,
+                          "typeId":  17,
+                          "name":  "Invigorated",
+                          "description":  "Turn Meter increase effects are 10% more effective on the wearer.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000016
+                                       ]
+                      },
+                      {
+                          "id":  457,
+                          "typeId":  36,
+                          "name":  "Growing Resolve",
+                          "description":  "The wearer\u0027s RES increases by 5 whenever a debuff is placed on them (stacks up to 40).",
+                          "rarityId":  4,
+                          "rarity":  "Epic",
+                          "shapeId":  5,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000035
+                                       ]
+                      },
+                      {
+                          "id":  458,
+                          "typeId":  60,
+                          "name":  "Puppetmaster",
+                          "description":  "The wearer gains an additional 30 ACC when attempting to place \u003ccolor=#1ee600\u003e[Stun]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[Freeze]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[Sleep]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[Provoke]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[Fear]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[True Fear]\u003c/color\u003e, \u003ccolor=#1ee600\u003e[Petrification]\u003c/color\u003e, and \u003ccolor=#1ee600\u003e[Sheep]\u003c/color\u003e debuffs.",
+                          "rarityId":  5,
+                          "rarity":  "Legendary",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000059
+                                       ]
+                      },
+                      {
+                          "id":  459,
+                          "typeId":  57,
+                          "name":  "Dungeon Delver",
+                          "description":  "The wearer deals 10% more damage in Dungeon battles.",
+                          "rarityId":  5,
+                          "rarity":  "Legendary",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000056
+                                       ]
+                      },
+                      {
+                          "id":  460,
+                          "typeId":  51,
+                          "name":  "Weakening Resolve",
+                          "description":  "When attacked with a multi-hit skill, decreases the damage the wearer receives from each subsequent hit after the first one by 10%.",
+                          "rarityId":  5,
+                          "rarity":  "Legendary",
+                          "shapeId":  3,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000050
+                                       ]
+                      },
+                      {
+                          "id":  461,
+                          "typeId":  17,
+                          "name":  "Invigorated",
+                          "description":  "Turn Meter increase effects are 10% more effective on the wearer.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000016
+                                       ]
+                      },
+                      {
+                          "id":  462,
+                          "typeId":  19,
+                          "name":  "Unerring Focus",
+                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000018
+                                       ]
+                      },
+                      {
+                          "id":  463,
+                          "typeId":  19,
+                          "name":  "Unerring Focus",
+                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000018
+                                       ]
+                      },
+                      {
+                          "id":  464,
+                          "typeId":  19,
+                          "name":  "Unerring Focus",
+                          "description":  "The wearer\u0027s ACC increases by 3 per each debuff on them.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  1,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000018
+                                       ]
+                      },
+                      {
+                          "id":  465,
+                          "typeId":  16,
+                          "name":  "In For The Kill",
+                          "description":  "The wearer gains 3% Turn Meter whenever an enemy loses 25% or more HP. Cannot gain more than 20% Turn Meter in a single turn.",
+                          "rarityId":  3,
+                          "rarity":  "Rare",
+                          "shapeId":  5,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000015
+                                       ]
+                      },
+                      {
+                          "id":  466,
+                          "typeId":  21,
+                          "name":  "Quickstrike",
+                          "description":  "If no enemy has taken a turn yet, the wearer\u0027s first attack will deal 10% more damage.",
+                          "rarityId":  4,
+                          "rarity":  "Epic",
+                          "shapeId":  2,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000020
+                                       ]
+                      },
+                      {
+                          "id":  467,
+                          "typeId":  108,
+                          "name":  "Toy With Foes",
+                          "description":  "The wearer deals 10% more damage against enemies under \u003ccolor=#1ee600\u003e[Provoke]\u003c/color\u003e debuffs.",
+                          "rarityId":  5,
+                          "rarity":  "Legendary",
+                          "shapeId":  5,
+                          "socketed":  false,
+                          "socketedIn":  null,
+                          "skillIds":  [
+                                           4000107
                                        ]
                       }
                   ]
