@@ -149,6 +149,7 @@ Write-Host "Current account snapshot: $snapshotPath"
 
 if (-not $SkipRebuild) {
     & (Join-Path $projectRoot 'relics\Relic Inventory\build-relic-inventory.ps1') -AccountPath $snapshotPath
+    & (Join-Path $projectRoot 'gear-ascension\build-equipped-ascended-gear-report.ps1') -SnapshotPath $snapshotPath
     & (Join-Path $projectRoot 'glyphs\build-glyph-dashboard.ps1') -SnapshotPath $snapshotPath
     & (Join-Path $projectRoot 'glyphs\query-gear-glyph-progress.ps1') -SnapshotPath $snapshotPath
     & $nodePath (Join-Path $projectRoot 'glyphs\verify-glyph-dashboard.mjs')
