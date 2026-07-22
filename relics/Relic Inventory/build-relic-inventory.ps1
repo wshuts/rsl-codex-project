@@ -1,6 +1,6 @@
 param(
     [string]$AccountPath,
-    [string]$StaticPath = "$PSScriptRoot\relic-static-data.json",
+    [string]$StaticPath = "$PSScriptRoot\..\..\data-general-static\relics.json",
     [string]$OutputPath = "$PSScriptRoot\relic-inventory-sanitized.json"
 )
 
