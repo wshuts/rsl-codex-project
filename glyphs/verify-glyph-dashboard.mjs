@@ -32,6 +32,12 @@ if (!html.includes('HP, ATK, and DEF percent rolls are marked with %')) {
 const payload = context.window.GLYPH_DATA;
 const pieces = payload.pieces;
 const expectedSpeedTunedHeroIds = [14940, 16279, 18270, 19828, 10289];
+if (!Array.isArray(pieces)) throw new Error('Dashboard pieces payload is not an array');
+if (pieces.some(piece => !Array.isArray(piece.substats))) throw new Error('A piece does not have a sub-stats array');
+const overfullPieces = pieces.filter(piece => piece.substats.length > 4);
+if (overfullPieces.length) {
+  throw new Error(`A piece has more than four sub-stats: ${overfullPieces.map(piece => piece.artifactId).join(', ')}`);
+}
 const isEligible = stat => stat.kind !== 7 && stat.kind !== 8;
 const isProtectedSpeed = (piece, stat) => piece.speedTuned && stat.kind === 4;
 const isMissing = (piece, stat) => isEligible(stat) && !isProtectedSpeed(piece, stat) && !(stat.enhancement > 0);
@@ -48,7 +54,6 @@ for (const heroId of expectedSpeedTunedHeroIds) {
   if (!pieces.some(piece => piece.heroId === heroId && piece.speedTuned)) throw new Error(`Speed-tuned hero ${heroId} is missing`);
 }
 if (artifactIds.size !== pieces.length) throw new Error('Artifact IDs are not unique');
-if (pieces.some(piece => piece.substats.length !== 4)) throw new Error('A piece does not have exactly four sub-stats');
 
 console.log(JSON.stringify({
   javascript: 'valid',
