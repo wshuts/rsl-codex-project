@@ -65,6 +65,26 @@ $statNames = @{
     8 = "CriticalDamage"
 }
 
+function Get-StaticStatValueTable {
+    param(
+        [string]$StatName
+    )
+
+    $candidateNames = @($StatName)
+    if ($StatName -eq "Defense") {
+        $candidateNames += "Defence"
+    }
+
+    foreach ($candidateName in $candidateNames) {
+        $property = $static.statValueByLevel.PSObject.Properties[$candidateName]
+        if ($null -ne $property) {
+            return $property.Value
+        }
+    }
+
+    throw "Missing static stat value table for $StatName (tried: $($candidateNames -join ', '))."
+}
+
 $relicTypesById = @{}
 foreach ($type in $static.relicTypes) {
     $relicTypesById[[int]$type.id] = $type
@@ -118,7 +138,7 @@ function Get-CalculatedStat {
     $statName = $statNames[$StatId]
     $openingLevel = [int]$static.statBonusOpeningLevels[$SlotIndex]
     $unlocked = $Level -ge $openingLevel
-    $table = $static.statValueByLevel.$statName
+    $table = Get-StaticStatValueTable -StatName $statName
     # Each stat starts its own progression when its slot unlocks. For example,
     # a Speed stat opening at +9 uses the level-0 Speed value at relic +9.
     $effectiveLevel = [Math]::Max(0, $Level - $openingLevel)
